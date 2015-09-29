@@ -1,5 +1,10 @@
 var React = require('react'),
+    Talk = require('./Talk'),
     talkData = require('./talks_data.js');
+
+if (typeof window === undefined) {
+  require('../../../css/talks.scss')
+}
 
 var TalkList = React.createClass({
   getInitialState() {
@@ -8,15 +13,14 @@ var TalkList = React.createClass({
     };
   },
   render() {
-    /*
-    var projects = this.state.data.map(function(project, idx) {
+    var talks = this.state.data.map(function(talk, idx) {
       return (
-        <Project data={project} key={idx} />
+        <Talk data={talk} key={idx} />
       );
     });
-    */
     return (
-      <div className="project-list flex-container">
+      <div className="talk-list">
+        {talks}
       </div>
     );
   },
