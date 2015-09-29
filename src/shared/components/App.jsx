@@ -4,11 +4,7 @@ import ProjectList from './ProjectList'
 
 import { Link } from 'react-router'
 
-if (typeof window === undefined) {
-  require('../../../public/css/main.scss')
-}
-
-export default class AppHandler extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <div>
