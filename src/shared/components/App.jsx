@@ -4,6 +4,8 @@ import ProjectList from './ProjectList'
 
 import { Link } from 'react-router'
 
+import '../../../public/css/main.scss'
+
 export default class AppHandler extends React.Component {
   render() {
     return (
