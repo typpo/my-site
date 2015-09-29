@@ -17,7 +17,6 @@ var TalkList = React.createClass({
     */
     return (
       <div className="project-list flex-container">
-        hey yall
       </div>
     );
   },

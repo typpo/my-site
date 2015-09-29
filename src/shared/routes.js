@@ -13,8 +13,8 @@ if (typeof window === undefined) {
 
 export default (
   <Route path="/" handler={App}>
-    <Route path="*" component={ProjectList} />
-    <Route path="talks" component={TalkList} />
-    <Route path="press" component={TalkList} />
+    <Route path="/" handler={ProjectList} />
+    <Route path="talks" handler={TalkList} />
+    <Route path="press" handler={TalkList} />
   </Route>
 );
