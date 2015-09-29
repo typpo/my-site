@@ -1,12 +1,62 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>React Isomorphic App</title>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="description" content=""/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ian Webster</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://localhost:8080/css/main.css" />
+    <script src="http://localhost:8080/js/app.js" defer="defer"></script>
   </head>
   <body>
-    <div id="app">{{{ content }}}</div>
-    <script src="http://localhost:8080/js/app.js" defer="defer"></script>
+    <div id="header">
+      <div class="header-image">
+        <img src="http://www.ianww.com/blog/content/images/2015/07/potato_medium-1-1.jpg">
+      </div>
+      <h1>Ian Webster</h1>
+      <p class="links">
+        <script>
+  document.write('<a href="mailto:si' + 'te@i' + String.fromCharCode(97) + 'nww.com">Email</a> &middot;');
+        </script>
+        <a href="https://github.com/typpo">Github</a> &middot;
+        <a href="http://linkedin.com/in/ianww">LinkedIn</a> &middot;
+        <a href="http://facebook.com/ianww">Facebook</a> &middot;
+        <a href="https://twitter.com/iwebst">Twitter</a> &middot;
+        <a href="http://livecoding.tv/ianw">Livecoding</a> &middot;
+        <a href="/blog">Posts</a>
+      </p>
+
+    </div>
+    <div class="flex-container about-container">
+      <div id="about">
+        <p>
+          I'm an engineer at <a href="http://google.com" target="_blank">Google</a>.  I created <a href="http://www.asterank.com" target="_blank">Asterank</a>, acquired by Planetary Resources in 2013.
+          I was an early engineer and tech lead at <a href="http://room77.com" target="_blank">Room 77</a>, acquired by Google in 2014.
+        </p>
+        <p>
+          In late 2014 I started <a href="http://alioth.io">Alioth</a>, a consulting firm focused on data analysis and visualization.
+        </p>
+      </div>
+    </div>
+    <hr/>
+    <div id="content">
+      {{{markup}}}
+    </div>
+
+    <!-- TODO development only -->
+    <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src="http://localhost:60000/autoreload.js" defer></script>
+    <script>
+      $(function() {
+        var t = setInterval(function() {
+          if (typeof AutoReload !== 'undefined') {
+            AutoReload.Watch('localhost:60000');
+            clearInterval(t);
+          }
+        }, 100);
+      });
+    </script>
+    -->
   </body>
 </html>

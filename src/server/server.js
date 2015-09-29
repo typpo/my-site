@@ -1,12 +1,15 @@
-import express from "express";
-import React from "react";
-import Router from "react-router";
+import path from 'path'
+import express from 'express';
+import React from 'react';
+import Router from 'react-router';
 const app = express();
 
 app.set('views', './views');
 app.set('view engine', 'hjs');
 
-import routes from "../shared/routes";
+app.use(express.static(path.join(__dirname, 'public')));
+
+import routes from '../shared/routes';
 
 app.get('/*', function (req, res) {
   Router.run(routes, req.url, Handler => {
