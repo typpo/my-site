@@ -3,9 +3,8 @@ import React from "react";
 import Router from "react-router";
 const app = express();
 
-// set up Jade
 app.set('views', './views');
-app.set('view engine', 'jade');
+app.set('view engine', 'hjs');
 
 import routes from "../shared/routes";
 
