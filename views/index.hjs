@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ian Webster</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://localhost:8080/css/main.css" />
-    <script src="http://localhost:8080/js/app.js" defer="defer"></script>
+    <link rel="stylesheet" href="http://localhost:8080/build/app.css" />
+    <script src="http://localhost:8080/build/app.js" defer="defer"></script>
   </head>
   <body>
     <div id="header">
