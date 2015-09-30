@@ -1,5 +1,6 @@
 var React = require('react'),
     Project = require('./Project'),
+    PostList = require('./PostList'),
     projectData = require('./project_data.js');
 
 var ProjectList = React.createClass({
@@ -17,8 +18,11 @@ var ProjectList = React.createClass({
       );
     });
     return (
-      <div className="project-list flex-container">
-        {projects}
+      <div>
+        <div className="project-list flex-container">
+          {projects}
+        </div>
+        <PostList/>
       </div>
     );
   },

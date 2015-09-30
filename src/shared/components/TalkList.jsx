@@ -20,6 +20,7 @@ var TalkList = React.createClass({
     });
     return (
       <div className="talk-list">
+        <h2>Selected Talks</h2>
         {talks}
       </div>
     );

@@ -25,6 +25,8 @@ var PressList = React.createClass({
     });
     return (
       <div className="press-list">
+        <h2>Best-effort press compilation</h2>
+        <p>An incomplete list of mentions.</p>
         {press}
       </div>
     );
