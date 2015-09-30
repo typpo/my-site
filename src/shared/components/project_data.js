@@ -370,6 +370,12 @@ module.exports = [
     url: 'http://gifthorse.herokuapp.com',
   },
   {
+    title: 'Pagerank Checker',
+    desc: 'npm module for pagerank',
+    imgurl: 'http://i.imgur.com/in0MXj6l.png',
+    url: 'https://github.com/typpo/google-pagerank',
+  },
+  {
     title: 'Room 77',
     desc: 'Better hotel search, acquired by Google.',
     imgurl: 'http://i.imgur.com/ua9nW9ol.png',
