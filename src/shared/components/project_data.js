@@ -6,9 +6,101 @@ module.exports = [
     url: 'http://www.asterank.com',
     press: [
       {
-        source: 'foo bar',
-        url: 'baz',
+        source: 'BBC World News',
+        url: 'http://www.bbc.co.uk/programmes/p015fmlj',
       },
+      {
+        source: 'Popular Science',
+        url: 'http://www.popsci.com/',
+      },
+      {
+        source: 'Science Illustrated',
+        url: 'http://scienceillustrated.com.au/blog/',
+      },
+      {
+        source: 'Seeking Alpha',
+        url: 'http://seekingalpha.com/article/1579972-i-am-sticking-with-gold-a-critique-of-the-golden-dilemma',
+      },
+      {
+        source: 'Huffington Post',
+        url: 'http://www.huffingtonpost.com/2014/09/10/asteroid-strike-simulator-earth_n_5792752.html',
+      },
+      {
+        source: 'Daily Mail',
+        url: 'http://www.dailymail.co.uk/sciencetech/article-2711743/Mining-SPACE-Artist-imagines-solar-look-like-tunnelled-asteroids-energy-minerals.html',
+      },
+      {
+        source: 'Daily Mail again',
+        url: 'http://www.dailymail.co.uk/sciencetech/article-2387955/Nasa-launch-mission-investigate-possible-asteroids-precious-metals--add-TRILLIONS-economy.html',
+      },
+      {
+        source: 'and again',
+        url: 'http://www.dailymail.co.uk/sciencetech/article-3073589/Watch-50-years-asteroid-near-misses-Earth-Interactive-map-reveals-THOUSANDS-rocks-skim-planet.html',
+      },
+      {
+        source: 'Quartz',
+        url: 'http://qz.com/184502/the-ultra-rich-are-starting-to-like-the-risks-involved-in-asteroid-mining/',
+      },
+      {
+        source: 'Space.com',
+        url: 'http://www.space.com/20959-nasa-space-apps-virtual-winners.html',
+      },
+      {
+        source: 'TechHive',
+        url: 'http://www.techhive.com/article/2032522/a-quick-and-dirty-guide-to-backyard-astronomy.html',
+      },
+      {
+        source: 'Christian Science Monitor',
+        url: 'http://www.csmonitor.com/Technology/2015/0609/New-bill-in-Congress-could-help-launch-a-gold-rush-in-space',
+      },
+      {
+        source: 'Smithsonian Magazine',
+        url: 'http://www.smithsonianmag.com/',
+      },
+      {
+        source: 'Google Chrome Experiment',
+        url: 'http://www.chromeexperiments.com/detail/asterank/',
+      },
+      {
+        source: 'HTML5 Weekly',
+        url: 'http://html5weekly.com/archive/50.html',
+      },
+      {
+        source: 'Javascript Weekly',
+        url: 'http://javascriptweekly.com/archive/104.html',
+      },
+      {
+        source: 'digital.gov',
+        url: 'https://www.digitalgov.gov/2015/05/27/the-api-briefing-nasa-builds-api-nasa-gov-to-launch-more-apis-to-developers/',
+      },
+      'TechCrunch',
+      'Daily Express',
+      'ProgrammableWeb',
+      'Vancouver Sun',
+      'Spiegel Online',
+      'Sky News',
+      'der Standard',
+      'Ma.hu',
+      'tons of Russian and Chinese sites',
+      'French news like l\'Humanite, Le Parisian, Lidd.fr',
+      'Russian Lifehacker',
+      'Weird investment white papers',
+      'Flowing Data',
+      'RawScience.tv',
+      'Vocativ',
+      'El Universal',
+      'Blic.rs',
+      'Yucatan.com.mx',
+      'Greek news',
+      'Muy Interestnante',
+      'PJ Media',
+      'Serbian news',
+      'Infosthetics',
+      {
+        source: 'published in Knowledge is Beautiful',
+        url: 'http://smile.amazon.com/Knowledge-Beautiful-Impossible-Invisible-Connections-Visualized/dp/0062188224/ref=pd_sim_14_1?ie=UTF8&refRID=1V9HZY62819JRVXGH08S&dpID=514aKg2KzKL&dpSrc=sims&preST=_AC_UL160_SR122%2C160_',
+      },
+      'etc.',
     ],
   },
   {
@@ -16,12 +108,53 @@ module.exports = [
     desc: 'Native ad detection. Spot articles with corporate sponsors.',
     imgurl: 'http://i.imgur.com/5XwQaQxl.png',
     url: 'http://www.ianww.com/ad-detector',
+    press: [
+      {
+        source: 'Wall Street Journal',
+        url: 'http://blogs.wsj.com/cmo/2014/08/20/ad-detector-native-ads/',
+      },
+      {
+        source: 'Engadget',
+        url: 'http://www.engadget.com/2014/08/21/browser-plug-in-sponsored-content/',
+      },
+      {
+        source: 'The Verge',
+        url: 'http://www.theverge.com/2014/8/21/6052875/addetector-chrome-firefox-extension-labels-native-ads',
+      },
+      {
+        source: 'Lifehacker',
+        url: 'http://lifehacker.com/addetector-notifies-you-if-a-story-you-re-reading-is-sp-1640980949',
+      },
+      {
+        source: 'PC World',
+        url: 'http://www.pcworld.com/article/2597421/new-browser-extension-warns-you-when-articles-are-paid-for-by-advertisers.html',
+      },
+      {
+        source: 'German Public Radio',
+      },
+      {
+        source: 'The Consumerist',
+      },
+      'Lots of ad and marketing industry papers and newsletters',
+      'Lots of blogs',
+    ],
   },
   {
     title: 'Textbelt',
     desc: 'Free outgoing SMS API. Over 1M texts sent',
     imgurl: 'http://i.imgur.com/e1TyUkSl.png',
     url: 'http://textbelt.com',
+    press: [
+      {
+        source: 'CNET',
+        url: 'http://www.cnet.com/news/how-to-send-a-text-message-via-command-line-in-os-x/',
+      },
+      {
+        source: 'OSX Daily',
+        url: 'http://osxdaily.com/2014/03/12/send-sms-text-message-from-command-line/',
+      },
+      'Lots of blogs',
+    ],
   },
   {
     title: 'Galaxies',
@@ -34,6 +167,9 @@ module.exports = [
     desc: 'Accurate 3D models of asteroids from radar and inverted light curves.',
     imgurl: 'http://i.imgur.com/yQaQHiUl.png',
     url: 'http://www.ianww.com/asteroid-viewer',
+    press: [
+      'Learning Three.js',
+    ],
   },
   {
     title: 'Dinosaur Pictures',
@@ -46,12 +182,28 @@ module.exports = [
     desc: 'What did Earth look like 600 million years ago?',
     imgurl: 'http://i.imgur.com/Ya57O3tl.png',
     url: 'http://dinosaurpictures.org/ancient-earth/',
+    press: [
+      'RT',
+      'Informador',
+      'FrentFastasma',
+      'Pulzo',
+      'WebDesignerTrends',
+      'Many Spanish and French language media',
+      'Chrome Experiments',
+      'Learning Three.js',
+    ],
   },
   {
     title: 'Harvest',
     desc: 'Aerial infrared crop monitoring. Disrupt hackathon winner (3 prizes).',
     imgurl: 'https://i.imgur.com/SJVfCEg.jpg',
     url: 'http://harvesters.club',
+    press: [
+      {
+        source: 'TechCrunch',
+        url: 'http://techcrunch.com/2015/09/20/disrupt-sf-2015-hackathon-winners/?ncid=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29',
+      },
+    ],
   },
   {
     title: 'Space Balloons',
@@ -93,6 +245,10 @@ module.exports = [
     desc: 'A viral conspiracy theory generator.',
     imgurl: 'http://www.ianww.com/images/verifiedfacts.png',
     url: 'http://www.verifiedfacts.org',
+    press: [
+      'MetaFilter',
+      'Boingboing',
+    ],
   },
   {
     title: 'HonestMemo',
