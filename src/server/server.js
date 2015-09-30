@@ -14,7 +14,6 @@ import routes from '../shared/routes';
 var isProduction = process.env.NODE_ENV === 'production';
 if (isProduction) {
   console.log('*** In production mode');
-console.log(__dirname);
   app.use('/build', express.static(path.join(__dirname, '../../build')));
 } else {
   console.log('*** In development mode');
@@ -30,14 +29,22 @@ console.log(__dirname);
   });
 }
 
-app.get('/*', function (req, res) {
+var reactRouter = function (req, res) {
   Router.run(routes, req.url, Handler => {
     let content = React.renderToString(<Handler />);
     res.render('index', {
       content: content,
     });
   });
-});
+};
+
+// NOTE every new react route will have to be here as well. This is so I can
+// serve static content from nginx.
+app.get('/', reactRouter);
+app.get('/talks', reactRouter);
+app.get('/press', reactRouter);
+
+app.use('/', express.static(path.join(__dirname, '../../')));
 
 var server = app.listen(isProduction ? process.env.PORT || 3456 : 3000, function() {
   var host = server.address().address;
