@@ -14,8 +14,8 @@ export default React.createClass({
       <div>
         <div className="nav">
           <strong>&raquo;</strong> &nbsp;
-          <Link to="/" activeClassName="active">Projects</Link> &middot;
-          <Link to="/talks" activeClassName="active">Talks</Link> &middot;
+          <Link to="/" activeClassName="active">Projects</Link>&nbsp;&middot;&nbsp;
+          <Link to="/talks" activeClassName="active">Talks</Link>&nbsp;&middot;&nbsp;
           <Link to="/press" activeClassName="active">Press</Link>
         </div>
         <div><RouteHandler /></div>
