@@ -10,8 +10,8 @@ body {
 
 #header h1 {
   font-weight: bold;
-  line-height: normal;
   font-size: 30px;
+  line-height: 1.3;
 }
 
 a {
@@ -55,7 +55,7 @@ hr {
 
 .links {
   font-family: 'PT Serif', Georgia, Times, 'Times New Roman', serif;
-  line-height: 1.7;
+  margin-top: -17px;
 }
 
 .links a {
@@ -135,5 +135,10 @@ hr {
 
   .flex-container {
     justify-content: center;
+  }
+
+  .links {
+    /* Looks better when they wrap. */
+    line-height: 1.7;
   }
 }

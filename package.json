@@ -11,7 +11,8 @@
     "server": "nodemon lib/server/server",
     "start": "npm run watch-js & npm run dev-server & npm run server",
     "build": "npm run clean && ./node_modules/.bin/babel src -d lib --experimental",
-    "deploy": "NODE_ENV=production webpack -p --config webpack.config.dev.js"
+    "deploy": "npm run build && NODE_ENV=production webpack -p --config webpack.config.prod.js",
+    "startprod": "npm run deploy && NODE_ENV=production npm run server"
   },
   "keywords": [
     "isomorphic",
@@ -39,6 +40,7 @@
     "webpack-dev-server": "^1.9.0"
   },
   "dependencies": {
+    "http-proxy": "^1.11.2",
     "nodemon": "^1.3.7",
     "react-component-visibility": "0.0.8"
   }
