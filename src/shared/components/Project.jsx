@@ -1,5 +1,6 @@
 var React = require('react');
 var CVM = require('react-component-visibility');
+var OverlayTrigger = require('pui-react-overlay-trigger').OverlayTrigger;
 
 var Project = React.createClass({
   mixins: [CVM],
@@ -22,13 +23,21 @@ var Project = React.createClass({
     if (this.props.data.url) {
       style['cursor'] = 'pointer';
     }
+
+    let tipContent = (
+      <div>World leader in blah balh meoesdl kakl asdlasdk jlasdjk asdlkj asdlkasdlasdkasdlasdlkasd lasdasdj</div>
+    )
+
     return (
-      <a className="project-link" href={this.props.data.url}>
+      <a className="project-link"
+          href={this.props.data.url}>
         <div className="project flex-item-default"
               style={style}
              onMouseOver={this.onMouseOver}
              onMouseOut={this.onMouseOut}>
+        <OverlayTrigger placement="top" overlay={tipContent}>
           <h3 className="title">{this.props.data.title}</h3>
+        </OverlayTrigger>
           <div className="desc">{this.props.data.desc}</div>
         </div>
       </a>

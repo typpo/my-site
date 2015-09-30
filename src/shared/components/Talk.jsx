@@ -4,7 +4,7 @@ var Talk = React.createClass({
   render() {
     let talk_url = '';
     if (this.props.data.talk_url) {
-      talk_url = <span>(<a href="{this.props.data.talk_url}">link</a>)</span>
+      talk_url = <span>(<a href={this.props.data.talk_url}>link</a>)</span>
     }
     return (
       <div className="talk-item">

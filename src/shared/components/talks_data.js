@@ -22,7 +22,7 @@ module.exports = [
     title: 'EmpireJS',
     desc: 'Hacking Space with Javascript and WebGL',
     where: 'NYC',
-    talk_url: 'https://www.youtube.com/watch?v=uCxuOC86cAk',
+    //talk_url: 'https://www.youtube.com/watch?v=uCxuOC86cAk',
     conf_url: 'http://empirejs.org/',
   },
   {
@@ -34,9 +34,10 @@ module.exports = [
   },
   {
     title: 'import.io Data Summit',
-    desc: 'Using Data to become a Rocket Scientist',
+    desc: 'How I Became a Rocket Scientist by Crunching the Numbers',
     where: 'SF',
     conf_url: 'https://import.io/data-summit',
+    //talk_url: 'https://www.youtube.com/watch?v=_3fjzBfgV78',
   },
   {
     title: 'World Technology Awards',
