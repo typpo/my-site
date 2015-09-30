@@ -5,6 +5,7 @@ body {
 
   max-width: 1260px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 #header h1 {
@@ -64,15 +65,6 @@ hr {
 .links a:hover {
   color: rgb(0, 78, 0);
   border-bottom: 1px dotted rgb(0, 78, 0);
-}
-
-.nav {
-  margin-top: 15px;
-}
-
-.nav strong {
-  position:relative;
-  top:-1px;
 }
 
 .flex-container {

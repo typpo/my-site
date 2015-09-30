@@ -7,13 +7,13 @@ module.exports = [
   },
   {
     title: 'AdDetector',
-    desc: 'Native ad detection - spot articles with corporate sponsors.',
+    desc: 'Native ad detection. Spot articles with corporate sponsors.',
     imgurl: 'http://i.imgur.com/5XwQaQxl.png',
     url: 'http://www.ianww.com/ad-detector',
   },
   {
     title: 'Textbelt',
-    desc: 'Free outgoing SMS API - over 1M texts sent',
+    desc: 'Free outgoing SMS API. Over 1M texts sent',
     imgurl: 'http://i.imgur.com/e1TyUkSl.png',
     url: 'http://textbelt.com',
   },
@@ -43,7 +43,7 @@ module.exports = [
   },
   {
     title: 'Harvest',
-    desc: 'Aerial infrared crop monitoring.',
+    desc: 'Aerial infrared crop monitoring. Disrupt hackathon winner (3 prizes).',
     imgurl: 'https://i.imgur.com/SJVfCEg.jpg',
     url: 'http://harvesters.club',
   },
@@ -51,6 +51,7 @@ module.exports = [
     title: 'Space Balloons',
     desc: 'Sending cameras and other things to near-space.',
     imgurl: 'http://i.imgur.com/9ngl1H5l.jpg',
+    url: 'http://www.ianww.com/blog/2015/07/17/sending-a-potato-to-near-space/',
   },
   {
     title: 'RapChat',
@@ -60,7 +61,7 @@ module.exports = [
   },
   {
     title: 'The Space Potato',
-    desc: 'A successful kickstarter for a potato-powered mission to near-space.',
+    desc: 'Successful kickstarter for a potato-powered mission to near-space.',
     imgurl: 'http://i.imgur.com/aOy79oEl.jpg',
     url: 'http://spacepotato.org',
   },
@@ -71,7 +72,7 @@ module.exports = [
   },
   {
     title: 'Interview Club',
-    desc: 'Taking the pain out of hiring. LAUNCH hackathon winner.',
+    desc: 'Taking the pain out of hiring. LAUNCH hackathon winner (5 prizes).',
     imgurl: 'http://i.imgur.com/MjKtbLEl.png',
     url: 'http://www.gointerview.club',
   },
@@ -93,16 +94,16 @@ module.exports = [
     imgurl: 'https://i.imgur.com/Jud7U7zl.png?1',
   },
   {
-    title: 'Textbelt',
-    desc: 'Free outgoing SMS API with over 1 million texts sent.',
-    imgurl: 'http://www.ianww.com/images/textbelt.png',
-    url: 'http://textbelt.com',
-  },
-  {
     title: 'Luna',
     desc: '3D interactive moon.',
     imgurl: 'http://i.imgur.com/xtmqQQAl.png',
     url: 'http://www.ianww.com/moonviz',
+  },
+  {
+    title: 'Candid Candidates',
+    desc: 'Where do politicians get their money? Seattle hackathon winner.',
+    imgurl: 'http://i.imgur.com/C2QG9ZOl.png',
+    url: 'http://github.com/typpo/political-annotations',
   },
   {
     title: 'Six Degrees of Bowie',
@@ -145,12 +146,6 @@ module.exports = [
     imgurl: 'http://i.imgur.com/aKCnbFRl.png',
   },
   {
-    title: 'Candid Candidates',
-    desc: 'Political browser extension that exposes where people are getting their money.',
-    imgurl: 'http://i.imgur.com/C2QG9ZOl.png',
-    url: 'http://github.com/typpo/political-annotations',
-  },
-  {
     title: 'In 2015 Dollars',
     desc: 'Inflation data calculator.',
     imgurl: 'http://www.ianww.com/images/in2013dollars.png',
@@ -158,7 +153,7 @@ module.exports = [
   },
   {
     title: 'CodeNav',
-    desc: 'Easily navigate code on Github - keyword highlight, code search, etc.',
+    desc: 'Easily navigate code on Github. Keyword highlight, code search, etc.',
     imgurl: 'https://i.imgur.com/QJwU3Hzl.png',
     url: 'http://www.ianww.com/codenav',
   },
@@ -175,13 +170,13 @@ module.exports = [
   },
   {
     title: 'Perseids',
-    desc: 'An accurate model of the Perseids meteor shower.',
+    desc: 'Accurate model of the Perseids meteor shower.',
     imgurl: 'https://i.imgur.com/n5U34ahl.png',
     url: 'http://www.ianww.com/meteor-showers/perseids',
   },
   {
     title: 'Neutral Gas',
-    desc: 'Micro carbon offsets for individual gas fill-ups.',
+    desc: 'Micro carbon offsets for gas fill-ups.',
     imgurl: 'http://i.imgur.com/lSAUkmIl.png',
     url: 'https://www.neutralgas.com',
   },
@@ -195,5 +190,23 @@ module.exports = [
     desc: 'A gift suggestion engine.',
     imgurl: 'http://www.ianww.com/images/gifthorse.png',
     url: 'http://gifthorse.herokuapp.com',
+  },
+  {
+    title: 'Room 77',
+    desc: 'Better hotel search, acquired by Google.',
+    imgurl: 'http://i.imgur.com/ua9nW9ol.png',
+    url: 'http://room77.com',
+  },
+  {
+    title: 'Planetary Resources',
+    desc: 'Asteroid mining spacecraft and mission control software.',
+    imgurl: 'https://i.imgur.com/PL95Da6.jpg',
+    url: 'https://en.wikipedia.org/wiki/Planetary_Resources',
+  },
+  {
+    title: 'Google',
+    desc: 'Improving travel and local search.',
+    imgurl: 'http://i.imgur.com/V2Js8Bwl.png',
+    url: 'http://google.com',
   },
 ]
