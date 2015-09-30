@@ -34,6 +34,7 @@ var reactRouter = function (req, res) {
     let content = React.renderToString(<Handler />);
     res.render('index', {
       content: content,
+      isProduction: isProduction,
     });
   });
 };
