@@ -17,6 +17,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
     new ExtractTextPlugin('app.css'),
+    new webpack.optimize.CommonsChunkPlugin('entry', null, false),
   ],
   resolve: {
     extensions: ['', '.js', '.jsx']
