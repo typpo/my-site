@@ -9,7 +9,9 @@ var ProjectList = React.createClass({
     };
   },
   render() {
-    var projects = this.state.data.map(function(project, idx) {
+    var projects = this.state.data.filter(function(project) {
+      return !project.hideInProjectsView;
+    }).map(function(project, idx) {
       return (
         <Project data={project} key={idx} />
       );

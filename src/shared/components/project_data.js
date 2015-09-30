@@ -74,6 +74,10 @@ module.exports = [
         url: 'https://www.digitalgov.gov/2015/05/27/the-api-briefing-nasa-builds-api-nasa-gov-to-launch-more-apis-to-developers/',
       },
       'TechCrunch',
+      {
+        source: 'Universe Today',
+        url: 'http://www.universetoday.com/95169/the-most-profitable-asteroid-is/',
+      },
       'Daily Express',
       'ProgrammableWeb',
       'Vancouver Sun',
@@ -153,6 +157,10 @@ module.exports = [
         source: 'OSX Daily',
         url: 'http://osxdaily.com/2014/03/12/send-sms-text-message-from-command-line/',
       },
+      {
+        source: 'DZone',
+        url: 'https://dzone.com/articles/building-test-texting-system',
+      },
       'Lots of blogs',
     ],
   },
@@ -161,6 +169,18 @@ module.exports = [
     desc: '2 billion cubic light-years, based on one of the largest n-body simulations ever.',
     imgurl: 'http://i.imgur.com/mzwBJ8Sl.jpg',
     url: 'http://www.asterank.com/galaxies',
+  },
+  {
+    title: 'Harvest',
+    desc: 'Aerial infrared crop monitoring. Disrupt hackathon winner (3 prizes).',
+    imgurl: 'https://i.imgur.com/SJVfCEg.jpg',
+    url: 'http://harvesters.club',
+    press: [
+      {
+        source: 'TechCrunch',
+        url: 'http://techcrunch.com/2015/09/20/disrupt-sf-2015-hackathon-winners/?ncid=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29',
+      },
+    ],
   },
   {
     title: 'Asteroid Viewer',
@@ -191,18 +211,6 @@ module.exports = [
       'Many Spanish and French language media',
       'Chrome Experiments',
       'Learning Three.js',
-    ],
-  },
-  {
-    title: 'Harvest',
-    desc: 'Aerial infrared crop monitoring. Disrupt hackathon winner (3 prizes).',
-    imgurl: 'https://i.imgur.com/SJVfCEg.jpg',
-    url: 'http://harvesters.club',
-    press: [
-      {
-        source: 'TechCrunch',
-        url: 'http://techcrunch.com/2015/09/20/disrupt-sf-2015-hackathon-winners/?ncid=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29',
-      },
     ],
   },
   {
@@ -370,5 +378,19 @@ module.exports = [
     desc: 'Improving travel and local search.',
     imgurl: 'http://i.imgur.com/V2Js8Bwl.png',
     url: 'http://google.com',
+  },
+  {
+    title: 'General',
+    hideInProjectsView: true,
+    press: [
+      {
+        source: 'Talks',
+        url: '/talks',
+      },
+      {
+        source: 'ITBusiness.ca',
+        url: 'http://www.itbusiness.ca/blog/ian-websters-rise-as-the-everyday-geek-hero/36417',
+      }
+    ],
   },
 ]
