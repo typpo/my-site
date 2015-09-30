@@ -4,6 +4,12 @@ module.exports = [
     desc: 'Crawl, visualize, and compute on all known asteroids',
     imgurl: 'http://i.imgur.com/5FI40mLl.jpg',
     url: 'http://www.asterank.com',
+    press: [
+      {
+        source: 'foo bar',
+        url: 'baz',
+      },
+    ],
   },
   {
     title: 'AdDetector',

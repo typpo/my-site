@@ -39,7 +39,6 @@
   },
   "dependencies": {
     "nodemon": "^1.3.7",
-    "pui-react-overlay-trigger": "^2.0.0",
     "react-component-visibility": "0.0.8"
   }
 }
