@@ -27,7 +27,7 @@ var ProjectList = React.createClass({
       return !project.hideInProjectsView && !project.imgurl;
     }).map(function(project, idx) {
       return (
-        <li><a href={project.url}>{project.title}</a> - {project.desc}</li>
+        <li key={idx}><a href={project.url}>{project.title}</a> - {project.desc}</li>
       );
     });
     return (
