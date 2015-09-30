@@ -12,6 +12,12 @@ module.exports = [
     url: 'http://www.ianww.com/ad-detector',
   },
   {
+    title: 'Textbelt',
+    desc: 'Free outgoing SMS API - over 1M texts sent',
+    imgurl: 'http://i.imgur.com/e1TyUkSl.png',
+    url: 'http://textbelt.com',
+  },
+  {
     title: 'Galaxies',
     desc: '2 billion cubic light-years, based on one of the largest n-body simulations ever.',
     imgurl: 'http://i.imgur.com/mzwBJ8Sl.jpg',
@@ -53,15 +59,21 @@ module.exports = [
     url: 'http://www.rapchat.us',
   },
   {
-    title: 'Textbelt',
-    desc: 'Free outgoing SMS API - over 1M texts sent',
-    imgurl: 'http://www.ianww.com/images/textbelt.png',
-    url: 'http://textbelt.com',
+    title: 'The Space Potato',
+    desc: 'A successful kickstarter for a potato-powered mission to near-space.',
+    imgurl: 'http://i.imgur.com/aOy79oEl.jpg',
+    url: 'http://spacepotato.org',
   },
   {
     title: 'Watchtower',
     desc: 'Competitive monitoring platform, LAUNCH hackathon winner.',
     imgurl: 'http://www.ianww.com/images/watchtower.png',
+  },
+  {
+    title: 'Interview Club',
+    desc: 'Taking the pain out of hiring. LAUNCH hackathon winner.',
+    imgurl: 'http://i.imgur.com/MjKtbLEl.png',
+    url: 'http://www.gointerview.club',
   },
   {
     title: 'Asterank Discover',
@@ -98,9 +110,10 @@ module.exports = [
     imgurl: 'http://www.ianww.com/images/bowie.png',
   },
   {
-    title: 'Bunkmates',
-    desc: 'AirBnB for hotels.',
-    imgurl: 'http://i.imgur.com/oNx5JzAl.png',
+    title: 'Pluto',
+    desc: 'Pluto in 3D.',
+    imgurl: 'https://i.imgur.com/M9lM5gQl.png',
+    url: 'http://www.ianww.com/pluto',
   },
   {
     title: 'KeepDream',
@@ -115,10 +128,10 @@ module.exports = [
     url: 'http://www.worldofloot.com',
   },
   {
-    title: 'Interview Club',
-    desc: 'Taking the pain out of hiring. LAUNCH hackathon winner.',
-    imgurl: 'http://i.imgur.com/MjKtbLEl.png',
-    url: 'http://www.gointerview.club',
+    title: 'Chatalyst',
+    desc: 'Taking the pain out of video chat.',
+    imgurl: 'http://i.imgur.com/yyayOHTl.jpg',
+    url: 'http://www.ianww.com/meteor-showers/perseids',
   },
   {
     title: 'Gilded Age',
@@ -155,12 +168,6 @@ module.exports = [
     imgurl: 'https://i.imgur.com/nwXZtDel.png',
   },
   {
-    title: 'Pluto',
-    desc: 'Pluto in 3D.',
-    imgurl: 'https://i.imgur.com/M9lM5gQl.png',
-    url: 'http://www.ianww.com/pluto',
-  },
-  {
     title: 'Ceres',
     desc: 'Ceres in 3D.',
     imgurl: 'https://i.imgur.com/Q3jcJiFl.png',
@@ -173,22 +180,15 @@ module.exports = [
     url: 'http://www.ianww.com/meteor-showers/perseids',
   },
   {
-    title: 'Chatalyst',
-    desc: 'Taking the pain out of video chat.',
-    imgurl: 'http://i.imgur.com/yyayOHTl.jpg',
-    url: 'http://www.ianww.com/meteor-showers/perseids',
-  },
-  {
     title: 'Neutral Gas',
     desc: 'Micro carbon offsets for individual gas fill-ups.',
     imgurl: 'http://i.imgur.com/lSAUkmIl.png',
     url: 'https://www.neutralgas.com',
   },
   {
-    title: 'The Space Potato',
-    desc: 'A successful kickstarter for a potato-powered mission to near-space.',
-    imgurl: 'http://i.imgur.com/9ngl1H5l.jpg',
-    url: 'http://spacepotato.org',
+    title: 'Bunkmates',
+    desc: 'AirBnB for hotels.',
+    imgurl: 'http://i.imgur.com/oNx5JzAl.png',
   },
   {
     title: 'Gifthorse',
