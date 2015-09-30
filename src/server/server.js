@@ -45,9 +45,9 @@ app.get('/talks', reactRouter);
 app.get('/press', reactRouter);
 
 if (isProduction) {
-  app.use('/', express.static('/home/ian/ianww.com'));
+  app.use(express.static('/home/ian/ianww.com'));
 } else {
-  app.use('/', express.static(path.join(__dirname, '../../')));
+  app.use(express.static(path.join(__dirname, '../../')));
 }
 
 var server = app.listen(isProduction ? process.env.PORT || 3456 : 3000, function() {
