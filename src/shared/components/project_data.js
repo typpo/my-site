@@ -372,8 +372,56 @@ module.exports = [
   {
     title: 'Pagerank Checker',
     desc: 'npm module for pagerank',
-    imgurl: 'http://i.imgur.com/in0MXj6l.png',
+    //imgurl: 'http://i.imgur.com/in0MXj6l.png',
     url: 'https://github.com/typpo/google-pagerank',
+  },
+  {
+    title: 'autoreload.js',
+    desc: 'Faster frontend development.',
+    //imgurl: 'http://i.imgur.com/fH3Zx6X.png',
+    url: 'https://github.com/typpo/autoreload',
+  },
+  {
+    title: 'Github pariticipation graph',
+    desc: 'Better contrast.',
+    //imgurl: 'https://camo.githubusercontent.com/0cdace1a3cdb252d63ee25dca1663427481a8887/687474703a2f2f692e696d6775722e636f6d2f4a5a5a616c2e706e67',
+    url: 'https://github.com/typpo/github-participation-graph',
+  },
+  {
+    title: 'Webworkers Fallback',
+    desc: 'HTML5 polyfill.',
+    //imgurl: 'https://i.imgur.com/AMdYKBj.png',
+    url: 'https://github.com/typpo/web-workers-fallback',
+  },
+  {
+    title: 'Typpo\'s Software',
+    desc: 'MMORPG automation used millions of times by 30k people (2006-2011).',
+    url: 'http://typpo.us',
+  },
+  {
+    title: 'Dartmouth Last Chances',
+    desc: 'Over 400 "connections" during senior week, used by a majority of the class.',
+    url: 'http://dartmouthlastchances.com',
+  },
+  {
+    title: 'Facebook Defriend Notifications',
+    desc: 'What it sounds like.',
+    url: 'http://facebook-monitor.appspot.com/',
+  },
+  {
+    title: 'Wowzer',
+    desc: 'Arbitrage in a digital goods economy.',
+    url: 'https://github.com/typpo/wowzer',
+  },
+  {
+    title: 'VoiceBox',
+    desc: 'Simple voice memo-to-DropBox Android app.',
+    url: 'https://github.com/typpo/voicebox',
+  },
+  {
+    title: 'lok',
+    desc: 'Curses-based encrypted journal/notes in C.',
+    url: 'https://github.com/typpo/lok',
   },
   {
     title: 'Room 77',

@@ -1,13 +1,13 @@
 import React from 'react'
 
 if (typeof window === undefined) {
-  require('../../../css/postlist.scss')
+  require('../../../css/genericlist.scss')
 }
 
 export default class PostList extends React.Component {
   render() {
     return (
-      <div className="post-list">
+      <div className="post-list generic-list">
         <h3>Posts</h3>
         <ul>
         <li><a href="http://www.ianww.com/blog/2014/12/30/this-year-in-side-projects-2014/">This Year In Side Projects (2014)</a></li>
