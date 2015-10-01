@@ -14,6 +14,10 @@ module.exports = [
         url: 'http://www.popsci.com/',
       },
       {
+        source: 'Forbes',
+        url: 'http://www.forbes.com/sites/abigailtracy/2015/07/20/these-are-the-priciest-asteroids-in-the-galaxy/',
+      },
+      {
         source: 'Science Illustrated',
         url: 'http://scienceillustrated.com.au/blog/',
       },
