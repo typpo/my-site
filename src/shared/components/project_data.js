@@ -145,9 +145,12 @@ module.exports = [
       'InformationWeek',
       'BestTechie',
       'Adland',
-      'Lots of ad and marketing industry papers and newsletters',
-      'Many German and European publications',
-      'Lots of blogs',
+      'TechReport',
+      'Contently',
+      'Lots of ad and marketing industry papers, newsletters, and blogs',
+      'Vesti (and other Russian media)',
+      'NextInpact (and other French media)',
+      'Many German and Polish language publications',
     ],
   },
   {
@@ -238,6 +241,10 @@ module.exports = [
     desc: 'Successful kickstarter for a potato-powered mission to near-space.',
     imgurl: 'http://i.imgur.com/aOy79oEl.jpg',
     url: 'http://spacepotato.org',
+    press: [
+      'Electronic Products Magazine',
+      'Gentleman Genius',
+    ],
   },
   {
     title: 'Watchtower',
@@ -345,6 +352,12 @@ module.exports = [
     desc: 'Ceres in 3D.',
     imgurl: 'https://i.imgur.com/Q3jcJiFl.png',
     url: 'http://www.ianww.com/ceres',
+    press: [
+      {
+        source: 'Slate',
+        url: 'http://www.slate.com/blogs/bad_astronomy/2015/08/13/ceres_crater_saturation.html',
+      },
+    ],
   },
   {
     title: 'Perseids',
