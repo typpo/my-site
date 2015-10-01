@@ -424,6 +424,11 @@ module.exports = [
     url: 'https://github.com/typpo/lok',
   },
   {
+    title: 'mixpanel-export-cli',
+    desc: 'Command line tool for mixpanel data export.',
+    url: 'https://github.com/typpo/mixpanel-export-cli',
+  },
+  {
     title: 'Room 77',
     desc: 'Better hotel search, acquired by Google.',
     imgurl: 'http://i.imgur.com/ua9nW9ol.png',
