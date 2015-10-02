@@ -474,7 +474,11 @@ module.exports = [
       {
         source: 'ITBusiness.ca',
         url: 'http://www.itbusiness.ca/blog/ian-websters-rise-as-the-everyday-geek-hero/36417',
-      }
+      },
+      {
+        source: 'Newspace Global',
+        url: 'https://newspaceglobal.com/',
+      },
     ],
   },
 ]
