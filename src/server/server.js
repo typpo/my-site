@@ -44,6 +44,7 @@ var reactRouter = function (req, res) {
 app.get('/', reactRouter);
 app.get('/talks', reactRouter);
 app.get('/press', reactRouter);
+app.get('/hackathons', reactRouter);
 
 if (isProduction) {
   app.use(express.static('/home/ian/ianww.com'));

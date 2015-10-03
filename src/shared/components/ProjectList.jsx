@@ -11,7 +11,7 @@ if (typeof window === undefined) {
 var ProjectList = React.createClass({
   getInitialState() {
     return {
-      data: projectData,
+      data: this.props.data || projectData,
     };
   },
   render() {
@@ -30,18 +30,31 @@ var ProjectList = React.createClass({
         <li key={idx}><a href={project.url}>{project.title}</a> - {project.desc}</li>
       );
     });
-    return (
-      <div>
-        <div className="project-list flex-container">
-          {projects}
-        </div>
+
+    let textProjectsElements = ''
+    if (textProjects.length > 0) {
+      textProjectsElements = (
         <div className="text-project-list generic-list">
           <h3>Other Projects</h3>
           <ul>
           {textProjects}
           </ul>
         </div>
-        <PostList/>
+      );
+    }
+
+    let postsListElements = '';
+    if (!this.props.hidePostsList) {
+      postsListElements = <PostList/>
+    }
+
+    return (
+      <div>
+        <div className="project-list flex-container">
+          {projects}
+        </div>
+        {textProjectsElements}
+        {postsListElements}
       </div>
     );
   },

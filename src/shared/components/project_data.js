@@ -111,6 +111,12 @@ module.exports = [
       },
       'etc.',
     ],
+    hackathon: {
+      name: 'Space Apps Challenge',
+      url: 'https://2013.spaceappschallenge.org/',
+      year: 2013,
+      desc: 'worldwide virtual finalist',
+    },
   },
   {
     title: 'AdDetector',
@@ -195,6 +201,12 @@ module.exports = [
         url: 'http://techcrunch.com/2015/09/20/disrupt-sf-2015-hackathon-winners/?ncid=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29',
       },
     ],
+    hackathon: {
+      name: 'Disrupt SF',
+      url: 'http://techcrunch.com/events/disrupt-sf-2015/event-home/',
+      year: 2015,
+      desc: '$5000',
+    },
   },
   {
     title: 'Asteroid Viewer',
@@ -254,12 +266,24 @@ module.exports = [
     title: 'Watchtower',
     desc: 'Competitive monitoring platform, LAUNCH hackathon winner.',
     imgurl: 'http://www.ianww.com/images/watchtower.png',
+    hackathon: {
+      name: 'LAUNCH',
+      url: 'http://www.launchfestival.com/',
+      year: 2013,
+      desc: 'finalist + prizes',
+    },
   },
   {
     title: 'Interview Club',
     desc: 'Taking the pain out of hiring. LAUNCH hackathon winner (5 prizes).',
     imgurl: 'http://i.imgur.com/MjKtbLEl.png',
     url: 'http://www.gointerview.club',
+    hackathon: {
+      name: 'LAUNCH',
+      url: 'http://www.launchfestival.com/',
+      year: 2015,
+      desc: '$13,500',
+    },
   },
   {
     title: 'Asterank Discover',
@@ -293,6 +317,12 @@ module.exports = [
     desc: 'Where do politicians get their money? Seattle hackathon winner.',
     imgurl: 'http://i.imgur.com/C2QG9ZOl.png',
     url: 'http://github.com/typpo/political-annotations',
+    hackathon: {
+      name: 'Seattle Open Govt Hackathon',
+      url: 'http://www.meetup.com/Seattle-Hackathons/events/152533962/',
+      year: 2013,
+      desc: '$2,500',
+    },
   },
   {
     title: 'Six Degrees of Bowie',
@@ -350,6 +380,11 @@ module.exports = [
     title: 'ListeningPost',
     desc: 'Contextual annotations for spoken conversation, YC Hacks winner.',
     imgurl: 'https://i.imgur.com/nwXZtDel.png',
+    hackathon: {
+      name: 'YC Hacks',
+      year: 2014,
+      desc: 'finalist, various prizes',
+    },
   },
   {
     title: 'Ceres',
