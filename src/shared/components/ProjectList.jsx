@@ -11,11 +11,11 @@ if (typeof window === undefined) {
 var ProjectList = React.createClass({
   getInitialState() {
     return {
-      data: this.props.data || projectData,
+      data: projectData,
     };
   },
   render() {
-    var projects = this.state.data.filter(function(project) {
+    let projects = this.state.data.filter(function(project) {
       return !project.hideInProjectsView && project.imgurl;
     }).map(function(project, idx) {
       return (
@@ -23,7 +23,7 @@ var ProjectList = React.createClass({
       );
     });
 
-    var textProjects = this.state.data.filter(function(project) {
+    let textProjects = this.state.data.filter(function(project) {
       return !project.hideInProjectsView && !project.imgurl;
     }).map(function(project, idx) {
       return (
@@ -31,30 +31,18 @@ var ProjectList = React.createClass({
       );
     });
 
-    let textProjectsElements = ''
-    if (textProjects.length > 0) {
-      textProjectsElements = (
+    return (
+      <div>
+        <div className="project-list flex-container">
+          {projects}
+        </div>
         <div className="text-project-list generic-list">
           <h3>Other Projects</h3>
           <ul>
           {textProjects}
           </ul>
         </div>
-      );
-    }
-
-    let postsListElements = '';
-    if (!this.props.hidePostsList) {
-      postsListElements = <PostList/>
-    }
-
-    return (
-      <div>
-        <div className="project-list flex-container">
-          {projects}
-        </div>
-        {textProjectsElements}
-        {postsListElements}
+        <PostList/>
       </div>
     );
   },

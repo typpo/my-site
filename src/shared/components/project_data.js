@@ -115,7 +115,7 @@ module.exports = [
       name: 'Space Apps Challenge',
       url: 'https://2013.spaceappschallenge.org/',
       year: 2013,
-      desc: 'worldwide virtual finalist',
+      desc: 'worldwide finalist + prizes',
     },
   },
   {
@@ -383,7 +383,7 @@ module.exports = [
     hackathon: {
       name: 'YC Hacks',
       year: 2014,
-      desc: 'finalist, various prizes',
+      desc: 'finalist + prizes',
     },
   },
   {

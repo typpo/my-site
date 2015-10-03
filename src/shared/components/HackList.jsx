@@ -1,5 +1,4 @@
 var React = require('react'),
-    ProjectList = require('./ProjectList'),
     Hack = require('./Hack'),
     projectData = require('./project_data.js');
 
@@ -28,11 +27,10 @@ export default React.createClass({
       );
     });
     return (
-      <div className="hack-list">
+      <div className="hack-list-container">
         <h2>Hackathons</h2>
-        {hackElements}
-        <div>
-          <ProjectList data={hacks} hidePostsList={true} />
+        <div className="hack-list">
+          {hackElements}
         </div>
       </div>
     );

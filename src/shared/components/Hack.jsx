@@ -6,9 +6,16 @@ export default class Hack extends React.Component {
     let hackathon = this.props.data.hackathon;
     return (
       <div className="hack-item">
-        <span className="title">
-          <a href={hackathon.url}>{hackathon.name} ({hackathon.year})</a>
-        </span> - {hackathon.desc}
+        <div className="hack-item-header">
+          <span className="title">
+            <a href={hackathon.url}>{hackathon.name} ({hackathon.year})</a>
+          </span>
+          <br/>
+          <div className="desc">{hackathon.desc}</div>
+        </div>
+        <div>
+          <Project data={this.props.data} />
+        </div>
       </div>
     );
   }

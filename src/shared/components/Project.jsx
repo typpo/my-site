@@ -1,6 +1,10 @@
 var React = require('react');
 var CVM = require('react-component-visibility');
 
+if (typeof window === undefined) {
+  require('../../../css/projects.scss')
+}
+
 var Project = React.createClass({
   mixins: [CVM],
   getInitialState() {

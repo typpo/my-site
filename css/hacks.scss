@@ -1,13 +1,27 @@
 .hack-list {
   margin-top: 20px;
   margin-left: 15px;
+
+  display:flex;
+  flex-flow: row wrap;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
 }
 
 .hack-item {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 
   .title {
     font-size: 20px;
     font-weight: bold;
+  }
+
+  .hack-item-header {
+    .desc {
+      margin-top: 6px;
+      font-weight: bold;
+    }
   }
 }
