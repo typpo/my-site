@@ -382,6 +382,7 @@ module.exports = [
     imgurl: 'https://i.imgur.com/nwXZtDel.png',
     hackathon: {
       name: 'YC Hacks',
+      url: 'http://blog.ycombinator.com/yc-hacks-august-2-3-2014',
       year: 2014,
       desc: 'finalist + prizes',
     },
