@@ -112,7 +112,7 @@ module.exports = [
       'etc.',
     ],
     hackathon: {
-      name: 'Space Apps Challenge',
+      name: 'NASA Apps Challenge',
       url: 'https://2013.spaceappschallenge.org/',
       year: 2013,
       desc: 'worldwide finalist + prizes',
@@ -318,7 +318,7 @@ module.exports = [
     imgurl: 'http://i.imgur.com/C2QG9ZOl.png',
     url: 'http://github.com/typpo/political-annotations',
     hackathon: {
-      name: 'Seattle Open Govt Hackathon',
+      name: 'Seattle Open Govt',
       url: 'http://www.meetup.com/Seattle-Hackathons/events/152533962/',
       year: 2013,
       desc: '$2,500',
