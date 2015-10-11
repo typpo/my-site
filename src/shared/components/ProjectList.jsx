@@ -1,14 +1,14 @@
-var React = require('react'),
-    Project = require('./Project'),
-    PostList = require('./PostList'),
-    projectData = require('../../../data/projects.js');
+import React from 'react'
+import Project from './Project'
+import PostList from './PostList'
+import projectData from '../../../data/projects.js'
 
 if (typeof window === undefined) {
   require('../../../css/projects.scss')
   require('../../../css/genericlist.scss')
 }
 
-var ProjectList = React.createClass({
+export default React.createClass({
   getInitialState() {
     return {
       data: projectData,
@@ -46,6 +46,4 @@ var ProjectList = React.createClass({
       </div>
     );
   },
-});
-
-module.exports = ProjectList;
+})

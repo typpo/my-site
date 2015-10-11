@@ -1,12 +1,12 @@
-var React = require('react'),
-    Talk = require('./Talk'),
-    talkData = require('../../../data/talks.js');
+import React from 'react'
+import Talk from './Talk'
+import talkData from '../../../data/talks.js'
 
 if (typeof window === undefined) {
   require('../../../css/talks.scss')
 }
 
-var TalkList = React.createClass({
+export default React.createClass({
   getInitialState() {
     return {
       data: talkData,
@@ -25,6 +25,4 @@ var TalkList = React.createClass({
       </div>
     );
   },
-});
-
-module.exports = TalkList;
+})

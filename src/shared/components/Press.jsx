@@ -1,6 +1,6 @@
-var React = require('react');
+import React from 'react'
 
-var Press = React.createClass({
+export default class Press extends React.Component {
   render() {
     let presses = this.props.data.press.map(function(pressItem, idx) {
       let content = '';
@@ -18,7 +18,5 @@ var Press = React.createClass({
         {presses}
       </ul>
     );
-  },
-});
-
-module.exports = Press;
+  }
+}

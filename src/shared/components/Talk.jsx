@@ -1,6 +1,6 @@
-var React = require('react');
+import from 'react'
 
-var Talk = React.createClass({
+export default React.createClass({
   render() {
     let talk_url = '';
     if (this.props.data.talk_url) {
@@ -14,6 +14,4 @@ var Talk = React.createClass({
       </div>
     );
   },
-});
-
-module.exports = Talk;
+})

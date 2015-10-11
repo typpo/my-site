@@ -1,12 +1,12 @@
-var React = require('react'),
-    Press = require('./Press'),
-    projectData = require('../../../data/projects.js');
+import React from 'react'
+import Press from './Press'
+import projectData from '../../../data/projects.js'
 
 if (typeof window === undefined) {
   require('../../../css/press.scss')
 }
 
-var PressList = React.createClass({
+export default React.createClass({
   getInitialState() {
     return {
       data: projectData,
@@ -30,6 +30,4 @@ var PressList = React.createClass({
       </div>
     );
   },
-});
-
-module.exports = PressList;
+})

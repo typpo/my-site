@@ -1,11 +1,11 @@
-var React = require('react');
-var CVM = require('react-component-visibility');
+import React from 'react'
+import CVM from 'react-component-visibility'
 
 if (typeof window === undefined) {
   require('../../../css/projects.scss')
 }
 
-var Project = React.createClass({
+export default React.createClass({
   mixins: [CVM],
   getInitialState() {
     return {
@@ -58,6 +58,4 @@ var Project = React.createClass({
       });
     }
   },
-});
-
-module.exports = Project;
+})

@@ -1,6 +1,6 @@
-var React = require('react'),
-    Hack = require('./Hack'),
-    projectData = require('../../../data/projects.js');
+import React from 'react'
+import Hack from './Hack'
+import projectData from '../../../data/projects.js'
 
 if (typeof window === undefined) {
   require('../../../css/hacks.scss')
@@ -35,4 +35,4 @@ export default React.createClass({
       </div>
     );
   },
-});
+})
