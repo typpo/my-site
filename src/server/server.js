@@ -57,5 +57,4 @@ var server = app.listen(isProduction ? process.env.PORT || 3456 : 3000, function
   var port = server.address().port;
 
   console.log('Portfolio site listening at http://%s:%s', host, port);
-
 });
