@@ -13,15 +13,15 @@ export default React.createClass({
     };
   },
   render() {
-    let hacks = this.state.data.filter(function(project) {
+    let hacks = this.state.data.filter(project => {
       return !!project.hackathon;
     })
-   .sort(function(a, b) {
+   .sort(a, b => {
       // TODO eventually just sort by project year.
       return b.hackathon.year - a.hackathon.year;
     });
 
-    let hackElements = hacks.map(function(project, idx) {
+    let hackElements = hacks.map(project, idx => {
       return (
         <Hack data={project} key={idx} />
       );

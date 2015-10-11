@@ -15,17 +15,17 @@ export default React.createClass({
     };
   },
   render() {
-    let projects = this.state.data.filter(function(project) {
+    let projects = this.state.data.filter(project => {
       return !project.hideInProjectsView && project.imgurl;
-    }).map(function(project, idx) {
+    }).map(project, idx => {
       return (
         <Project data={project} key={idx} />
       );
     });
 
-    let textProjects = this.state.data.filter(function(project) {
+    let textProjects = this.state.data.filter(project => {
       return !project.hideInProjectsView && !project.imgurl;
-    }).map(function(project, idx) {
+    }).map(project, idx => {
       return (
         <li key={idx}><a href={project.url}>{project.title}</a> - {project.desc}</li>
       );
