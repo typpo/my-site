@@ -1,6 +1,6 @@
 var React = require('react'),
     Hack = require('./Hack'),
-    projectData = require('../../../data/project_data.js');
+    projectData = require('../../../data/projects.js');
 
 if (typeof window === undefined) {
   require('../../../css/hacks.scss')
