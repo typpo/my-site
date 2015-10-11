@@ -351,7 +351,7 @@ module.exports = [
     title: 'Chatalyst',
     desc: 'Taking the pain out of video chat.',
     imgurl: 'http://i.imgur.com/yyayOHTl.jpg',
-    url: 'http://www.ianww.com/meteor-showers/perseids',
+    url: 'http://chatalyst.io',
   },
   {
     title: 'Gilded Age',
