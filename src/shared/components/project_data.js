@@ -400,10 +400,10 @@ module.exports = [
     ],
   },
   {
-    title: 'Perseids',
-    desc: 'Accurate model of the Perseids meteor shower.',
+    title: 'Meteor Showers',
+    desc: 'Accurate models of major meteor showers.',
     imgurl: 'https://i.imgur.com/n5U34ahl.png',
-    url: 'http://www.ianww.com/meteor-showers/perseids',
+    url: 'http://www.ianww.com/meteor-showers/#Perseid',
   },
   {
     title: 'Neutral Gas',
