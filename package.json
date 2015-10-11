@@ -1,7 +1,7 @@
 {
-  "name": "isomorphic-demo",
+  "name": "my-site",
   "version": "0.0.1",
-  "description": "A boilerplate for isomorphic React apps",
+  "description": "Personal portfolio in isomorphic react",
   "main": "lib/server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,12 +15,7 @@
     "build": "npm run build-backend && npm run build-frontend",
     "prod": "npm run deploy && NODE_ENV=production npm run server"
   },
-  "keywords": [
-    "isomorphic",
-    "react",
-    "app"
-  ],
-  "author": "Joseph Furlott",
+  "author": "Ian Webster",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer-loader": "^3.1.0",
