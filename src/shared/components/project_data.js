@@ -405,6 +405,14 @@ module.exports = [
     imgurl: 'https://i.imgur.com/n5U34ahl.png',
     url: 'http://www.ianww.com/meteor-showers/#Perseid',
   },
+  /*
+  {
+    title: 'Mars',
+    desc: 'Mars in 3D.',
+    imgurl: 'http://i.imgur.com/idzj8BOm.png',
+    url: 'http://www.ianww.com/mars',
+  },
+  */
   {
     title: 'Neutral Gas',
     desc: 'Micro carbon offsets for gas fill-ups.',
