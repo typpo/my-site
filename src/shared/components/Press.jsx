@@ -2,7 +2,7 @@ import React from 'react'
 
 export default class Press extends React.Component {
   render() {
-    let presses = this.props.data.press.map(pressItem, idx => {
+    let presses = this.props.data.press.map((pressItem, idx) => {
       let content = '';
       if (typeof pressItem === 'string') {
         content = <span>{pressItem}</span>

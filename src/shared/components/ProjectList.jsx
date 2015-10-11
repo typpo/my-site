@@ -17,7 +17,7 @@ export default React.createClass({
   render() {
     let projects = this.state.data.filter(project => {
       return !project.hideInProjectsView && project.imgurl;
-    }).map(project, idx => {
+    }).map((project, idx) => {
       return (
         <Project data={project} key={idx} />
       );
@@ -25,7 +25,7 @@ export default React.createClass({
 
     let textProjects = this.state.data.filter(project => {
       return !project.hideInProjectsView && !project.imgurl;
-    }).map(project, idx => {
+    }).map((project, idx) => {
       return (
         <li key={idx}><a href={project.url}>{project.title}</a> - {project.desc}</li>
       );

@@ -15,7 +15,7 @@ export default React.createClass({
   render() {
     let press = this.state.data.filter(project => {
       return project.press && project.press.length > 0;
-    }).map(project, idx => {
+    }).map((project, idx) => {
       return (
         <div key={idx} className="press-item">
           <span className="title">{project.title}</span>

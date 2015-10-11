@@ -21,7 +21,7 @@ export default React.createClass({
       return b.hackathon.year - a.hackathon.year;
     });
 
-    let hackElements = hacks.map(project, idx => {
+    let hackElements = hacks.map((project, idx) => {
       return (
         <Hack data={project} key={idx} />
       );

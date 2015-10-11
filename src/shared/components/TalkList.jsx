@@ -13,7 +13,7 @@ export default React.createClass({
     };
   },
   render() {
-    var talks = this.state.data.map(talk, idx => {
+    var talks = this.state.data.map((talk, idx) => {
       return (
         <Talk data={talk} key={idx} />
       );
