@@ -1,6 +1,6 @@
 var React = require('react'),
     Talk = require('./Talk'),
-    talkData = require('./talks_data.js');
+    talkData = require('../../../data/talks_data.js');
 
 if (typeof window === undefined) {
   require('../../../css/talks.scss')

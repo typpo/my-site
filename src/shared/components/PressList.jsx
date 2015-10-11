@@ -1,6 +1,6 @@
 var React = require('react'),
     Press = require('./Press'),
-    projectData = require('./project_data.js');
+    projectData = require('../../../data/project_data.js');
 
 if (typeof window === undefined) {
   require('../../../css/press.scss')

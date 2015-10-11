@@ -1,7 +1,7 @@
 var React = require('react'),
     Project = require('./Project'),
     PostList = require('./PostList'),
-    projectData = require('./project_data.js');
+    projectData = require('../../../data/project_data.js');
 
 if (typeof window === undefined) {
   require('../../../css/projects.scss')
