@@ -37,7 +37,7 @@ var ProjectList = React.createClass({
           {projects}
         </div>
         <div className="text-project-list generic-list">
-          <h3>Other Projects</h3>
+          <h3>Other projects</h3>
           <ul>
           {textProjects}
           </ul>
