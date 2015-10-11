@@ -431,6 +431,11 @@ module.exports = [
     url: 'http://gifthorse.herokuapp.com',
   },
   {
+    title: 'mixpanel-export-cli',
+    desc: 'Command line tool for mixpanel data export.',
+    url: 'https://github.com/typpo/mixpanel-export-cli',
+  },
+  {
     title: 'Pagerank Checker',
     desc: 'npm module for pagerank',
     //imgurl: 'http://i.imgur.com/in0MXj6l.png',
@@ -483,11 +488,6 @@ module.exports = [
     title: 'lok',
     desc: 'Curses-based encrypted journal/notes in C.',
     url: 'https://github.com/typpo/lok',
-  },
-  {
-    title: 'mixpanel-export-cli',
-    desc: 'Command line tool for mixpanel data export.',
-    url: 'https://github.com/typpo/mixpanel-export-cli',
   },
   {
     title: 'Room 77',
