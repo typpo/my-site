@@ -1,5 +1,11 @@
 module.exports = [
   {
+    title: 'NASA JPL',
+    desc: 'Space for Everyone: Visualization and Analysis with Open Space Data',
+    where: 'Pasadena',
+    conf_url: 'http://www.jpl.nasa.gov/',
+  },
+  {
     title: 'OpenVizConf',
     desc: 'Mapping the Cosmos: Visualizing Millions of Objects in Space',
     where: 'Boston',
