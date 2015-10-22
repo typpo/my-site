@@ -13,7 +13,7 @@
     "build-backend": "npm run clean && ./node_modules/.bin/babel src -d lib --experimental",
     "build-frontend": "NODE_ENV=production webpack -p --config webpack.config.prod.js",
     "build": "npm run build-backend && npm run build-frontend",
-    "prod": "npm run deploy && NODE_ENV=production npm run server"
+    "prod": "npm run build && NODE_ENV=production npm run server"
   },
   "author": "Ian Webster",
   "license": "MIT",
