@@ -1,5 +1,11 @@
 module.exports = [
   {
+    title: 'University of South Carolina',
+    desc: 'How Data is Transforming the World: Hacking Tech, Aerospace, and Global Health',
+    where: 'Darla Moore School of Business',
+    conf_url: 'http://www.sc.edu/',
+  },
+  {
     title: 'NASA JPL',
     desc: 'Space for Everyone: Visualization and Analysis with Open Space Data',
     where: 'Pasadena',
