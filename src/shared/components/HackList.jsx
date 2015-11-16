@@ -15,8 +15,7 @@ export default React.createClass({
   render() {
     let hacks = this.state.data.filter(project => {
       return !!project.hackathon;
-    })
-   .sort((a, b) => {
+    }).sort((a, b) => {
       // TODO eventually just sort by project year.
       return b.hackathon.year - a.hackathon.year;
     });
