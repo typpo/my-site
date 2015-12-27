@@ -460,7 +460,7 @@ module.exports = [
     url: 'https://github.com/typpo/autoreload',
   },
   {
-    title: 'Github pariticipation graph',
+    title: 'Github participation graph',
     desc: 'Better contrast.',
     //imgurl: 'https://camo.githubusercontent.com/0cdace1a3cdb252d63ee25dca1663427481a8887/687474703a2f2f692e696d6775722e636f6d2f4a5a5a616c2e706e67',
     url: 'https://github.com/typpo/github-participation-graph',
