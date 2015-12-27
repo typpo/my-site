@@ -431,6 +431,18 @@ module.exports = [
     url: 'http://gifthorse.herokuapp.com',
   },
   {
+    title: 'Typpo\'s Software',
+    desc: 'MMORPG automation used millions of times by 30k people (2006-2011).',
+    imgurl: 'http://typpo.us/dct/screenshot.jpg',
+    url: 'http://typpo.us',
+  },
+  {
+    title: 'Alioth',
+    desc: 'Space data and visualization consulting.',
+    imgurl: 'https://i.imgur.com/0ls9Zhs.png',
+    url: 'http://alioth.io/',
+  },
+  {
     title: 'mixpanel-export-cli',
     desc: 'Command line tool for mixpanel data export.',
     url: 'https://github.com/typpo/mixpanel-export-cli',
@@ -458,11 +470,6 @@ module.exports = [
     desc: 'HTML5 polyfill.',
     //imgurl: 'https://i.imgur.com/AMdYKBj.png',
     url: 'https://github.com/typpo/web-workers-fallback',
-  },
-  {
-    title: 'Typpo\'s Software',
-    desc: 'MMORPG automation used millions of times by 30k people (2006-2011).',
-    url: 'http://typpo.us',
   },
   {
     title: 'Dartmouth Last Chances',
