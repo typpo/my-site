@@ -77,7 +77,14 @@ module.exports = [
         source: 'digital.gov',
         url: 'https://www.digitalgov.gov/2015/05/27/the-api-briefing-nasa-builds-api-nasa-gov-to-launch-more-apis-to-developers/',
       },
-      'TechCrunch',
+      {
+        source: 'TechCrunch',
+        url: 'http://techcrunch.com/2015/07/09/the-potential-100-trillion-market-for-space-mining/',
+      },
+      {
+        source: 'TechCrunch again',
+        url: 'http://techcrunch.com/2016/02/03/the-race-to-mine-asteroids-gains-international-support/',
+      },
       {
         source: 'Universe Today',
         url: 'http://www.universetoday.com/95169/the-most-profitable-asteroid-is/',
