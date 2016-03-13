@@ -415,9 +415,21 @@ module.exports = [
   /*
   {
     title: 'Mars',
-    desc: 'Mars in 3D.',
+    desc: 'Mars in 3D - work in progress.',
     imgurl: 'http://i.imgur.com/idzj8BOm.png',
     url: 'http://www.ianww.com/mars',
+  },
+  {
+    title: 'Exoplanets',
+    desc: 'Exoplanets in 3D',
+    imgurl: 'http://i.imgur.com/wVFVmKdl.jpg',
+    url: 'http://www.asterank.com/exoplanets',
+    press: [
+      {
+        source: 'HTML5 Weekly',
+        url: 'http://html5weekly.com/issues/230',
+      },
+    ],
   },
   */
   {
