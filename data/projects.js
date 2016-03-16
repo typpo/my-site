@@ -113,6 +113,10 @@ module.exports = [
       'Infosthetics',
       'a WSJ infographic',
       {
+        source: 'Mother Nature Network',
+        url: 'http://www.mnn.com/earth-matters/space/stories/what-asteroid-worth',
+      },
+      {
         source: 'published in Knowledge is Beautiful',
         url: 'http://smile.amazon.com/Knowledge-Beautiful-Impossible-Invisible-Connections-Visualized/dp/0062188224/ref=pd_sim_14_1?ie=UTF8&refRID=1V9HZY62819JRVXGH08S&dpID=514aKg2KzKL&dpSrc=sims&preST=_AC_UL160_SR122%2C160_',
       },
