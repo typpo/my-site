@@ -435,6 +435,12 @@ module.exports = [
       },
     ],
   },
+  {
+    title: 'Wololo',
+    desc: 'Conversion-boosting widgets for ecommerce',
+    imgurl: '',
+    url: '',
+  },
   */
   {
     title: 'Neutral Gas',
