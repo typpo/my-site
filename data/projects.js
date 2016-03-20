@@ -171,6 +171,10 @@ module.exports = [
       'Lots of ad and marketing industry papers, newsletters, and blogs',
       'Vesti (and other Russian media)',
       'NextInpact (and other French media)',
+      {
+        source: 'Arrêt sur images',
+        url: 'http://www.arretsurimages.net/articles/2016-03-20/Ad-Detector-l-extension-qui-revele-les-pubs-cachees-dans-les-articles-id8569',
+      },
       'Many German and Polish language publications',
     ],
   },
