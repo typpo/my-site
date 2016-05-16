@@ -253,6 +253,7 @@ module.exports = [
       'Many Spanish and French language media',
       'Chrome Experiments',
       'Learning Three.js',
+      'TYS Magazine',
     ],
   },
   {
