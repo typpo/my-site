@@ -381,8 +381,8 @@ module.exports = [
     imgurl: 'http://i.imgur.com/aKCnbFRl.png',
   },
   {
-    title: 'In 2015 Dollars',
-    desc: 'Inflation data calculator.',
+    title: 'Inflation Calculator',
+    desc: 'Historical inflation data and predictions.',
     imgurl: 'http://www.ianww.com/images/in2013dollars.png',
     url: 'http://www.in2013dollars.com',
   },
