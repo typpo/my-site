@@ -22,6 +22,10 @@ module.exports = [
         url: 'http://scienceillustrated.com.au/blog/',
       },
       {
+        source: 'New York Times',
+        url: 'http://www.nytimes.com/2016/05/24/science/asteroids-nathan-myhrvold-nasa.html',
+      },
+      {
         source: 'Seeking Alpha',
         url: 'http://seekingalpha.com/article/1579972-i-am-sticking-with-gold-a-critique-of-the-golden-dilemma',
       },
