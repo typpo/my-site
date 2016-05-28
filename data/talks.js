@@ -69,4 +69,10 @@ module.exports = [
     where: 'Raleigh, NC',
     conf_url: 'https://spacevision.seds.org/',
   },
+  {
+    title: 'NASA/SETI Asteroid Hackathon',
+    desc: 'Talked about Asterank',
+    where: 'Mountain View, CA',
+    conf_url: 'https://www.nasa.gov/content/asteroid-hackathon',
+  },
 ]
