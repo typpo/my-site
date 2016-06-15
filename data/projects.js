@@ -477,7 +477,7 @@ module.exports = [
   {
     title: 'Alioth',
     desc: 'Space data and visualization consulting.',
-    imgurl: 'https://i.imgur.com/0ls9Zhs.png',
+    imgurl: 'https://i.imgur.com/p3pS4zAm.jpg',
     url: 'http://alioth.io/',
   },
   {
