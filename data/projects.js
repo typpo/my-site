@@ -184,7 +184,7 @@ module.exports = [
   },
   {
     title: 'Textbelt',
-    desc: 'Free outgoing SMS API. Over 1M texts sent',
+    desc: 'Free outgoing SMS API. Over 2M texts sent',
     imgurl: 'http://i.imgur.com/e1TyUkSl.png',
     url: 'http://textbelt.com',
     press: [
