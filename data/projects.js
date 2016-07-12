@@ -135,7 +135,7 @@ module.exports = [
   },
   {
     title: 'AdDetector',
-    desc: 'Native ad detection. Spot articles with corporate sponsors.',
+    desc: 'Spot articles with corporate sponsors.',
     imgurl: 'http://i.imgur.com/5XwQaQxl.png',
     url: 'http://www.ianww.com/ad-detector',
     press: [
@@ -295,7 +295,7 @@ module.exports = [
   },
   {
     title: 'Interview Club',
-    desc: 'Taking the pain out of hiring. LAUNCH hackathon winner (5 prizes).',
+    desc: 'Taking the pain out of hiring. LAUNCH hackathon winner ($13k in prizes).',
     imgurl: 'http://i.imgur.com/MjKtbLEl.png',
     url: 'http://www.gointerview.club',
     hackathon: {
@@ -307,7 +307,7 @@ module.exports = [
   },
   {
     title: 'Asterank Discover',
-    desc: 'Crowdsourced asteroid discovery - quarter million images reviewed.',
+    desc: 'Crowdsourced asteroid discovery. Over a quarter million images reviewed.',
     imgurl: 'http://www.ianww.com/images/asterank_discover.png',
     url: 'http://www.asterank.com/discover',
   },
@@ -374,17 +374,6 @@ module.exports = [
     url: 'http://chatalyst.io',
   },
   {
-    title: 'Gilded Age',
-    desc: 'Visualizations and NLP for Gilded-age newspapers.',
-    imgurl: 'https://i.imgur.com/qZ1wxmJl.png',
-    url: 'http://github.com/typpo/gilded-age',
-  },
-  {
-    title: 'TalkThen',
-    desc: 'Convenient conference and telephony app.',
-    imgurl: 'http://i.imgur.com/aKCnbFRl.png',
-  },
-  {
     title: 'Exoplanets',
     desc: 'Exoplanets in 3D.',
     imgurl: 'http://i.imgur.com/wVFVmKdl.jpg',
@@ -422,6 +411,17 @@ module.exports = [
     url: 'http://www.in2013dollars.com',
   },
   {
+    title: 'Gilded Age',
+    desc: 'Visualizations and NLP for Gilded-age newspapers.',
+    imgurl: 'https://i.imgur.com/qZ1wxmJl.png',
+    url: 'http://github.com/typpo/gilded-age',
+  },
+  {
+    title: 'TalkThen',
+    desc: 'Convenient conference and telephony app.',
+    imgurl: 'http://i.imgur.com/aKCnbFRl.png',
+  },
+  {
     title: 'CodeNav',
     desc: 'Easily navigate code on Github. Keyword highlight, code search, etc.',
     imgurl: 'https://i.imgur.com/QJwU3Hzl.png',
@@ -439,6 +439,12 @@ module.exports = [
     },
   },
   {
+    title: 'Meteor Showers',
+    desc: 'Accurate models of major meteor showers.',
+    imgurl: 'https://i.imgur.com/n5U34ahl.png',
+    url: 'http://www.ianww.com/meteor-showers/#Perseid',
+  },
+  {
     title: 'Ceres',
     desc: 'Ceres in 3D.',
     imgurl: 'https://i.imgur.com/Q3jcJiFl.png',
@@ -449,12 +455,6 @@ module.exports = [
         url: 'http://www.slate.com/blogs/bad_astronomy/2015/08/13/ceres_crater_saturation.html',
       },
     ],
-  },
-  {
-    title: 'Meteor Showers',
-    desc: 'Accurate models of major meteor showers.',
-    imgurl: 'https://i.imgur.com/n5U34ahl.png',
-    url: 'http://www.ianww.com/meteor-showers/#Perseid',
   },
   {
     title: 'Mars',
