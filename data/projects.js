@@ -385,6 +385,37 @@ module.exports = [
     imgurl: 'http://i.imgur.com/aKCnbFRl.png',
   },
   {
+    title: 'Exoplanets',
+    desc: 'Exoplanets in 3D.',
+    imgurl: 'http://i.imgur.com/wVFVmKdl.jpg',
+    url: 'http://www.asterank.com/exoplanets',
+    press: [
+      {
+        source: 'HTML5 Weekly',
+        url: 'http://html5weekly.com/issues/230',
+      },
+    ],
+  },
+  {
+    title: 'Call Congress',
+    desc: 'Single phone line that calls your representatives.',
+    imgurl: 'https://i.imgur.com/csCI0ogl.jpg',
+    url: 'http://www.ianww.com/blog/2016/06/15/call-your-congressperson-with-one-phone-number-1-844-usa-4522/',
+    press: [
+      {
+        source: 'Deray',
+        url: 'https://twitter.com/deray/status/744889843985973248',
+      },
+      {
+        source: 'Reddit Front page',
+      },
+      {
+        source: 'Twilio Blog',
+        url: 'https://www.twilio.com/blog/2016/06/call-congress-using-one-phone-number.html',
+      },
+    ],
+  },
+  {
     title: 'Inflation Calculator',
     desc: 'Historical inflation data and predictions.',
     imgurl: 'http://www.ianww.com/images/in2013dollars.png',
@@ -425,25 +456,13 @@ module.exports = [
     imgurl: 'https://i.imgur.com/n5U34ahl.png',
     url: 'http://www.ianww.com/meteor-showers/#Perseid',
   },
-  /*
   {
     title: 'Mars',
     desc: 'Mars in 3D - work in progress.',
     imgurl: 'http://i.imgur.com/idzj8BOm.png',
     url: 'http://www.ianww.com/mars',
   },
-  {
-    title: 'Exoplanets',
-    desc: 'Exoplanets in 3D',
-    imgurl: 'http://i.imgur.com/wVFVmKdl.jpg',
-    url: 'http://www.asterank.com/exoplanets',
-    press: [
-      {
-        source: 'HTML5 Weekly',
-        url: 'http://html5weekly.com/issues/230',
-      },
-    ],
-  },
+  /*
   {
     title: 'Wololo',
     desc: 'Conversion-boosting widgets for ecommerce',
@@ -548,7 +567,7 @@ module.exports = [
   },
   {
     title: 'Google',
-    desc: 'Improving travel and local search.',
+    desc: 'Improving travel and local search ranking.',
     imgurl: 'http://i.imgur.com/V2Js8Bwl.png',
     url: 'http://google.com',
   },
