@@ -211,7 +211,7 @@ module.exports = [
   },
   {
     title: 'Harvest',
-    desc: 'Aerial infrared crop monitoring. Disrupt hackathon winner (3 prizes).',
+    desc: 'Aerial infrared crop monitoring. Disrupt hackathon winner ($5k in prizes).',
     imgurl: 'https://i.imgur.com/SJVfCEg.jpg',
     url: 'http://harvesters.club',
     press: [
