@@ -500,6 +500,35 @@ module.exports = [
     url: 'http://alioth.io/',
   },
   {
+    title: 'Planetary Resources',
+    desc: 'Asteroid mining spacecraft and mission control software.',
+    imgurl: 'https://i.imgur.com/PL95Da6.jpg',
+    url: 'https://en.wikipedia.org/wiki/Planetary_Resources',
+  },
+  {
+    title: 'Room 77',
+    desc: 'Better hotel search, acquired by Google.',
+    imgurl: 'http://i.imgur.com/ua9nW9ol.png',
+    url: 'http://room77.com',
+  },
+  {
+    title: 'Google',
+    desc: 'Improving travel and local search ranking.',
+    imgurl: 'http://i.imgur.com/V2Js8Bwl.png',
+    url: 'http://google.com',
+  },
+  {
+    title: 'Zenysis',
+    desc: 'Macro-level data analysis for governments',
+    imgurl: 'https://i.imgur.com/z1BoyBnm.png',
+    url: 'http://www.zenysis.com/',
+  },
+  {
+    title: 'AIM was better',
+    desc: 'Replaces Google hangouts pings with AIM pings.',
+    url: 'https://chrome.google.com/webstore/detail/aim-was-better/jlfnamkeapjfndbdiomnegmigjjkfpef',
+  },
+  {
     title: 'mixpanel-export-cli',
     desc: 'Command line tool for mixpanel data export.',
     url: 'https://github.com/typpo/mixpanel-export-cli',
@@ -552,24 +581,6 @@ module.exports = [
     title: 'lok',
     desc: 'Curses-based encrypted journal/notes in C.',
     url: 'https://github.com/typpo/lok',
-  },
-  {
-    title: 'Room 77',
-    desc: 'Better hotel search, acquired by Google.',
-    imgurl: 'http://i.imgur.com/ua9nW9ol.png',
-    url: 'http://room77.com',
-  },
-  {
-    title: 'Planetary Resources',
-    desc: 'Asteroid mining spacecraft and mission control software.',
-    imgurl: 'https://i.imgur.com/PL95Da6.jpg',
-    url: 'https://en.wikipedia.org/wiki/Planetary_Resources',
-  },
-  {
-    title: 'Google',
-    desc: 'Improving travel and local search ranking.',
-    imgurl: 'http://i.imgur.com/V2Js8Bwl.png',
-    url: 'http://google.com',
   },
   {
     title: 'General',
