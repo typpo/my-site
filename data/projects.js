@@ -529,6 +529,11 @@ module.exports = [
     url: 'https://chrome.google.com/webstore/detail/aim-was-better/jlfnamkeapjfndbdiomnegmigjjkfpef',
   },
   {
+    title: 'nunjucks-phone-filter',
+    desc: 'Phone # filter for nunjucks templating engine',
+    url: 'https://github.com/typpo/nunjucks-phone-filter',
+  },
+  {
     title: 'mixpanel-export-cli',
     desc: 'Command line tool for mixpanel data export.',
     url: 'https://github.com/typpo/mixpanel-export-cli',
