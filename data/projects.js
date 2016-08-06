@@ -506,6 +506,11 @@ module.exports = [
     url: 'https://en.wikipedia.org/wiki/Planetary_Resources',
   },
   {
+    title: 'NASA',
+    desc: 'Co-Investigator on research grant from NASA\'s Science Mission Directorate.',
+    imgurl: 'https://i.imgur.com/up7z413.png',
+  },
+  {
     title: 'Room 77',
     desc: 'Better hotel search, acquired by Google.',
     imgurl: 'http://i.imgur.com/ua9nW9ol.png',
