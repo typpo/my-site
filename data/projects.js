@@ -533,11 +533,13 @@ module.exports = [
     desc: 'A regular calculator...written in Tensorflow.',
     url: 'https://github.com/typpo/tensorflow-calc',
   },
+  /*
   {
     title: 'FB Exporter',
     desc: 'Export your Facebook images in full resolution with EXIF data.',
     url: 'http://www.fbexporter.com/',
   },
+ */
   {
     title: 'nunjucks-phone-filter',
     desc: 'Phone # filter for nunjucks templating engine.',
