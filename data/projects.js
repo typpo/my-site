@@ -529,8 +529,18 @@ module.exports = [
     url: 'https://chrome.google.com/webstore/detail/aim-was-better/jlfnamkeapjfndbdiomnegmigjjkfpef',
   },
   {
+    title: 'Tensorflow Calculator',
+    desc: 'A regular calculator...written in Tensorflow.',
+    url: 'https://github.com/typpo/tensorflow-calc',
+  },
+  {
+    title: 'FB Exporter',
+    desc: 'Export your Facebook images in full resolution with EXIF data.',
+    url: 'http://www.fbexporter.com/',
+  },
+  {
     title: 'nunjucks-phone-filter',
-    desc: 'Phone # filter for nunjucks templating engine',
+    desc: 'Phone # filter for nunjucks templating engine.',
     url: 'https://github.com/typpo/nunjucks-phone-filter',
   },
   {
