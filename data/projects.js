@@ -189,6 +189,10 @@ module.exports = [
     url: 'http://textbelt.com',
     press: [
       {
+        source: 'Linux Journal, Aug 2016',
+        url: 'http://www.linuxjournal.com/content/august-2016-issue-linux-journal',
+      },
+      {
         source: 'CNET',
         url: 'http://www.cnet.com/news/how-to-send-a-text-message-via-command-line-in-os-x/',
       },
