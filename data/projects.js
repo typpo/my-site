@@ -124,7 +124,7 @@ module.exports = [
         source: 'published in Knowledge is Beautiful',
         url: 'http://smile.amazon.com/Knowledge-Beautiful-Impossible-Invisible-Connections-Visualized/dp/0062188224/ref=pd_sim_14_1?ie=UTF8&refRID=1V9HZY62819JRVXGH08S&dpID=514aKg2KzKL&dpSrc=sims&preST=_AC_UL160_SR122%2C160_',
       },
-      'etc.',
+      'etc',
     ],
     hackathon: {
       name: 'NASA Apps Challenge',
@@ -135,7 +135,7 @@ module.exports = [
   },
   {
     title: 'AdDetector',
-    desc: 'Spot articles with corporate sponsors.',
+    desc: 'Spot articles with corporate sponsors',
     imgurl: 'http://i.imgur.com/5XwQaQxl.png',
     url: 'http://www.ianww.com/ad-detector',
     press: [
@@ -205,13 +205,13 @@ module.exports = [
   },
   {
     title: 'Galaxies',
-    desc: '2 billion cubic light-years, based on one of the largest n-body simulations ever.',
+    desc: '2 billion cubic light-years, based on one of the largest n-body simulations ever',
     imgurl: 'http://i.imgur.com/mzwBJ8Sl.jpg',
     url: 'http://www.asterank.com/galaxies',
   },
   {
     title: 'Harvest',
-    desc: 'Aerial infrared crop monitoring. Disrupt hackathon winner ($5k in prizes).',
+    desc: 'Aerial infrared crop monitoring. Disrupt hackathon winner ($5k in prizes)',
     imgurl: 'https://i.imgur.com/SJVfCEg.jpg',
     url: 'http://harvesters.club',
     press: [
@@ -229,7 +229,7 @@ module.exports = [
   },
   {
     title: 'Asteroid Viewer',
-    desc: 'Accurate 3D models of asteroids from radar and inverted light curves.',
+    desc: 'Accurate 3D models of asteroids from radar and inverted light curves',
     imgurl: 'http://i.imgur.com/yQaQHiUl.png',
     url: 'http://www.ianww.com/asteroid-viewer',
     press: [
@@ -238,7 +238,7 @@ module.exports = [
   },
   {
     title: 'Dinosaur Pictures',
-    desc: 'The official dinosaur picture database.',
+    desc: 'The official dinosaur picture database',
     imgurl: 'http://i.imgur.com/p5cHTml.png',
     url: 'http://dinosaurpictures.org/',
   },
@@ -262,19 +262,19 @@ module.exports = [
   },
   {
     title: 'Space Balloons',
-    desc: 'Sending cameras and other things to near-space.',
+    desc: 'Sending cameras and other things to near-space',
     imgurl: 'http://i.imgur.com/9ngl1H5l.jpg',
     url: 'http://www.ianww.com/blog/2015/07/17/sending-a-potato-to-near-space/',
   },
   {
     title: 'RapChat',
-    desc: 'The future of communication.',
+    desc: 'The future of communication',
     imgurl: 'http://i.imgur.com/MdbV70Tl.png',
     url: 'http://www.rapchat.us',
   },
   {
     title: 'The Space Potato',
-    desc: 'Successful kickstarter for a potato-powered mission to near-space.',
+    desc: 'Successful kickstarter for a potato-powered mission to near-space',
     imgurl: 'http://i.imgur.com/aOy79oEl.jpg',
     url: 'http://spacepotato.org',
     press: [
@@ -284,7 +284,7 @@ module.exports = [
   },
   {
     title: 'Watchtower',
-    desc: 'Competitive monitoring platform, LAUNCH hackathon winner.',
+    desc: 'Competitive monitoring platform, LAUNCH hackathon winner',
     imgurl: 'http://www.ianww.com/images/watchtower.png',
     hackathon: {
       name: 'LAUNCH',
@@ -295,7 +295,7 @@ module.exports = [
   },
   {
     title: 'Interview Club',
-    desc: 'Taking the pain out of hiring. LAUNCH hackathon winner ($13k in prizes).',
+    desc: 'Taking the pain out of hiring. LAUNCH hackathon winner ($13k in prizes)',
     imgurl: 'http://i.imgur.com/MjKtbLEl.png',
     url: 'http://www.gointerview.club',
     hackathon: {
@@ -307,13 +307,13 @@ module.exports = [
   },
   {
     title: 'Asterank Discover',
-    desc: 'Crowdsourced asteroid discovery. Over a quarter million images reviewed.',
+    desc: 'Crowdsourced asteroid discovery. Over a quarter million images reviewed',
     imgurl: 'http://www.ianww.com/images/asterank_discover.png',
     url: 'http://www.asterank.com/discover',
   },
   {
     title: 'Verified Facts',
-    desc: 'A viral conspiracy theory generator.',
+    desc: 'A viral conspiracy theory generator',
     imgurl: 'http://www.ianww.com/images/verifiedfacts.png',
     url: 'http://www.verifiedfacts.org',
     press: [
@@ -323,18 +323,18 @@ module.exports = [
   },
   {
     title: 'HonestMemo',
-    desc: 'Internal company discussion forum and feedback tool.',
+    desc: 'Internal company discussion forum and feedback tool',
     imgurl: 'https://i.imgur.com/Jud7U7zl.png?1',
   },
   {
     title: 'Luna',
-    desc: '3D interactive moon.',
+    desc: '3D interactive moon',
     imgurl: 'http://i.imgur.com/xtmqQQAl.png',
     url: 'http://www.ianww.com/moonviz',
   },
   {
     title: 'Candid Candidates',
-    desc: 'Where do politicians get their money? Seattle hackathon winner.',
+    desc: 'Where do politicians get their money? Seattle hackathon winner',
     imgurl: 'http://i.imgur.com/C2QG9ZOl.png',
     url: 'http://github.com/typpo/political-annotations',
     hackathon: {
@@ -346,36 +346,36 @@ module.exports = [
   },
   {
     title: 'Six Degrees of Bowie',
-    desc: 'A graph of musical influencers.',
+    desc: 'A graph of musical influencers',
     imgurl: 'http://www.ianww.com/images/bowie.png',
   },
   {
     title: 'Pluto',
-    desc: 'Pluto in 3D.',
+    desc: 'Pluto in 3D',
     imgurl: 'https://i.imgur.com/M9lM5gQl.png',
     url: 'http://www.ianww.com/pluto',
   },
   {
     title: 'KeepDream',
-    desc: 'Dream recording and text analysis.',
+    desc: 'Dream recording and text analysis',
     imgurl: 'http://www.ianww.com/images/keepdream.png',
     url: 'http://www.keepdream.me',
   },
   {
     title: 'World of Loot',
-    desc: 'Pinterest-style MMO wishlists.',
+    desc: 'Pinterest-style MMO wishlists',
     imgurl: 'http://www.ianww.com/images/worldofloot.png',
     url: 'http://www.worldofloot.com',
   },
   {
     title: 'Chatalyst',
-    desc: 'Taking the pain out of video chat.',
+    desc: 'Taking the pain out of video chat',
     imgurl: 'http://i.imgur.com/yyayOHTl.jpg',
     url: 'http://chatalyst.io',
   },
   {
     title: 'Exoplanets',
-    desc: 'Exoplanets in 3D.',
+    desc: 'Exoplanets in 3D',
     imgurl: 'http://i.imgur.com/wVFVmKdl.jpg',
     url: 'http://www.asterank.com/exoplanets',
     press: [
@@ -387,7 +387,7 @@ module.exports = [
   },
   {
     title: 'Call Congress',
-    desc: 'Single phone line that calls your representatives.',
+    desc: 'Single phone line that calls your representatives',
     imgurl: 'https://i.imgur.com/csCI0ogl.jpg',
     url: 'http://www.ianww.com/blog/2016/06/15/call-your-congressperson-with-one-phone-number-1-844-usa-4522/',
     press: [
@@ -406,30 +406,30 @@ module.exports = [
   },
   {
     title: 'Inflation Calculator',
-    desc: 'Historical inflation data and predictions.',
+    desc: 'Historical inflation data and predictions',
     imgurl: 'http://www.ianww.com/images/in2013dollars.png',
     url: 'http://www.in2013dollars.com',
   },
   {
     title: 'Gilded Age',
-    desc: 'Visualizations and NLP for Gilded-age newspapers.',
+    desc: 'Visualizations and NLP for Gilded-age newspapers',
     imgurl: 'https://i.imgur.com/qZ1wxmJl.png',
     url: 'http://github.com/typpo/gilded-age',
   },
   {
     title: 'TalkThen',
-    desc: 'Convenient conference and telephony app.',
+    desc: 'Convenient conference and telephony app',
     imgurl: 'http://i.imgur.com/aKCnbFRl.png',
   },
   {
     title: 'CodeNav',
-    desc: 'Easily navigate code on Github. Keyword highlight, code search, etc.',
+    desc: 'Easily navigate code on Github. Keyword highlight, code search, etc',
     imgurl: 'https://i.imgur.com/QJwU3Hzl.png',
     url: 'http://www.ianww.com/codenav',
   },
   {
     title: 'ListeningPost',
-    desc: 'Contextual annotations for spoken conversation, YC Hacks winner.',
+    desc: 'Contextual annotations for spoken conversation, YC Hacks winner',
     imgurl: 'https://i.imgur.com/nwXZtDel.png',
     hackathon: {
       name: 'YC Hacks',
@@ -440,13 +440,13 @@ module.exports = [
   },
   {
     title: 'Meteor Showers',
-    desc: 'Accurate models of major meteor showers.',
+    desc: 'Accurate models of major meteor showers',
     imgurl: 'https://i.imgur.com/n5U34ahl.png',
     url: 'http://www.ianww.com/meteor-showers/#Perseid',
   },
   {
     title: 'Ceres',
-    desc: 'Ceres in 3D.',
+    desc: 'Ceres in 3D',
     imgurl: 'https://i.imgur.com/Q3jcJiFl.png',
     url: 'http://www.ianww.com/ceres',
     press: [
@@ -458,67 +458,75 @@ module.exports = [
   },
   {
     title: 'Mars',
-    desc: 'Mars in 3D - work in progress.',
+    desc: 'Mars in 3D - work in progress',
     imgurl: 'http://i.imgur.com/idzj8BOm.png',
     url: 'http://www.ianww.com/mars',
   },
-  /*
+  {
+    title: 'Speak Louder',
+    desc: 'Tools for activists & organizers',
+    imgurl: 'http://i.imgur.com/1w1DAnBl.png',
+  },
   {
     title: 'Wololo',
-    desc: 'Conversion-boosting widgets for ecommerce',
-    imgurl: '',
-    url: '',
+    desc: 'Conversion-boosting widgets for ecommerce. Clients did 1M views/mo',
+    imgurl: 'http://i.imgur.com/J3kR1Ljl.jpg',
   },
-  */
+  {
+    title: 'Facebook Exporter',
+    desc: 'Export your Facebook images in full resolution with EXIF data',
+    imgurl: 'http://i.imgur.com/5EHP6KBl.png',
+    url: 'http://www.fbexporter.com/',
+  },
   {
     title: 'Neutral Gas',
-    desc: 'Micro carbon offsets for gas fill-ups.',
+    desc: 'Micro carbon offsets for gas fill-ups',
     imgurl: 'http://i.imgur.com/lSAUkmIl.png',
     url: 'https://www.neutralgas.com',
   },
   {
     title: 'Bunkmates',
-    desc: 'AirBnB for hotels.',
+    desc: 'AirBnB for hotels',
     imgurl: 'http://i.imgur.com/oNx5JzAl.png',
   },
   {
     title: 'Gifthorse',
-    desc: 'A gift suggestion engine.',
+    desc: 'A gift suggestion engine',
     imgurl: 'http://www.ianww.com/images/gifthorse.png',
     url: 'http://gifthorse.herokuapp.com',
   },
   {
     title: 'Typpo\'s Software',
-    desc: 'MMORPG automation used millions of times by 30k people (2006-2011).',
+    desc: 'MMORPG automation used millions of times by 30k people (2006-2011)',
     imgurl: 'http://typpo.us/dct/screenshot.jpg',
     url: 'http://typpo.us',
   },
   {
     title: 'Alioth',
-    desc: 'Space data and visualization consulting.',
+    desc: 'Space data and visualization consulting',
     imgurl: 'https://i.imgur.com/p3pS4zAm.jpg',
     url: 'http://alioth.io/',
   },
   {
     title: 'Planetary Resources',
-    desc: 'Asteroid mining spacecraft and mission control software.',
+    desc: 'Asteroid mining spacecraft and mission control software',
     imgurl: 'https://i.imgur.com/PL95Da6.jpg',
     url: 'https://en.wikipedia.org/wiki/Planetary_Resources',
   },
   {
     title: 'NASA',
-    desc: 'Co-Investigator on research grant from NASA\'s Science Mission Directorate.',
+    desc: 'Co-Investigator on research grant from NASA\'s Science Mission Directorate',
     imgurl: 'https://i.imgur.com/up7z413.png',
   },
   {
     title: 'Room 77',
-    desc: 'Better hotel search, acquired by Google.',
+    desc: 'Better hotel search, acquired by Google',
     imgurl: 'http://i.imgur.com/ua9nW9ol.png',
     url: 'http://room77.com',
   },
   {
     title: 'Google',
-    desc: 'Improving travel and local search ranking.',
+    desc: 'Improving travel and local search ranking',
     imgurl: 'http://i.imgur.com/V2Js8Bwl.png',
     url: 'http://google.com',
   },
@@ -530,29 +538,22 @@ module.exports = [
   },
   {
     title: 'AIM was better',
-    desc: 'Replaces Google hangouts pings with AIM pings.',
+    desc: 'Replaces Google hangouts pings with AIM pings',
     url: 'https://chrome.google.com/webstore/detail/aim-was-better/jlfnamkeapjfndbdiomnegmigjjkfpef',
   },
   {
     title: 'Tensorflow Calculator',
-    desc: 'A regular calculator...written in Tensorflow.',
+    desc: 'A regular calculator...written in Tensorflow',
     url: 'https://github.com/typpo/tensorflow-calc',
   },
-  /*
-  {
-    title: 'FB Exporter',
-    desc: 'Export your Facebook images in full resolution with EXIF data.',
-    url: 'http://www.fbexporter.com/',
-  },
- */
   {
     title: 'nunjucks-phone-filter',
-    desc: 'Phone # filter for nunjucks templating engine.',
+    desc: 'Phone # filter for nunjucks templating engine',
     url: 'https://github.com/typpo/nunjucks-phone-filter',
   },
   {
     title: 'mixpanel-export-cli',
-    desc: 'Command line tool for mixpanel data export.',
+    desc: 'Command line tool for mixpanel data export',
     url: 'https://github.com/typpo/mixpanel-export-cli',
   },
   {
@@ -563,45 +564,45 @@ module.exports = [
   },
   {
     title: 'autoreload.js',
-    desc: 'Faster frontend development.',
+    desc: 'Faster frontend development',
     //imgurl: 'http://i.imgur.com/fH3Zx6X.png',
     url: 'https://github.com/typpo/autoreload',
   },
   {
     title: 'Github participation graph',
-    desc: 'Better contrast.',
+    desc: 'Better contrast',
     //imgurl: 'https://camo.githubusercontent.com/0cdace1a3cdb252d63ee25dca1663427481a8887/687474703a2f2f692e696d6775722e636f6d2f4a5a5a616c2e706e67',
     url: 'https://github.com/typpo/github-participation-graph',
   },
   {
     title: 'Webworkers Fallback',
-    desc: 'HTML5 polyfill.',
+    desc: 'HTML5 polyfill',
     //imgurl: 'https://i.imgur.com/AMdYKBj.png',
     url: 'https://github.com/typpo/web-workers-fallback',
   },
   {
     title: 'Dartmouth Last Chances',
-    desc: 'Over 400 "connections" during senior week, used by a majority of the class.',
+    desc: 'Over 400 "connections" during senior week, used by a majority of the class',
     url: 'http://dartmouthlastchances.com',
   },
   {
     title: 'Facebook Defriend Notifications',
-    desc: 'What it sounds like.',
+    desc: 'What it sounds like',
     url: 'http://facebook-monitor.appspot.com/',
   },
   {
     title: 'Wowzer',
-    desc: 'Arbitrage in a digital goods economy.',
+    desc: 'Arbitrage in a digital goods economy',
     url: 'https://github.com/typpo/wowzer',
   },
   {
     title: 'VoiceBox',
-    desc: 'Simple voice memo-to-DropBox Android app.',
+    desc: 'Simple voice memo-to-DropBox Android app',
     url: 'https://github.com/typpo/voicebox',
   },
   {
     title: 'lok',
-    desc: 'Curses-based encrypted journal/notes in C.',
+    desc: 'Curses-based encrypted journal/notes in C',
     url: 'https://github.com/typpo/lok',
   },
   {
