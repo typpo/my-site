@@ -470,6 +470,7 @@ module.exports = [
     title: 'Speak Louder',
     desc: 'Tools for activists & organizers',
     imgurl: 'http://i.imgur.com/1w1DAnBl.png',
+    url: 'http://www.speaklouder.org/',
   },
   {
     title: 'Wololo',
