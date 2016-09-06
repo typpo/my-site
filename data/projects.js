@@ -626,6 +626,10 @@ module.exports = [
         source: 'Newspace Global',
         url: 'https://newspaceglobal.com/',
       },
+      {
+        source: 'WebGL Insights',
+        url: 'https://smile.amazon.com/WebGL-Insights-Patrick-Cozzi/dp/1498716075?sa-no-redirect=1',
+      },
     ],
   },
 ]
