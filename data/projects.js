@@ -223,6 +223,10 @@ module.exports = [
         source: 'TechCrunch',
         url: 'http://techcrunch.com/2015/09/20/disrupt-sf-2015-hackathon-winners/?ncid=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29',
       },
+      {
+        source: 'CircleCI',
+        url: 'https://circleci.com/blog/introducing-our-techcrunch-disrupt-hackathon-winners/',
+      },
     ],
     hackathon: {
       name: 'Disrupt SF',
