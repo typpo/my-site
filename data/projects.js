@@ -208,6 +208,12 @@ module.exports = [
     ],
   },
   {
+    title: 'Space Balloons',
+    desc: 'Sending cameras and other things to near-space',
+    imgurl: 'http://i.imgur.com/9ngl1H5l.jpg',
+    url: 'http://www.ianww.com/blog/2015/07/17/sending-a-potato-to-near-space/',
+  },
+  {
     title: 'Ancient Earth',
     desc: 'What did Earth look like 600 million years ago?',
     imgurl: 'http://i.imgur.com/Ya57O3tl.png',
@@ -261,12 +267,6 @@ module.exports = [
     desc: 'The official dinosaur picture database',
     imgurl: 'http://i.imgur.com/p5cHTml.png',
     url: 'http://dinosaurpictures.org/',
-  },
-  {
-    title: 'Space Balloons',
-    desc: 'Sending cameras and other things to near-space',
-    imgurl: 'http://i.imgur.com/9ngl1H5l.jpg',
-    url: 'http://www.ianww.com/blog/2015/07/17/sending-a-potato-to-near-space/',
   },
   {
     title: 'RapChat',
@@ -490,7 +490,7 @@ module.exports = [
   },
   {
     title: 'Wololo',
-    desc: 'Conversion-boosting widgets for ecommerce. Clients did 1M views/mo',
+    desc: 'Conversion-boosting widgets for ecommerce. Reached 1M views/mo',
     imgurl: 'http://i.imgur.com/J3kR1Ljl.jpg',
   },
   {
@@ -506,7 +506,7 @@ module.exports = [
   },
   {
     title: 'Bunkmates',
-    desc: 'AirBnB for hotels',
+    desc: 'AirBnB for hotels!',
     imgurl: 'http://i.imgur.com/oNx5JzAl.png',
   },
   {
