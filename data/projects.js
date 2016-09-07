@@ -489,7 +489,7 @@ module.exports = [
   },
   {
     title: 'Facebook Exporter',
-    desc: 'Export your Facebook images in full resolution with EXIF data',
+    desc: 'Download your Facebook images in full resolution with EXIF data',
     imgurl: 'http://i.imgur.com/5EHP6KBl.png',
     url: 'http://www.fbexporter.com/',
   },
@@ -497,7 +497,6 @@ module.exports = [
     title: 'Neutral Gas',
     desc: 'Micro carbon offsets for gas fill-ups',
     imgurl: 'http://i.imgur.com/lSAUkmIl.png',
-    url: 'https://www.neutralgas.com',
   },
   {
     title: 'Bunkmates',
