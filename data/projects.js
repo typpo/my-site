@@ -135,7 +135,7 @@ module.exports = [
   },
   {
     title: 'AdDetector',
-    desc: 'Spot articles with corporate sponsors',
+    desc: 'Flags articles with corporate sponsors',
     imgurl: 'http://i.imgur.com/5XwQaQxl.png',
     url: 'http://www.ianww.com/ad-detector',
     press: [
@@ -208,10 +208,22 @@ module.exports = [
     ],
   },
   {
-    title: 'Galaxies',
-    desc: '2 billion cubic light-years, based on one of the largest n-body simulations ever',
-    imgurl: 'http://i.imgur.com/mzwBJ8Sl.jpg',
-    url: 'http://www.asterank.com/galaxies',
+    title: 'Ancient Earth',
+    desc: 'What did Earth look like 600 million years ago?',
+    imgurl: 'http://i.imgur.com/Ya57O3tl.png',
+    url: 'http://dinosaurpictures.org/ancient-earth/',
+    press: [
+      'RT',
+      'Informador',
+      'FrentFastasma',
+      'Korben, a famous French blogger',
+      'Pulzo',
+      'WebDesignerTrends',
+      'Many Spanish and French language media',
+      'Chrome Experiments',
+      'Learning Three.js',
+      'TYS Magazine',
+    ],
   },
   {
     title: 'Harvest',
@@ -251,24 +263,6 @@ module.exports = [
     url: 'http://dinosaurpictures.org/',
   },
   {
-    title: 'Ancient Earth',
-    desc: 'What did Earth look like 600 million years ago?',
-    imgurl: 'http://i.imgur.com/Ya57O3tl.png',
-    url: 'http://dinosaurpictures.org/ancient-earth/',
-    press: [
-      'RT',
-      'Informador',
-      'FrentFastasma',
-      'Korben, a famous French blogger',
-      'Pulzo',
-      'WebDesignerTrends',
-      'Many Spanish and French language media',
-      'Chrome Experiments',
-      'Learning Three.js',
-      'TYS Magazine',
-    ],
-  },
-  {
     title: 'Space Balloons',
     desc: 'Sending cameras and other things to near-space',
     imgurl: 'http://i.imgur.com/9ngl1H5l.jpg',
@@ -289,6 +283,12 @@ module.exports = [
       'Electronic Products Magazine',
       'Gentleman Genius',
     ],
+  },
+  {
+    title: 'Galaxies',
+    desc: '2 billion cubic light-years, based on one of the largest n-body simulations ever',
+    imgurl: 'http://i.imgur.com/mzwBJ8Sl.jpg',
+    url: 'http://www.asterank.com/galaxies',
   },
   {
     title: 'Watchtower',
