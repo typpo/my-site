@@ -451,6 +451,12 @@ module.exports = [
     desc: 'Accurate models of major meteor showers',
     imgurl: 'https://i.imgur.com/n5U34ahl.png',
     url: 'http://www.ianww.com/meteor-showers/#Perseid',
+    press: [
+      {
+        source: 'Chrome Experiments',
+        url: 'https://www.chromeexperiments.com/experiment/meteor-showers',
+      },
+    ],
   },
   {
     title: 'Ceres',
