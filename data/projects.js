@@ -525,7 +525,7 @@ module.exports = [
   },
   {
     title: 'Gaia',
-    desc: 'Rendering of ESA GAIA data',
+    desc: 'Visualize 2.5M stars from ESA GAIA observations',
     imgurl: 'https://i.imgur.com/ufrjxbHl.png',
     url: 'http://github.com/typpo/gaia',
   },
