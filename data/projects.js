@@ -459,6 +459,12 @@ module.exports = [
     ],
   },
   {
+    title: 'Typpo\'s Software',
+    desc: 'MMORPG automation used millions of times by 30k people (2006-2011)',
+    imgurl: 'http://typpo.us/dct/screenshot.jpg',
+    url: 'http://typpo.us',
+  },
+  {
     title: 'Ceres',
     desc: 'Ceres in 3D',
     imgurl: 'https://i.imgur.com/Q3jcJiFl.png',
@@ -510,10 +516,10 @@ module.exports = [
     url: 'http://gifthorse.herokuapp.com',
   },
   {
-    title: 'Typpo\'s Software',
-    desc: 'MMORPG automation used millions of times by 30k people (2006-2011)',
-    imgurl: 'http://typpo.us/dct/screenshot.jpg',
-    url: 'http://typpo.us',
+    title: 'Gaia',
+    desc: 'Rendering of ESA GAIA data',
+    imgurl: 'https://i.imgur.com/ufrjxbHl.png',
+    url: 'http://github.com/typpo/gaia',
   },
   {
     title: 'Alioth',
