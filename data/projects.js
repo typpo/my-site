@@ -235,7 +235,7 @@ module.exports = [
     title: 'Harvest',
     desc: 'Aerial infrared crop monitoring. Disrupt hackathon winner ($5k in prizes)',
     imgurl: 'https://i.imgur.com/SJVfCEg.jpg',
-    url: 'http://harvesters.club',
+    // url: 'http://harvesters.club',
     press: [
       {
         source: 'TechCrunch',
@@ -305,7 +305,7 @@ module.exports = [
     title: 'Interview Club',
     desc: 'Taking the pain out of hiring. LAUNCH hackathon winner ($13k in prizes)',
     imgurl: 'http://i.imgur.com/MjKtbLEl.png',
-    url: 'http://www.gointerview.club',
+    // url: 'http://www.gointerview.club',
     hackathon: {
       name: 'LAUNCH',
       url: 'http://www.launchfestival.com/',
