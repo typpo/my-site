@@ -29,12 +29,12 @@
     <div class="flex-container about-container">
       <div id="about">
         <p>
-        I'm an engineer at <a href="http://www.zenysis.com" target="_blank">Zenysis</a>.  I used to work at <a href="http://google.com" target="_blank">Google</a>, mostly on local search quality.
+        I'm an engineer at <a href="http://www.zenysis.com" target="_blank">Zenysis</a>.  Before that I worked at <a href="http://google.com" target="_blank">Google</a>, mostly on local search quality.
         I was an early engineer at <a href="http://room77.com" target="_blank">Room 77</a> until its acquisition by Google.
         </p>
         <p>
-          I also created <a href="http://www.asterank.com" target="_blank">Asterank</a>, acquired by Planetary Resources.
-          In late 2014 I started <a href="http://alioth.io">Alioth</a>, a consulting firm focused on data visualization.
+          A few years ago I created <a href="http://www.asterank.com" target="_blank">Asterank</a>, which was acquired by Planetary Resources.
+          In late 2014 I started consulting via <a href="http://alioth.io">Alioth</a>.
         </p>
       </div>
     </div>
