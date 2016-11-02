@@ -46,12 +46,20 @@ module.exports = [
         url: 'http://www.dailymail.co.uk/sciencetech/article-3073589/Watch-50-years-asteroid-near-misses-Earth-Interactive-map-reveals-THOUSANDS-rocks-skim-planet.html',
       },
       {
+        source: 'and again',
+        url: 'http://www.dailymail.co.uk/sciencetech/article-3073589/Watch-50-years-asteroid-near-misses-Earth-Interactive-map-reveals-THOUSANDS-rocks-skim-planet.html',
+      },
+      {
         source: 'Quartz',
         url: 'http://qz.com/184502/the-ultra-rich-are-starting-to-like-the-risks-involved-in-asteroid-mining/',
       },
       {
         source: 'Space.com',
         url: 'http://www.space.com/20959-nasa-space-apps-virtual-winners.html',
+      },
+      {
+        source: 'Wired',
+        url: 'http://www.wired.co.uk/article/infoporn-mining-for-asteroids',
       },
       {
         source: 'TechHive',
