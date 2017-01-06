@@ -30,6 +30,10 @@ module.exports = [
         url: 'http://seekingalpha.com/article/1579972-i-am-sticking-with-gold-a-critique-of-the-golden-dilemma',
       },
       {
+        source: 'Seeking Alpha 2',
+        url: 'http://seekingalpha.com/article/4034859-miners-may-go-galactic-asteroid-mining',
+      },
+      {
         source: 'Huffington Post',
         url: 'http://www.huffingtonpost.com/2014/09/10/asteroid-strike-simulator-earth_n_5792752.html',
       },
