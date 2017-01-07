@@ -465,7 +465,27 @@ module.exports = [
     url: 'http://www.ianww.com/meteor-showers/#Perseid',
     press: [
       {
-        source: 'Chrome Experiments',
+        source: 'NASA CAMS',
+        url: 'http://cams.seti.org/',
+      },
+      {
+        source: 'American Meteor Society',
+        url: 'http://www.amsmeteors.org/meteor-showers/meteor-shower-calendar/',
+      },
+      {
+        source: 'International Meteor Organization',
+        url: 'http://www.imo.net/resources/calendar/',
+      },
+      {
+        source: 'The SETI Institute',
+        url: 'http://www.seti.org/seti-institute/Meteoroid-Streams-Solar-System',
+      },
+      {
+        source: 'EXOSS Citizen Science',
+        url: 'http://press.exoss.org/',
+      },
+      {
+        source: 'Google Chrome Experiments',
         url: 'https://www.chromeexperiments.com/experiment/meteor-showers',
       },
     ],
