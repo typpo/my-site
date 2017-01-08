@@ -485,6 +485,10 @@ module.exports = [
         url: 'http://press.exoss.org/',
       },
       {
+        source: 'Meteor News',
+        url: 'http://meteornews.org/new-tool-to-visualize-meteor-streams/',
+      },
+      {
         source: 'Google Chrome Experiments',
         url: 'https://www.chromeexperiments.com/experiment/meteor-showers',
       },
