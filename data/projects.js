@@ -206,6 +206,10 @@ module.exports = [
         url: 'http://www.linuxjournal.com/content/august-2016-issue-linux-journal',
       },
       {
+        source: 'Linux Journal, Nov 2016',
+        url: 'http://www.linuxjournal.com/content/message-you-sir',
+      },
+      {
         source: 'CNET',
         url: 'http://www.cnet.com/news/how-to-send-a-text-message-via-command-line-in-os-x/',
       },
