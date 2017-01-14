@@ -105,6 +105,7 @@ module.exports = [
         source: 'Universe Today',
         url: 'http://www.universetoday.com/95169/the-most-profitable-asteroid-is/',
       },
+      'NewSpace Global Thruster, Nov 2013',
       'Daily Express',
       'ProgrammableWeb',
       'Vancouver Sun',
