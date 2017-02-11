@@ -614,7 +614,7 @@ module.exports = [
   },
   {
     title: 'Tensorflow Calculator',
-    desc: 'A regular calculator...written in Tensorflow',
+    desc: 'A normal calculator...written in Tensorflow',
     url: 'https://github.com/typpo/tensorflow-calc',
   },
   {
