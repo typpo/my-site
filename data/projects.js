@@ -551,6 +551,16 @@ module.exports = [
     imgurl: 'http://i.imgur.com/oNx5JzAl.png',
   },
   {
+    title: 'Textbelt v2',
+    desc: 'Reliable, no-bs paid SMS API',
+    imgurl: 'https://i.imgur.com/YN7oEjXl.png',
+  },
+  {
+    title: 'School Scout',
+    desc: 'Federal public school data and rankings',
+    imgurl: 'https://i.imgur.com/CC0jsjUl.png',
+  },
+  {
     title: 'Gifthorse',
     desc: 'A gift suggestion engine',
     imgurl: 'http://www.ianww.com/images/gifthorse.png',
