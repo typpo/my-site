@@ -253,6 +253,7 @@ module.exports = [
     desc: 'Aerial infrared crop monitoring. Disrupt hackathon winner ($5k in prizes)',
     imgurl: 'https://i.imgur.com/SJVfCEg.jpg',
     // url: 'http://harvesters.club',
+    url: 'https://devpost.com/software/harvest',
     press: [
       {
         source: 'TechCrunch',
