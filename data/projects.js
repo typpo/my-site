@@ -498,6 +498,14 @@ module.exports = [
         source: 'Google Chrome Experiments',
         url: 'https://www.chromeexperiments.com/experiment/meteor-showers',
       },
+      {
+        source: 'Warped Meteor Shower discovery announcement (SETI)',
+        url: 'http://www.seti.org/warped-meteor-shower-hits-earth-at-all-angles',
+      },
+      {
+        source: 'Warped Meteor Showers in Phys.org',
+        url: 'https://phys.org/news/2017-03-warped-meteor-showers-earth-angles.html',
+      },
     ],
   },
   {
