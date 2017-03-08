@@ -506,6 +506,10 @@ module.exports = [
         source: 'Warped Meteor Showers in Phys.org',
         url: 'https://phys.org/news/2017-03-warped-meteor-showers-earth-angles.html',
       },
+      {
+        source: 'Inverse.com',
+        url: 'https://www.inverse.com/article/28792-meteor-shower-animations-seti-institute',
+      },
     ],
   },
   {
