@@ -495,6 +495,10 @@ module.exports = [
         url: 'http://www.seti.org/warped-meteor-shower-hits-earth-at-all-angles',
       },
       {
+        source: 'SETI',
+        url: 'http://www.seti.org/seti-institute/news/meteors-radiating-constellation-little-dipper-dec-22-2016',
+      },
+      {
         source: 'Space.com',
         url: 'http://www.space.com/35983-meteor-shower-debris-streams-animation.html',
       },
