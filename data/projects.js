@@ -51,6 +51,10 @@ module.exports = [
       },
       {
         source: 'and again',
+        url: 'http://www.dailymail.co.uk/sciencetech/article-3165222/Asteroid-worth-3-TRILLION-precious-metals-set-pass-Earth-Sunday-watch-live.html',
+      },
+      {
+        source: 'and again',
         url: 'http://www.dailymail.co.uk/sciencetech/article-3073589/Watch-50-years-asteroid-near-misses-Earth-Interactive-map-reveals-THOUSANDS-rocks-skim-planet.html',
       },
       {
@@ -107,6 +111,10 @@ module.exports = [
       },
       'NewSpace Global Thruster, Nov 2013',
       'Daily Express',
+      {
+        source: 'Express',
+        url: 'http://www.express.co.uk/news/nature/576498/EARTH-DESTROYED-football-pitch-sized-asteroids-predicted-HIT-every-5-000-years',
+      },
       'ProgrammableWeb',
       'Vancouver Sun',
       'Spiegel Online',
