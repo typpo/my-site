@@ -471,6 +471,10 @@ module.exports = [
     url: 'http://www.ianww.com/meteor-showers/#Perseid',
     press: [
       {
+        source: 'New York Times',
+        url: 'https://www.nytimes.com/2017/03/24/science/visualizing-the-cosmic-streams-that-spew-meteor-showers.html',
+      },
+      {
         source: 'NASA CAMS',
         url: 'http://cams.seti.org/',
       },
