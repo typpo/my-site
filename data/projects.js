@@ -499,6 +499,9 @@ module.exports = [
         url: 'http://www.space.com/35983-meteor-shower-debris-streams-animation.html',
       },
       {
+        source: 'Haaretz',
+      },
+      {
         source: 'EXOSS Citizen Science',
         url: 'http://press.exoss.org/',
       },
