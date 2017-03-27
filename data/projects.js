@@ -512,6 +512,11 @@ module.exports = [
       },
       {
         source: 'Haaretz',
+        url: 'http://www.haaretz.co.il/news/science/.premium-1.3952849',
+      },
+      {
+        source: 'Microsiervos',
+        url: 'http://www.microsiervos.com/archivo/espacio/como-desde-espacio-principales-lluvias-meteoros.html',
       },
       {
         source: 'EXOSS Citizen Science',
