@@ -82,6 +82,10 @@ module.exports = [
         url: 'http://www.smithsonianmag.com/',
       },
       {
+        source: 'Esquire',
+        url: 'http://www.esquire.com/news-politics/a53650/asteroid-gold-rush/',
+      },
+      {
         source: 'Google Chrome Experiment',
         url: 'http://www.chromeexperiments.com/detail/asterank/',
       },
