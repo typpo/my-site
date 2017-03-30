@@ -523,6 +523,10 @@ module.exports = [
         url: 'http://www.microsiervos.com/archivo/espacio/como-desde-espacio-principales-lluvias-meteoros.html',
       },
       {
+        source: 'Daily Mail',
+        url: 'http://www.dailymail.co.uk/sciencetech/article-4365362/Stunning-interactive-graphic-shows-meteor-shower.html',
+      },
+      {
         source: 'EXOSS Citizen Science',
         url: 'http://press.exoss.org/',
       },
