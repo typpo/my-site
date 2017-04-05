@@ -558,6 +558,10 @@ module.exports = [
         source: 'Inverse.com',
         url: 'https://www.inverse.com/article/28792-meteor-shower-animations-seti-institute',
       },
+      {
+        source: '94.5 The Buzz (Houston)',
+        url: 'http://thebuzz.iheart.com/onair/the-rod-ryan-show-alex-online-49532/alex-online-an-interactive-visualization-of-15648043/',
+      },
     ],
   },
   {
