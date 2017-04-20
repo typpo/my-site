@@ -519,6 +519,14 @@ module.exports = [
         url: 'http://www.space.com/35983-meteor-shower-debris-streams-animation.html',
       },
       {
+        source: 'Sky and Telescope',
+        url: 'http://www.skyandtelescope.com/observing/lyrid-meteor-shower-peaks-this-weekend/',
+      },
+      {
+        source: 'The Weather Network',
+        url: 'https://www.theweathernetwork.com/news/articles/how-to-see-the-earth-day-meteor-shower-2017/81500',
+      },
+      {
         source: 'Haaretz',
         url: 'http://www.haaretz.co.il/news/science/.premium-1.3952849',
       },
