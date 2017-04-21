@@ -555,10 +555,10 @@ module.exports = [
         url: 'https://www.chromeexperiments.com/experiment/meteor-showers',
       },
       {
-      {
         source: 'Flowing Data',
         url: 'http://flowingdata.com/2017/03/27/all-major-meteor-showers-as-seen-from-space/',
       },
+      {
         source: 'Warped Meteor Shower discovery announcement (SETI)',
         url: 'http://www.seti.org/warped-meteor-shower-hits-earth-at-all-angles',
       },
