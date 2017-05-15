@@ -633,7 +633,7 @@ module.exports = [
   },
   {
     title: 'Textbelt v2',
-    desc: 'Reliable, no-bs paid SMS API',
+    desc: 'Simple, reliable SMS API',
     imgurl: 'https://i.imgur.com/YN7oEjXl.png',
     url: 'https://textbelt.com/',
   },
