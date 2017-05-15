@@ -635,11 +635,13 @@ module.exports = [
     title: 'Textbelt v2',
     desc: 'Reliable, no-bs paid SMS API',
     imgurl: 'https://i.imgur.com/YN7oEjXl.png',
+    url: 'https://textbelt.com/',
   },
   {
     title: 'School Scout',
     desc: 'Federal public school data and rankings',
     imgurl: 'https://i.imgur.com/CC0jsjUl.png',
+    url: 'http://www.schoolscout.org/',
   },
   {
     title: 'Gifthorse',
