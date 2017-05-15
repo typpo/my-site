@@ -29,6 +29,7 @@ export default React.createClass({
 
     return (
       <a className="project-link"
+          target="_blank"
           href={this.props.data.url}>
         <div className="project flex-item-default"
               style={style}
