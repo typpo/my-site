@@ -1,5 +1,11 @@
 module.exports = [
   {
+    title: 'Twilio SIGNAL',
+    desc: 'Congress on Speed Dial: Advocacy in the Age of Twilio',
+    where: 'SF',
+    conf_url: 'https://www.twilio.com/signal',
+  },
+  {
     title: 'University of South Carolina',
     desc: 'How Data is Transforming the World: Hacking Tech, Aerospace, and Global Health',
     where: 'Darla Moore School of Business',
