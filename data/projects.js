@@ -440,6 +440,10 @@ module.exports = [
         source: 'Twilio Blog',
         url: 'https://www.twilio.com/blog/2016/06/call-congress-using-one-phone-number.html',
       },
+      {
+        source: 'Twilio Blog 2',
+        url: 'https://www.twilio.com/blog/2017/05/calls-congress-node-js-twilio.html',
+      },
     ],
   },
   {
