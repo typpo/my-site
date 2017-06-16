@@ -3,6 +3,7 @@ module.exports = [
     title: 'Twilio SIGNAL',
     desc: 'Congress on Speed Dial: Advocacy in the Age of Twilio',
     where: 'SF',
+    talk_url: 'https://www.youtube.com/watch?v=pfsO5SnCTDo',
     conf_url: 'https://www.twilio.com/signal',
   },
   {
