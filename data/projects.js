@@ -582,6 +582,26 @@ module.exports = [
         source: '94.5 The Buzz (Houston)',
         url: 'http://thebuzz.iheart.com/onair/the-rod-ryan-show-alex-online-49532/alex-online-an-interactive-visualization-of-15648043/',
       },
+      {
+        source: 'CNET',
+        url: 'https://www.cnet.com/news/perseid-delta-aquariid-alpha-capricornid-meteor-shower-peak/',
+      },
+      {
+        source: 'TrustMyScience.com',
+        url: 'http://trustmyscience.com/etoiles-filantes-le-spectacle-des-perseides-a-commence/',
+      },
+      {
+        source: 'Stelvision.com',
+        url: 'http://stelvision.com/perseides/',
+      },
+      {
+        source: 'Tycho Brahe Planetarium',
+        url: 'http://www.planetariet.dk/astronomi-rumfart/nyheder/gode-chancer-for-stjerneskud',
+      },
+      {
+        source: 'Videnskab.dk',
+        url: 'http://videnskab.dk/naturvidenskab/kig-op-nu-er-der-gode-chancer-for-stjerneskud',
+      },
     ],
   },
   {
