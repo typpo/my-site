@@ -26,6 +26,10 @@ module.exports = [
         url: 'http://www.nytimes.com/2016/05/24/science/asteroids-nathan-myhrvold-nasa.html',
       },
       {
+        source: 'New York Times Space Calendar',
+        url: 'https://www.nytimes.com/interactive/2017/science/astronomy-space-calendar.html',
+      },
+      {
         source: 'Seeking Alpha',
         url: 'http://seekingalpha.com/article/1579972-i-am-sticking-with-gold-a-critique-of-the-golden-dilemma',
       },
@@ -499,8 +503,16 @@ module.exports = [
         url: 'http://www.amsmeteors.org/meteor-showers/meteor-shower-calendar/',
       },
       {
+        source: 'American Meteor Society 2',
+        url: 'http://amsmeteors.org/2017/08/viewing-the-perseids-in-2017/',
+      },
+      {
         source: 'International Meteor Organization',
         url: 'http://www.imo.net/resources/calendar/',
+      },
+      {
+        source: 'International Meteor Organization 2',
+        url: 'http://www.imo.net/observing-the-perseids-in-2017/',
       },
       {
         source: 'The SETI Institute',
@@ -511,8 +523,16 @@ module.exports = [
         url: 'http://www.seti.org/warped-meteor-shower-hits-earth-at-all-angles',
       },
       {
-        source: 'SETI',
+        source: 'SETI 3',
         url: 'http://www.seti.org/seti-institute/news/meteors-radiating-constellation-little-dipper-dec-22-2016',
+      },
+      {
+        source: 'SETI 4',
+        url: 'http://www.seti.org/perseid-meteor-shower-space',
+      },
+      {
+        source: 'NASA APOD (as a reference)',
+        url: 'https://apod.nasa.gov/apod/ap170801.html',
       },
       {
         source: 'Science Node',
@@ -537,6 +557,10 @@ module.exports = [
       {
         source: 'Microsiervos',
         url: 'http://www.microsiervos.com/archivo/espacio/como-desde-espacio-principales-lluvias-meteoros.html',
+      },
+      {
+        source: 'Microsiervos 2',
+        url: 'http://www.microsiervos.com/archivo/ciencia/lluvias-estrellas-en-tu-navegador.html',
       },
       {
         source: 'Daily Mail',
@@ -587,6 +611,10 @@ module.exports = [
         url: 'https://www.cnet.com/news/perseid-delta-aquariid-alpha-capricornid-meteor-shower-peak/',
       },
       {
+        source: 'CBC News',
+        url: 'http://www.cbc.ca/news/technology/perseid-meteors-photos-1.4246366',
+      },
+      {
         source: 'TrustMyScience.com',
         url: 'http://trustmyscience.com/etoiles-filantes-le-spectacle-des-perseides-a-commence/',
       },
@@ -599,8 +627,52 @@ module.exports = [
         url: 'http://www.planetariet.dk/astronomi-rumfart/nyheder/gode-chancer-for-stjerneskud',
       },
       {
+        source: 'Tycho Brahe Planetarium 2',
+        url: 'http://www.planetariet.dk/astronomi-rumfart/nyheder/perseiderne-op-mod-100-stjerneskud-i-timen',
+      },
+      {
         source: 'Videnskab.dk',
         url: 'http://videnskab.dk/naturvidenskab/kig-op-nu-er-der-gode-chancer-for-stjerneskud',
+      },
+      {
+        source: 'Positivr',
+        url: 'http://positivr.fr/etoiles-filantes-meteorites-perseides-2017/',
+      },
+      {
+        source: 'Express.co.uk',
+        url: 'https://express.co.uk/news/science/839096/Perseid-meteor-shower-2017-what-time-where-to-watch',
+      },
+      {
+        source: 'Sky and Telescope',
+        url: 'http://www.skyandtelescope.com/observing/bright-moon-compromises-weekend-perseid-meteor-shower/',
+      },
+      {
+        source: 'Stelvision',
+        url: 'http://stelvision.com/perseides/',
+      },
+      {
+        source: 'EarthSky.org',
+        url: 'http://earthsky.org/todays-image/visualization-perseid-meteor-stream-ian-webster',
+      },
+      {
+        source: 'EarthSky.org 2',
+        url: 'http://earthsky.org/astronomy-essentials/how-to-minimize-moon-and-optimize-meteor-shower',
+      },
+      {
+        source: 'ABC News 10 San Diego',
+        url: 'http://www.10news.com/lifestyle/perseids-meteor-shower-the-light-up-san-diegos-skies',
+      },
+      {
+        source: 'Le Tribunal du Net',
+        url: 'http://www.letribunaldunet.fr/actualites/perseides-etoiles-filantes.html',
+      },
+      {
+        source: 'L\'Independant',
+        url: 'http://www.lindependant.fr/2017/08/12/ce-qu-il-faut-savoir-des-perseides-cette-pluie-d-etoiles-filantes-attendue-cette-nuit,3041457.php',
+      },
+      {
+        source: 'Science Post',
+        url: 'http://sciencepost.fr/2017/08/perseides-12-aout-ne-manquez-cette-fameuse-pluie-de-meteores/',
       },
     ],
   },
