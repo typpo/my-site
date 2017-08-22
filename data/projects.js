@@ -294,6 +294,10 @@ module.exports = [
     url: 'http://www.ianww.com/asteroid-viewer',
     press: [
       'Learning Three.js',
+      {
+        source: 'Google Chrome Experiments',
+        url: 'https://experiments.withgoogle.com/chrome/asteroid-viewer',
+      },
     ],
   },
   {
