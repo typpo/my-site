@@ -30,6 +30,9 @@ module.exports = [
         url: 'https://www.nytimes.com/interactive/2017/science/astronomy-space-calendar.html',
       },
       {
+        source: 'National Geographic (August 2017)',
+      },
+      {
         source: 'Seeking Alpha',
         url: 'http://seekingalpha.com/article/1579972-i-am-sticking-with-gold-a-critique-of-the-golden-dilemma',
       },
