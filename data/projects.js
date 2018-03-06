@@ -265,6 +265,10 @@ module.exports = [
       'Chrome Experiments',
       'Learning Three.js',
       'TYS Magazine',
+      {
+        source: 'Science Node',
+        url: 'https://sciencenode.org/feature/from-3d-rendering-to-beyond.php',
+      },
     ],
   },
   {
