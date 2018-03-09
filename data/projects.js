@@ -33,6 +33,10 @@ module.exports = [
         source: 'National Geographic (August 2017)',
       },
       {
+        source: 'Bloomberg',
+        url: 'https://www.bloomberg.com/graphics/2018-asteroid-mining/',
+      },
+      {
         source: 'Seeking Alpha',
         url: 'http://seekingalpha.com/article/1579972-i-am-sticking-with-gold-a-critique-of-the-golden-dilemma',
       },
