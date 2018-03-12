@@ -26,6 +26,10 @@ module.exports = [
         url: 'http://www.nytimes.com/2016/05/24/science/asteroids-nathan-myhrvold-nasa.html',
       },
       {
+        source: 'Vice',
+        url: 'https://news.vice.com/article/tiny-luxembourg-looks-to-make-a-big-splash-in-asteroid-mining',
+      },
+      {
         source: 'New York Times Space Calendar',
         url: 'https://www.nytimes.com/interactive/2017/science/astronomy-space-calendar.html',
       },
