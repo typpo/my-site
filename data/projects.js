@@ -77,6 +77,10 @@ module.exports = [
         url: 'http://qz.com/184502/the-ultra-rich-are-starting-to-like-the-risks-involved-in-asteroid-mining/',
       },
       {
+        source: 'Times of India',
+        url: 'https://timesofindia.indiatimes.com/home/science/why-nasa-is-going-two-million-kilometres-to-mine-an-asteroid/articleshow/63281139.cms',
+      },
+      {
         source: 'Space.com',
         url: 'http://www.space.com/20959-nasa-space-apps-virtual-winners.html',
       },
