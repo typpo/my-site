@@ -481,7 +481,7 @@ module.exports = [
     title: 'Inflation Calculator',
     desc: 'Historical inflation data and predictions',
     imgurl: 'http://www.ianww.com/images/in2013dollars.png',
-    url: 'http://www.in2013dollars.com',
+    url: 'https://www.officialdata.org',
   },
   {
     title: 'Gilded Age',
