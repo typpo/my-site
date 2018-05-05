@@ -271,6 +271,10 @@ module.exports = [
         source: 'Washington Post',
         url: 'https://www.washingtonpost.com/national/health-science/ancient-earth-globe-lets-you-travel-back-in-time-for-a-look-at-the-planet/2018/03/23/b35c0ba0-2c6a-11e8-8ad6-fbc50284fce8_story.html?utm_term=.9dc230593d2c',
       },
+      {
+        source: 'Daily Mail',
+        url: 'http://www.dailymail.co.uk/sciencetech/article-5692167/Interactive-map-lets-travel-time-planet-600-million-years-history.html',
+      },
       'RT',
       'Informador',
       'FrentFastasma',
