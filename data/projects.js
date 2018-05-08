@@ -275,6 +275,14 @@ module.exports = [
         source: 'Daily Mail',
         url: 'http://www.dailymail.co.uk/sciencetech/article-5692167/Interactive-map-lets-travel-time-planet-600-million-years-history.html',
       },
+      {
+        source: 'IFLScience',
+        url: 'http://www.iflscience.com/environment/interactive-globe-lets-you-see-what-the-earth-looked-like-600-million-years-ago/',
+      },
+      {
+        source: 'BT',
+        url: 'http://home.bt.com/news/science-news/interactive-map-shows-what-earth-looked-like-600-million-years-ago-11364269336759',
+      },
       'RT',
       'Informador',
       'FrentFastasma',
