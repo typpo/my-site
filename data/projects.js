@@ -161,6 +161,10 @@ module.exports = [
       'Infosthetics',
       'a WSJ infographic',
       {
+        source: 'Physics Central',
+        url: 'http://physicsbuzz.physicscentral.com/2018/06/a-japanese-spacecraft-is-closing-in-on.html',
+      },
+      {
         source: 'Mother Nature Network',
         url: 'http://www.mnn.com/earth-matters/space/stories/what-asteroid-worth',
       },
