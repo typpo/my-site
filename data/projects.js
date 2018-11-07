@@ -18,6 +18,10 @@ module.exports = [
         url: 'http://www.forbes.com/sites/abigailtracy/2015/07/20/these-are-the-priciest-asteroids-in-the-galaxy/',
       },
       {
+        source: 'Forbes',
+        url: 'https://www.forbes.com/sites/ericmack/2018/11/05/spacecraft-are-about-to-sample-two-asteroids-worth-over-83-billion-combined/#32f14527f2e6',
+      },
+      {
         source: 'Science Illustrated',
         url: 'http://scienceillustrated.com.au/blog/',
       },
