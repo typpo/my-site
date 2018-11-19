@@ -807,6 +807,12 @@ module.exports = [
     url: 'http://github.com/typpo/gaia',
   },
   {
+    title: 'Vote Banner',
+    desc: 'Simple way for webmasters to support democracy - half a million people served',
+    imgurl: 'https://vote.speaklouder.org/images/example.png',
+    url: 'http://github.com/typpo/vote-banner',
+  },
+  {
     title: 'Alioth',
     desc: 'Space data and visualization consulting',
     imgurl: 'https://i.imgur.com/p3pS4zAm.jpg',
