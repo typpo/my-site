@@ -809,7 +809,7 @@ module.exports = [
   {
     title: 'Vote Banner',
     desc: 'Simple way for webmasters to support democracy - half a million people served',
-    imgurl: 'https://vote.speaklouder.org/images/example.png',
+    imgurl: 'https://i.imgur.com/U00DZDll.png',
     url: 'http://github.com/typpo/vote-banner',
   },
   {
