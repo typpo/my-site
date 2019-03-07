@@ -308,6 +308,15 @@ module.exports = [
     ],
   },
   {
+    title: 'QuickChart',
+    desc: 'Generate chart images from a URL',
+    imgurl: 'https://i.imgur.com/NLUrAfg.png',
+    url: 'https://quickchart.io/',
+    press: [
+    ],
+    hackathon: {},
+  },
+  {
     title: 'Harvest',
     desc: 'Aerial infrared crop monitoring. Disrupt hackathon winner ($5k in prizes)',
     imgurl: 'https://i.imgur.com/SJVfCEg.jpg',
@@ -399,6 +408,16 @@ module.exports = [
     desc: 'Crowdsourced asteroid discovery. Over a quarter million images reviewed',
     imgurl: 'http://www.ianww.com/images/asterank_discover.png',
     url: 'http://www.asterank.com/discover',
+  },
+  {
+    title: 'Space Reference',
+    desc: 'Data and simulations for nearly a million celestial objects',
+    imgurl: 'https://i.imgur.com/BnpJux2l.png',
+    url: 'https://www.spacereference.org/',
+    press: [
+      'MetaFilter',
+      'Boingboing',
+    ],
   },
   {
     title: 'Verified Facts',
@@ -762,6 +781,12 @@ module.exports = [
     url: 'http://www.speaklouder.org/',
   },
   {
+    title: 'Vote Banner',
+    desc: 'Easy way to add a voter registration CTA to your website',
+    imgurl: 'https://i.imgur.com/W4w49zHl.jpg',
+    url: 'https://vote.speaklouder.org/',
+  },
+  {
     title: 'Wololo',
     desc: 'Conversion-boosting widgets for ecommerce. Reached 1M views/mo',
     imgurl: 'http://i.imgur.com/J3kR1Ljl.jpg',
@@ -807,10 +832,10 @@ module.exports = [
     url: 'http://github.com/typpo/gaia',
   },
   {
-    title: 'Vote Banner',
-    desc: 'Simple way for webmasters to support democracy - half a million people served',
-    imgurl: 'https://i.imgur.com/U00DZDll.png',
-    url: 'http://github.com/typpo/vote-banner',
+    title: 'Astrokit',
+    desc: 'Web-based tools for performing asteroid lightcurve photometry',
+    imgurl: 'https://i.imgur.com/5JyIKgFl.png',
+    url: 'http://www.astrokit.org/',
   },
   {
     title: 'Alioth',
