@@ -310,11 +310,8 @@ module.exports = [
   {
     title: 'QuickChart',
     desc: 'Generate chart images from a URL',
-    imgurl: 'https://i.imgur.com/NLUrAfg.png',
+    imgurl: 'https://i.imgur.com/CTIYhwz.png',
     url: 'https://quickchart.io/',
-    press: [
-    ],
-    hackathon: {},
   },
   {
     title: 'Harvest',
