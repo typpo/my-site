@@ -1,6 +1,7 @@
 import React from 'react'
 import Project from './Project'
 import PostList from './PostList'
+import FriendList from './FriendList'
 import projectData from '../../../data/projects.js'
 
 if (typeof window === undefined) {
@@ -43,6 +44,7 @@ export default React.createClass({
           </ul>
         </div>
         <PostList/>
+        <FriendList/>
       </div>
     );
   },
