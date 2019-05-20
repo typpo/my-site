@@ -411,9 +411,17 @@ module.exports = [
     desc: 'Data and simulations for nearly a million celestial objects',
     imgurl: 'https://i.imgur.com/BnpJux2l.png',
     url: 'https://www.spacereference.org/',
+  },
+  {
+    title: 'SpaceKit',
+    desc: 'Easy visualization for 3D space visualizations',
+    imgurl: 'http://i.imgur.com/tKUogDEl.png',
+    url: 'https://typpo.github.io/spacekit/',
     press: [
-      'MetaFilter',
-      'Boingboing',
+      {
+        source: 'Maker Faire',
+        url: 'https://makerfaire.com/maker/entry/69991',
+      },
     ],
   },
   {
