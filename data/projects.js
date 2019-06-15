@@ -291,6 +291,10 @@ module.exports = [
         source: 'BT',
         url: 'http://home.bt.com/news/science-news/interactive-map-shows-what-earth-looked-like-600-million-years-ago-11364269336759',
       },
+      {
+        source: 'Smithsonian Magazine',
+        url: 'https://www.smithsonianmag.com/smart-news/map-lets-you-plug-your-address-see-how-neighborhood-has-changed-over-past-750-million-years-180971507/',
+      },
       'RT',
       'Informador',
       'FrentFastasma',
