@@ -825,8 +825,7 @@ module.exports = [
   {
     title: 'School Scout',
     desc: 'Federal public school data and rankings',
-    imgurl: 'https://i.imgur.com/CC0jsjUl.png',
-    url: 'http://www.schoolscout.org/',
+    imgurl: 'https://i.imgur.com/CC0jsjUl.png'
   },
   {
     title: 'Gifthorse',
