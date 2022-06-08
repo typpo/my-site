@@ -2,10 +2,6 @@ import React from 'react'
 import Press from '../components/Press'
 import projectData from '../data/projects.js'
 
-if (typeof window === undefined) {
-  require('../../../css/press.scss')
-}
-
 export default React.createClass({
   getInitialState() {
     return {

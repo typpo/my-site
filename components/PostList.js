@@ -1,9 +1,5 @@
 import React from 'react'
 
-if (typeof window === undefined) {
-  require('../../../css/genericlist.scss')
-}
-
 export default class PostList extends React.Component {
   render() {
     return (

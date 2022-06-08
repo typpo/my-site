@@ -1,9 +1,5 @@
 import React from 'react'
 
-if (typeof window === undefined) {
-  require('../../../css/genericlist.scss')
-}
-
 export default class FriendList extends React.Component {
   render() {
     return (

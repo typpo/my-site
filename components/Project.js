@@ -1,46 +1,6 @@
 import React from 'react'
-import CVM from 'react-component-visibility'
 
-if (typeof window === undefined) {
-  require('../../../css/projects.scss')
-}
-
-export default React.createClass({
-  mixins: [CVM],
-  getInitialState() {
-    return {
-      hover: false,
-      hasEverBeenVisible: false,
-    }
-  },
-  render() {
-    var style = {};
-    if (this.props.data.imgurl) {
-      if (this.state.hover) {
-        style['backgroundImage'] = 'url(' + this.props.data.imgurl + ')';
-      } else if(this.state.hasEverBeenVisible) {
-        style['backgroundImage'] = 'linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(' +
-                this.props.data.imgurl + ')';
-      }
-    }
-    if (this.props.data.url) {
-      style['cursor'] = 'pointer';
-    }
-
-    return (
-      <a className="project-link"
-          target="_blank"
-          href={this.props.data.url}>
-        <div className="project flex-item-default"
-              style={style}
-             onMouseOver={this.onMouseOver}
-             onMouseOut={this.onMouseOut}>
-          <h3 className="title">{this.props.data.title}</h3>
-          <div className="desc">{this.props.data.desc}</div>
-        </div>
-      </a>
-    );
-  },
+/*
   onMouseOver(event) {
     this.setState({
       hover: true,
@@ -59,4 +19,43 @@ export default React.createClass({
       });
     }
   },
-})
+  */
+const Projects = (props) => {
+
+  /*
+      return {
+      hover: false,
+      hasEverBeenVisible: false,
+    }
+    */
+
+  var style = {};
+  if (props.data.imgurl) {
+    if (state.hover) {
+      style['backgroundImage'] = 'url(' + props.data.imgurl + ')';
+    } else if(state.hasEverBeenVisible) {
+      style['backgroundImage'] = 'linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(' +
+              props.data.imgurl + ')';
+    }
+  }
+  if (props.data.url) {
+    style['cursor'] = 'pointer';
+  }
+
+  return (
+    <a className="project-link"
+        target="_blank"
+        href={props.data.url}>
+      <div className="project flex-item-default"
+            style={style}
+           onMouseOver={onMouseOver}
+           onMouseOut={onMouseOut}>
+        <h3 className="title">{props.data.title}</h3>
+        <div className="desc">{props.data.desc}</div>
+      </div>
+    </a>
+  );
+
+};
+
+export default Projects;

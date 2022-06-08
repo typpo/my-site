@@ -8,10 +8,6 @@ import PressList from './components/PressList'
 import ProjectList from './components/ProjectList'
 import TalkList from './components/TalkList'
 
-if (typeof window === undefined) {
-  require('../../css/main.scss')
-}
-
 // NOTE anything here must be added to server.js too.
 export default (
   <Route path="/" handler={App}>

@@ -4,10 +4,6 @@ import ProjectList from './ProjectList'
 
 import { Link, RouteHandler } from 'react-router'
 
-if (typeof window === undefined) {
-  require('../../../css/nav.scss')
-}
-
 export default class App extends React.Component {
   render() {
     return (

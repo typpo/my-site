@@ -1,13 +1,12 @@
 import React from 'react'
-import Project from '../src/shared/components/Project'
-import PostList from '../src/shared/components/PostList'
+import Project from '../components/Project'
+import PostList from '../components/PostList'
 import FriendList from '../components/FriendList'
 import projectData from '../data/projects.js'
 
-if (typeof window === undefined) {
-  require('../../../css/projects.scss')
-  require('../../../css/genericlist.scss')
-}
+const Projects  (props) => {
+
+};
 
 export default React.createClass({
   getInitialState() {

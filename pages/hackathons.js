@@ -1,10 +1,6 @@
 import React from 'react'
-import Hack from '../src/shared/components/Hack'
+import Hack from '../components/Hack'
 import projectData from '../data/projects.js'
-
-if (typeof window === undefined) {
-  require('../../../css/hacks.scss')
-}
 
 export default React.createClass({
   getInitialState() {
