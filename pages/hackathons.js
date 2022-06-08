@@ -1,6 +1,6 @@
 import React from 'react'
-import Hack from './Hack'
-import projectData from '../../../data/projects.js'
+import Hack from '../src/shared/components/Hack'
+import projectData from '../data/projects.js'
 
 if (typeof window === undefined) {
   require('../../../css/hacks.scss')

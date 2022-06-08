@@ -1,8 +1,8 @@
 import React from 'react'
-import Project from './Project'
-import PostList from './PostList'
-import FriendList from './FriendList'
-import projectData from '../../../data/projects.js'
+import Project from '../src/shared/components/Project'
+import PostList from '../src/shared/components/PostList'
+import FriendList from '../components/FriendList'
+import projectData from '../data/projects.js'
 
 if (typeof window === undefined) {
   require('../../../css/projects.scss')

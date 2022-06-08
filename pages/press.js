@@ -1,6 +1,6 @@
 import React from 'react'
-import Press from './Press'
-import projectData from '../../../data/projects.js'
+import Press from '../components/Press'
+import projectData from '../data/projects.js'
 
 if (typeof window === undefined) {
   require('../../../css/press.scss')
