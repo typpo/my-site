@@ -1,5 +1,4 @@
-import Header from '../components/Header';
-import About from '../components/About';
+import Page from '../components/Page';
 
 import PostList from '../components/PostList';
 import FriendList from '../components/FriendList';
@@ -9,15 +8,13 @@ import Talks from '../components/Talks';
 
 const Index = () => {
   return (
-    <>
-      <Header />
-      <About />
+    <Page>
       <Projects />
       <TextProjects />
       <PostList/>
       <FriendList />
       <Talks />
-    </>
+    </Page>
   )
 };
 
