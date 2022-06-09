@@ -1,4 +1,3 @@
-import React from 'react'
 
 /*
   onMouseOver(event) {
@@ -19,23 +18,23 @@ import React from 'react'
       });
     }
   },
+
+           onMouseOver={onMouseOver}
+           onMouseOut={onMouseOut}
   */
-const Projects = (props) => {
 
-  /*
-      return {
-      hover: false,
-      hasEverBeenVisible: false,
-    }
-    */
+const Project = (props) => {
 
+  const state = {
+    hover: false,
+    hasEverBeenVisible: false,
+  }
   var style = {};
   if (props.data.imgurl) {
     if (state.hover) {
       style['backgroundImage'] = 'url(' + props.data.imgurl + ')';
     } else if(state.hasEverBeenVisible) {
-      style['backgroundImage'] = 'linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(' +
-              props.data.imgurl + ')';
+      style['backgroundImage'] = 'linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(' + props.data.imgurl + ')';
     }
   }
   if (props.data.url) {
@@ -43,13 +42,8 @@ const Projects = (props) => {
   }
 
   return (
-    <a className="project-link"
-        target="_blank"
-        href={props.data.url}>
-      <div className="project flex-item-default"
-            style={style}
-           onMouseOver={onMouseOver}
-           onMouseOut={onMouseOut}>
+    <a className="project-link" target="_blank" href={props.data.url}>
+      <div className="project flex-item-default" style={style}>
         <h3 className="title">{props.data.title}</h3>
         <div className="desc">{props.data.desc}</div>
       </div>
@@ -58,4 +52,4 @@ const Projects = (props) => {
 
 };
 
-export default Projects;
+export default Project;
