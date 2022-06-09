@@ -8,23 +8,7 @@
     <link rel="stylesheet" href="/build/app.css" />
   </head>
   <body>
-    <div id="header">
-      <div class="header-image">
-        <img src="http://www.ianww.com/blog/content/images/2015/07/potato_medium-1-1.jpg">
-      </div>
-      <h1>Ian Webster</h1>
-      <p class="links">
-        <script>
-  document.write('<a href="mailto:si' + 'te@i' + String.fromCharCode(97) + 'nww.com">Email</a> &middot;');
-        </script>
-        <a href="https://github.com/typpo">Github</a> &middot;
-        <a href="http://linkedin.com/in/ianww">LinkedIn</a> &middot;
-        <a href="https://twitter.com/iwebst">Twitter</a> &middot;
-        <a href="https://www.facebook.com/ianww">Facebook</a> &middot;
-        <a href="/blog">Posts</a>
-      </p>
 
-    </div>
     <div class="flex-container about-container">
       <div id="about">
         <p>

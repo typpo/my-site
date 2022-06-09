@@ -1,4 +1,4 @@
-module.exports = [
+const projects = [
   {
     title: 'Asterank',
     desc: 'Crawl, visualize, and compute on all known asteroids',
@@ -971,4 +971,6 @@ module.exports = [
       },
     ],
   },
-]
+];
+
+module.exports = projects;

@@ -1,4 +1,4 @@
-module.exports = [
+const talks = [
   {
     title: 'Twilio SIGNAL',
     desc: 'Congress on Speed Dial: Advocacy in the Age of Twilio',
@@ -82,4 +82,5 @@ module.exports = [
     where: 'Mountain View, CA',
     conf_url: 'https://www.nasa.gov/content/asteroid-hackathon',
   },
-]
+];
+module.exports = talks;
