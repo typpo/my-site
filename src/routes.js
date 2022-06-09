@@ -1,12 +1,12 @@
-import React from 'react';
-import { Route, Router } from 'react-router';
+import React from "react";
+import { Route, Router } from "react-router";
 
 //import { AppHandler, App, ProjectList, TalkList } from './components'
-import App from './components/App'
-import HackList from './components/HackList'
-import PressList from './components/PressList'
-import ProjectList from './components/ProjectList'
-import TalkList from './components/TalkList'
+import App from "./components/App";
+import HackList from "./components/HackList";
+import PressList from "./components/PressList";
+import ProjectList from "./components/ProjectList";
+import TalkList from "./components/TalkList";
 
 // NOTE anything here must be added to server.js too.
 export default (

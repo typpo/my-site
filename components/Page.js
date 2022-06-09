@@ -1,5 +1,5 @@
-import Header from './Header';
-import About from './About';
+import Header from "./Header";
+import About from "./About";
 
 const Page = ({ children }) => {
   return (
@@ -8,7 +8,7 @@ const Page = ({ children }) => {
       <About />
       {children}
     </div>
-  )
+  );
 };
 
 export default Page;

@@ -1,4 +1,3 @@
-
 /*
   onMouseOver(event) {
     this.setState({
@@ -24,21 +23,23 @@
   */
 
 const Project = (props) => {
-
   const state = {
     hover: false,
     hasEverBeenVisible: false,
-  }
+  };
   var style = {};
   if (props.data.imgurl) {
     if (state.hover) {
-      style['backgroundImage'] = 'url(' + props.data.imgurl + ')';
-    } else if(state.hasEverBeenVisible) {
-      style['backgroundImage'] = 'linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(' + props.data.imgurl + ')';
+      style["backgroundImage"] = "url(" + props.data.imgurl + ")";
+    } else if (state.hasEverBeenVisible) {
+      style["backgroundImage"] =
+        "linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(" +
+        props.data.imgurl +
+        ")";
     }
   }
   if (props.data.url) {
-    style['cursor'] = 'pointer';
+    style["cursor"] = "pointer";
   }
 
   return (
@@ -49,7 +50,6 @@ const Project = (props) => {
       </div>
     </a>
   );
-
 };
 
 export default Project;
