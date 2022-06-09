@@ -1,9 +1,24 @@
-import Page from '../components/Page'
+import Header from '../components/Header';
+import About from '../components/About';
 
-export default function Home() {
+import PostList from '../components/PostList';
+import FriendList from '../components/FriendList';
+import Projects from '../components/Projects';
+import TextProjects from '../components/TextProjects';
+import Talks from '../components/Talks';
+
+const Index = () => {
   return (
-    <Page>
-      <h1>This is the Home page</h1>
-    </Page>
+    <>
+      <Header />
+      <About />
+      <Projects />
+      <TextProjects />
+      <PostList/>
+      <FriendList />
+      <Talks />
+    </>
   )
-}
+};
+
+export default Index;
