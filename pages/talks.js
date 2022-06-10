@@ -1,4 +1,4 @@
-import Talk from "./Talk";
+import Talk from "../components/Talk";
 import talkData from "../data/talks.js";
 
 const Talks = () => {
