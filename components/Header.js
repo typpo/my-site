@@ -10,6 +10,7 @@ const Header = () => {
           alt="The Space Potato"
           width="29"
           height="22"
+          loader={({src}) => src}
         />
       </div>
       <h1>Ian Webster</h1>
