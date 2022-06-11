@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier -w components data lib pages"
+    "format": "prettier -w components data lib pages .eslintrc.js"
   },
   "dependencies": {
     "next": "latest",
