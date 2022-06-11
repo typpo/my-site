@@ -8,11 +8,11 @@ const QuickSwitcher = () => {
     <div className="nav">
       <strong>&raquo;</strong> &nbsp;
       <Link href="/">
-        <a className={router.pathname === '/' ? 'active' : ''}>Projects</a>
+        <a className={router.pathname === "/" ? "active" : ""}>Projects</a>
       </Link>
       &nbsp;&middot;&nbsp;
       <Link href="/talks">
-        <a className={router.pathname === '/talks' ? 'active' : ''}>Talks</a>
+        <a className={router.pathname === "/talks" ? "active" : ""}>Talks</a>
       </Link>
     </div>
   );

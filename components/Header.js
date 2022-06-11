@@ -11,7 +11,7 @@ const Header = () => {
           width="29"
           height="22"
           unoptimized
-          loader={({src}) => src}
+          loader={({ src }) => src}
         />
       </div>
       <h1>Ian Webster</h1>

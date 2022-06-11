@@ -15,7 +15,7 @@ const Project = ({ data }) => {
           priority={data.isPriority}
           alt={data.title}
           unoptimized
-          loader={({src}) => src}
+          loader={({ src }) => src}
         />
         <h3 className="title">{data.title}</h3>
         <div className="desc">{data.desc}</div>
