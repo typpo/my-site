@@ -30,4 +30,4 @@ jobs:
         username: ${{ secrets.USER }}
         key: ${{ secrets.DEPLOY_KEY }}
         source: out/*
-        target: /home/ian/ianww.com2/
+        target: /home/ian/ianww.com2
