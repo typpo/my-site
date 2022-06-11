@@ -10,6 +10,7 @@ const Header = () => {
           alt="The Space Potato"
           width="29"
           height="22"
+          unoptimized
           loader={({src}) => src}
         />
       </div>

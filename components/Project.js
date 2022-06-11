@@ -14,6 +14,7 @@ const Project = ({ data }) => {
           layout="fill"
           priority={data.isPriority}
           alt={data.title}
+          unoptimized
           loader={({src}) => src}
         />
         <h3 className="title">{data.title}</h3>
