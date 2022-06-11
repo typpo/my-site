@@ -26,7 +26,7 @@ jobs:
       run: |
           npx next build
           npx next export
-      uses: burnett01/rsync-deployments@5.2
+    - uses: burnett01/rsync-deployments@5.2
       with:
         switches: -avzr --delete
         path: out/
