@@ -1,5 +1,5 @@
 .flex-container {
-  display:flex;
+  display: flex;
   flex-flow: row wrap;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -28,11 +28,6 @@
 
   margin-right: 15px;
   margin-top: 15px;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #eee;
-  background-size: cover;
 
   color: #fff;
 
@@ -64,3 +59,10 @@
   font-weight: 500;
 }
 
+.project img {
+  object-fit: cover;
+
+  &:hover {
+    filter: brightness(110%);
+  }
+}

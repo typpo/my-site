@@ -1,0 +1,36 @@
+name: Deploy to server
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      with:
+        node-version-file: '.nvmrc'
+    - name: Install
+      run: npm ci
+    - name: Build and Deploy
+      env:
+        NODE_ENV: production
+        REACT_APP_GA_TRACKING_ID: UA-52596552-1
+      run: |
+          npx next build
+          npx next export
+      uses: burnett01/rsync-deployments@5.2
+      with:
+        switches: -avzr --delete
+        path: out/
+        remote_path: /home/ian/ianww.com/
+        remote_host: ${{ secrets.HOST }}
+        remote_user: ${{ secrets.USER }}
+        remote_key: ${{ secrets.DEPLOY_KEY }}
