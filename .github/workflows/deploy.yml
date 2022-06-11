@@ -29,5 +29,6 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.DEPLOY_KEY }}
-        source: "out/*"
+        source: "out/"
         target: "/home/ian/ianww.com2"
+        strip_components: 1
