@@ -1,7 +1,7 @@
+import Page from "../components/Page";
+
 import PressItem from "../components/Press";
 import projectData from "../data/projects";
-
-
 
 const Press = () => {
 
@@ -16,10 +16,12 @@ const Press = () => {
         );
       });
     return (
-      <div className="press-list">
-        <h2>Best-effort press compilation</h2>
-        {press}
-      </div>
+      <Page>
+        <div className="press-list">
+          <h2>Best-effort press compilation</h2>
+          {press}
+        </div>
+      </Page>
     );
   };
 
