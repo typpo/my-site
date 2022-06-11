@@ -1,7 +1,7 @@
 name: Deploy to server
 on:
   push:
-    branches: 
+    branches:
       - main
   workflow_dispatch:
 jobs:
@@ -30,7 +30,7 @@ jobs:
       with:
         switches: -avzr --delete
         path: out/
-        remote_path: /var/www/html/
+        remote_path: /home/ian/ianww.com/
         remote_host: ${{ secrets.HOST }}
         remote_user: ${{ secrets.USER }}
         remote_key: ${{ secrets.DEPLOY_KEY }}
