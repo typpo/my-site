@@ -1,3 +1,10 @@
+@import './genericlist.scss';
+@import './hacks.scss';
+@import './nav.scss';
+@import './press.scss';
+@import './projects.scss';
+@import './talks.scss';
+
 body {
   font-family: Roboto, sans-serif;
   padding: 5px 50px;
@@ -90,3 +97,4 @@ hr {
     line-height: 1.7;
   }
 }
+
