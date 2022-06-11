@@ -24,7 +24,7 @@ const App = ({ Component, pageProps }) => {
     <>
       <Head>
         <title>Ian Webster</title>
-        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+        <meta httpEquiv="Content-type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       {/* Global Site Tag (gtag.js) - Google Analytics */}

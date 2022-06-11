@@ -43,7 +43,7 @@ const Project = (props) => {
   }
 
   return (
-    <a className="project-link" target="_blank" href={props.data.url}>
+    <a className="project-link" target="_blank" href={props.data.url} rel="noreferrer">
       <div className="project flex-item-default" style={style}>
         <h3 className="title">{props.data.title}</h3>
         <div className="desc">{props.data.desc}</div>
