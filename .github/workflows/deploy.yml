@@ -23,12 +23,12 @@ jobs:
       env:
         NODE_ENV: production
         REACT_APP_GA_TRACKING_ID: UA-52596552-1
-      run: npm run export 
+      run: npm run export
     - uses: burnett01/rsync-deployments@5.2
       with:
-        switches: -avzr --delete
+        switches: -avzr
         path: out/
-        remote_path: /home/ian/ianww.com/
+        remote_path: /home/ian/ianww.com2/
         remote_host: ${{ secrets.HOST }}
         remote_user: ${{ secrets.USER }}
         remote_key: ${{ secrets.DEPLOY_KEY }}
