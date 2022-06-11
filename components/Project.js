@@ -1,14 +1,6 @@
 import Image from "next/Image";
 
 const Project = ({ data }) => {
-  const style = {};
-  if (data.imgurl) {
-    style["backgroundImage"] = "url(" + data.imgurl + ")";
-  }
-  if (data.url) {
-    style["cursor"] = "pointer";
-  }
-
   return (
     <a
       className="project-link"
@@ -22,6 +14,7 @@ const Project = ({ data }) => {
           layout="fill"
           priority={data.isPriority}
           alt={data.title}
+          loader={({src}) => src}
         />
         <h3 className="title">{data.title}</h3>
         <div className="desc">{data.desc}</div>
