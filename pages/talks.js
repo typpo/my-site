@@ -6,6 +6,7 @@ import talkData from "../data/talks.js";
 const talks = talkData.map((talk, idx) => {
   return <Talk data={talk} key={idx} />;
 });
+
 const Talks = () => {
 
   return (
