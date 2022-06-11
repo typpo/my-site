@@ -1,11 +1,11 @@
 import Link from "next/link";
-import Image from 'next/Image';
+import Image from "next/Image";
 
 const Header = () => {
   return (
     <div id="header">
       <div className="header-image">
-        <Image 
+        <Image
           src="http://www.ianww.com/blog/content/images/2015/07/potato_medium-1-1.jpg"
           alt="The Space Potato"
           width="29"

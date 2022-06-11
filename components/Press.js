@@ -1,5 +1,4 @@
 const Press = ({ data }) => {
-
   let presses = data.press.map((pressItem, idx) => {
     let content = "";
     if (typeof pressItem === "string") {

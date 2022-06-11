@@ -8,13 +8,12 @@ const talks = talkData.map((talk, idx) => {
 });
 
 const Talks = () => {
-
   return (
     <Page>
-    <div className="talk-list">
-      <h2>Selected Talks</h2>
-      {talks}
-    </div>
+      <div className="talk-list">
+        <h2>Selected Talks</h2>
+        {talks}
+      </div>
     </Page>
   );
 };
