@@ -23,9 +23,7 @@ jobs:
       env:
         NODE_ENV: production
         REACT_APP_GA_TRACKING_ID: UA-52596552-1
-      run: |
-          npx next build
-          npx next export
+      run: npm run export 
     - uses: burnett01/rsync-deployments@5.2
       with:
         switches: -avzr --delete
