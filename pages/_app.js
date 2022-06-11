@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Head from "next/head";
 import Script from "next/script";
 import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
@@ -21,6 +22,11 @@ const App = ({ Component, pageProps }) => {
 
   return (
     <>
+      <Head>
+        <title>Ian Webster</title>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
         strategy="afterInteractive"
