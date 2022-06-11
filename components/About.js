@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-      <div class="flex-container about-container">
+      <div className="flex-container about-container">
         <div id="about">
           <p>
             I co-founded{" "}
