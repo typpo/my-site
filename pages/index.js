@@ -4,7 +4,6 @@ import PostList from "../components/PostList";
 import FriendList from "../components/FriendList";
 import Projects from "../components/Projects";
 import TextProjects from "../components/TextProjects";
-import Talks from "./talks";
 
 const Index = () => {
   return (
@@ -13,7 +12,6 @@ const Index = () => {
       <TextProjects />
       <PostList />
       <FriendList />
-      <Talks />
     </Page>
   );
 };
