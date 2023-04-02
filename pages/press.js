@@ -1,7 +1,7 @@
-import Page from "../components/Page";
+import Page from '../components/Page';
 
-import PressItem from "../components/Press";
-import projectData from "../data/projects";
+import PressItem from '../components/Press';
+import projectData from '../data/projects';
 
 const Press = () => {
   let press = projectData

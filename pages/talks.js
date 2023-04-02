@@ -1,7 +1,7 @@
-import Page from "../components/Page";
+import Page from '../components/Page';
 
-import Talk from "../components/Talk";
-import talkData from "../data/talks";
+import Talk from '../components/Talk';
+import talkData from '../data/talks';
 
 const talks = talkData.map((talk, idx) => {
   return <Talk data={talk} key={idx} />;

@@ -1,7 +1,7 @@
-import Page from "../components/Page";
+import Page from '../components/Page';
 
-import projectData from "../data/projects";
-import Hack from "../components/Hack";
+import projectData from '../data/projects';
+import Hack from '../components/Hack';
 
 const Hackathons = () => {
   const hacks = projectData

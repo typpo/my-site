@@ -35,8 +35,7 @@ const PostList = () => {
         </li>
         <li>
           <a href="http://www.ianww.com/blog/2013/11/26/asterank-discover-reviews-100000th-image/">
-            Asterank Discover, Crowdsourced Asteroid Discovery, Reviews Its
-            100,000th Image
+            Asterank Discover, Crowdsourced Asteroid Discovery, Reviews Its 100,000th Image
           </a>
         </li>
         <li>
@@ -51,8 +50,8 @@ const PostList = () => {
         </li>
         <li>
           <a href="http://www.ianww.com/blog/2012/11/04/optimizing-three-dot-js-performance-simulating-tens-of-thousands-of-independent-moving-objects/">
-            Optimizing Three.js Performance: Simulating Tens of Thousands of
-            Independent Moving Objects
+            Optimizing Three.js Performance: Simulating Tens of Thousands of Independent Moving
+            Objects
           </a>
         </li>
         <li>

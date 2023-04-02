@@ -1,4 +1,4 @@
-import projectData from "../data/projects.js";
+import projectData from '../data/projects.js';
 
 const TextProjects = () => {
   let textProjects = projectData

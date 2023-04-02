@@ -1,7 +1,7 @@
 const Press = ({ data }) => {
   let presses = data.press.map((pressItem, idx) => {
-    let content = "";
-    if (typeof pressItem === "string") {
+    let content = '';
+    if (typeof pressItem === 'string') {
       content = <span>{pressItem}</span>;
     } else if (pressItem.url) {
       content = (

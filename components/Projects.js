@@ -1,5 +1,5 @@
-import Project from "./Project";
-import projectData from "../data/projects.js";
+import Project from './Project';
+import projectData from '../data/projects.js';
 
 let projects = projectData
   .filter((project) => {

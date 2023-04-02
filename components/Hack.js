@@ -1,4 +1,4 @@
-import Project from "./Project";
+import Project from './Project';
 
 const Hack = ({ data }) => {
   let hackathon = data.hackathon;
