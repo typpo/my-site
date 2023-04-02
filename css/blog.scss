@@ -6,10 +6,14 @@
     border-bottom: 1px dotted #ccc;
   }
 
-  p {
+  p, ul, ol {
     line-height: 1.6;
   }
 
+  pre, img {
+    max-width: 100%;
+    overflow-x: auto;
+  }
 }
 
 .blog-author {

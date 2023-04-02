@@ -4,7 +4,12 @@ import { MDXRemote } from 'next-mdx-remote';
 import { serialize } from 'next-mdx-remote/serialize';
 
 import Author from '../../../../../components/Author';
+import CodeBlock from '../../../../../components/CodeBlock';
 import Header from '../../../../../components/Header';
+
+const components = {
+  code: CodeBlock,
+};
 
 const BlogPost = ({ mdxSource, data }) => {
   return (
@@ -14,7 +19,7 @@ const BlogPost = ({ mdxSource, data }) => {
       </nav>
       <h1>{data.title}</h1>
       <p>Posted: {data.date}</p>
-      <MDXRemote {...mdxSource} />
+      <MDXRemote {...mdxSource} components={components} />
       <Author />
     </div>
   );

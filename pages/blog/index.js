@@ -38,7 +38,6 @@ export async function getStaticProps() {
         const { content, data } = matter(fileContent);
 
         const datestr = data.date.toISOString().split('T')[0];
-        console.log({ datestr });
         const splits = datestr.split('-');
         const year = splits[0];
         const month = splits[1];
@@ -64,7 +63,7 @@ export async function getStaticProps() {
   // Sort the posts by date in descending order and take the 5 most recent.
   const recentPosts = posts
     .sort((a, b) => new Date(b.data.date) - new Date(a.data.date))
-    .slice(0, 5);
+    //.slice(0, 5);
 
   return {
     props: {
