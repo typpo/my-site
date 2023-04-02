@@ -7,25 +7,25 @@ The StackOverflow [post](https://stackoverflow.blog/2017/06/15/developers-use-sp
 
 They've made their dataset available for [download](https://stackoverflow.blog/2017/06/15/download-stack-overflows-2017-developer-survey-data/) so I wrote a quick script to see what else we can learn about developer salaries.
 
-##GIF vs. JIF
+## GIF vs. JIF
 
 There's not much difference.
 
 ![](http://i.imgur.com/8tGc1Ll.jpg)
 
-##Choice of editor
+## Choice of editor
 
 This is the one we've all been waiting for.
 
 ![](http://i.imgur.com/pIBUFF8.jpg)
 
-##Ship it?
+## Ship it?
 
 Fortune favors the bold.
 
 ![](http://i.imgur.com/w7wFLZY.jpg)
 
-##Clicky keys
+## Clicky keys
 
 You probably should just talk to your officemate instead of using this result.
 

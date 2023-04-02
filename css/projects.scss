@@ -64,12 +64,9 @@
   /*
   transition: transform 0.3s ease-out;
   */
-
-  &:hover {
-  }
 }
 
-a .project img:hover {
+a .project:hover {
   animation: wiggle 1s ease-in-out infinite;
 }
 

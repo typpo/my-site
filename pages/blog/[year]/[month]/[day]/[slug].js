@@ -1,25 +1,28 @@
 import fs from 'fs';
 import matter from 'gray-matter';
-import { MDXRemote } from 'next-mdx-remote';
-import { serialize } from 'next-mdx-remote/serialize';
+import frontmatter from 'remark-frontmatter';
+import { unified } from 'unified';
+import remarkParse from 'remark-parse';
+import remarkRehype from 'remark-rehype';
+import rehypeRaw from 'rehype-raw';
+import rehypeFormat from 'rehype-format';
+import rehypeStringify from 'rehype-stringify';
+import rehypeHighlight from 'rehype-highlight';
+
+import 'highlight.js/styles/atom-one-light.css';
 
 import Author from '../../../../../components/Author';
-import CodeBlock from '../../../../../components/CodeBlock';
 import Header from '../../../../../components/Header';
 
-const components = {
-  code: CodeBlock,
-};
-
-const BlogPost = ({ mdxSource, data }) => {
+const BlogPost = ({ htmlContent, data }) => {
   return (
     <div className="blog-container">
       <nav>
         <Header />
       </nav>
       <h1>{data.title}</h1>
-      <p>Posted: {data.date}</p>
-      <MDXRemote {...mdxSource} components={components} />
+      <p className='blog-date'>Posted: {data.date}</p>
+      <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
       <Author />
     </div>
   );
@@ -56,11 +59,19 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const file = fs.readFileSync(`./posts/${params.slug}.md`);
   const { content, data } = matter(file);
-  const mdxSource = await serialize(content);
+  const htmlContent = await unified()
+    .use(remarkParse)
+    .use(frontmatter)
+    .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeRaw)
+    .use(rehypeFormat)
+    .use(rehypeHighlight)
+    .use(rehypeStringify)
+    .process(content);
 
   return {
     props: {
-      mdxSource,
+      htmlContent: htmlContent.toString(),
       data: {
         ...data,
         date: data.date.toISOString().split('T')[0],

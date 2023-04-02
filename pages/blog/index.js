@@ -1,9 +1,13 @@
 import fs from 'fs';
-
 import matter from 'gray-matter';
 import Link from 'next/link';
-import { MDXRemote } from 'next-mdx-remote';
-import { serialize } from 'next-mdx-remote/serialize';
+import frontmatter from 'remark-frontmatter';
+import { unified } from 'unified';
+import remarkParse from 'remark-parse';
+import remarkRehype from 'remark-rehype';
+import rehypeRaw from 'rehype-raw';
+import rehypeFormat from 'rehype-format';
+import rehypeStringify from 'rehype-stringify';
 
 import Header from '../../components/Header';
 
@@ -18,8 +22,8 @@ const BlogIndex = ({ posts }) => {
               {post.data.title}
             </Link>
           </h2>
-          <p>Posted: {post.data.date}</p>
-          <MDXRemote {...post.mdxPreview} />
+          <p className="blog-date">Posted: {post.data.date}</p>
+          <div dangerouslySetInnerHTML={{ __html: post.htmlPreview }} />
           <Link href={`/blog/${post.year}/${post.month}/${post.day}/${post.slug}`}>Read more</Link>
         </div>
       ))}
@@ -44,11 +48,18 @@ export async function getStaticProps() {
         const day = splits[2];
 
         const paragraphs = content.split('\n\n').slice(0, 2).join('\n\n');
-        const mdxPreview = await serialize(paragraphs);
+        const htmlPreview = await unified()
+          .use(remarkParse)
+          .use(frontmatter)
+          .use(remarkRehype, { allowDangerousHtml: true })
+          .use(rehypeRaw)
+          .use(rehypeFormat)
+          .use(rehypeStringify)
+          .process(paragraphs);
 
         return {
           slug,
-          mdxPreview,
+          htmlPreview: htmlPreview.toString(),
           year,
           month,
           day,
@@ -61,9 +72,8 @@ export async function getStaticProps() {
   );
 
   // Sort the posts by date in descending order and take the 5 most recent.
-  const recentPosts = posts
-    .sort((a, b) => new Date(b.data.date) - new Date(a.data.date))
-    //.slice(0, 5);
+  const recentPosts = posts.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
+  //.slice(0, 5);
 
   return {
     props: {
