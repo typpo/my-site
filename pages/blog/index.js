@@ -47,7 +47,10 @@ export async function getStaticProps() {
         const month = splits[1];
         const day = splits[2];
 
-        const paragraphs = content.split('\n\n').slice(0, 2).join('\n\n');
+        // Preview up until the first header, OR the first 4 paragraphs, whichever is earlier.
+        const paragraphs = content.split('\n\n');
+        const firstHeaderIndex = paragraphs.findIndex((p) => p.startsWith('#'));
+        const previewContent = paragraphs.slice(0, Math.min(4, firstHeaderIndex)).join('\n\n');
         const htmlPreview = await unified()
           .use(remarkParse)
           .use(frontmatter)
@@ -55,7 +58,7 @@ export async function getStaticProps() {
           .use(rehypeRaw)
           .use(rehypeFormat)
           .use(rehypeStringify)
-          .process(paragraphs);
+          .process(previewContent);
 
         return {
           slug,

@@ -21,7 +21,7 @@ const BlogPost = ({ htmlContent, data }) => {
         <Header />
       </nav>
       <h1>{data.title}</h1>
-      <p className='blog-date'>Posted: {data.date}</p>
+      <p className="blog-date">Posted: {data.date}</p>
       <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
       <Author />
     </div>
