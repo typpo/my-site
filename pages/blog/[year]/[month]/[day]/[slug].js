@@ -36,7 +36,6 @@ export async function getStaticPaths() {
       const parsedMatter = matter(fileContent).data;
 
       const datestr = parsedMatter.date.toISOString().split('T')[0];
-      console.log({ datestr });
       const splits = datestr.split('-');
       const year = splits[0];
       const month = splits[1];
@@ -51,7 +50,6 @@ export async function getStaticPaths() {
         },
       };
     });
-  console.log(paths);
   return { paths, fallback: false };
 }
 
