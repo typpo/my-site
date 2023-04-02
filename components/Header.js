@@ -17,9 +17,9 @@ const Header = () => {
           />
         </Link>
       </div>
-      <Link href="/">
-        <h1>Ian Webster</h1>
-      </Link>
+      <h1 className="name">
+        <Link href="/">Ian Webster</Link>
+      </h1>
       <p className="links">
         <a href="mailto:site@ianww.com">Email</a> &middot;{' '}
         <a href="https://github.com/typpo">Github</a> &middot;{' '}
