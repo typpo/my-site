@@ -61,8 +61,26 @@
 
 .project img {
   object-fit: cover;
+  /*
+  transition: transform 0.3s ease-out;
+  */
 
   &:hover {
-    filter: brightness(110%);
+  }
+}
+
+a .project img:hover {
+  animation: wiggle 1s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
   }
 }

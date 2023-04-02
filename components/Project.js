@@ -1,13 +1,7 @@
 import Image from "next/image";
 
 const Project = ({ data }) => {
-  return (
-    <a
-      className="project-link"
-      target="_blank"
-      href={data.url}
-      rel="noreferrer"
-    >
+  const thing = (
       <div className="project flex-item-default">
         <Image
           src={data.imgurl}
@@ -20,8 +14,20 @@ const Project = ({ data }) => {
         <h3 className="title">{data.title}</h3>
         <div className="desc">{data.desc}</div>
       </div>
-    </a>
   );
+  if (data.url) {
+    return (
+      <a
+        className="project-link"
+        target="_blank"
+        href={data.url}
+        rel="noreferrer"
+      >
+        {thing}
+      </a>
+    );
+  }
+  return thing;
 };
 
 export default Project;
