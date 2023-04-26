@@ -21,11 +21,11 @@ const Header = () => {
         <Link href="/">Ian Webster</Link>
       </h1>
       <p className="links">
-        <a href="mailto:site@ianww.com">Email</a> &middot;{' '}
-        <a href="https://github.com/typpo">Github</a> &middot;{' '}
-        <a href="http://linkedin.com/in/ianww">LinkedIn</a> &middot;{' '}
-        <a href="https://twitter.com/iwebst">Twitter</a> &middot;{' '}
-        {/*<a href="https://www.facebook.com/ianww">Facebook</a> &middot;{" "}*/}
+        <a target="_blank" rel="noreferrer" href="mailto:site@ianww.com">Email</a> &middot;{' '}
+        <a target="_blank" rel="noreferrer" href="https://github.com/typpo">Github</a> &middot;{' '}
+        <a target="_blank" rel="noreferrer" href="http://linkedin.com/in/ianww">LinkedIn</a> &middot;{' '}
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/iwebst">Twitter</a> &middot;{' '}
+        {/*<a target="_blank" rel="noreferrer" href="https://www.facebook.com/ianww">Facebook</a> &middot;{" "}*/}
         <Link href="/blog">
           <a>Posts</a>
         </Link>
