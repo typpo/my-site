@@ -1,6 +1,10 @@
 .blog-container {
-  max-width: 960px;
+  max-width: 768px;
   margin: 0 auto;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
+  }
 
   nav {
     border-bottom: 1px dotted #ccc;
