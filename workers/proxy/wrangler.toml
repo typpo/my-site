@@ -1,0 +1,8 @@
+main = "./src/index.ts"
+name = "personal-site-proxy"
+compatibility_date = "2022-07-26"
+
+routes = [
+	{ pattern = "ianww.com", custom_domain = true },
+	{ pattern = "www.ianww.com", custom_domain = true },
+]
