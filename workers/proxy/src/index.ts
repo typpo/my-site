@@ -10,8 +10,16 @@ async function fetchWithHost(request: Request, host: string, useHttps: boolean =
   url.host = new URL(host).host;
   url.protocol = useHttps ? 'https' : 'http';
 
+  console.log('requesting', url.toString());
   const newRequest = new Request(url.toString(), request);
-  const response = await fetch(newRequest);
+  let response = await fetch(newRequest);
+
+  // Follow the redirect if the status code indicates a redirect
+  if ([301, 302, 307, 308].includes(response.status) && response.headers.has('Location')) {
+    const redirectUrl = response.headers.get('Location')!;
+    console.log('Following redirect to', redirectUrl);
+    response = await fetch(new Request(redirectUrl, request));
+  }
 
   return response;
 }
@@ -28,4 +36,3 @@ export default {
     return mainResponse;
   },
 };
-
