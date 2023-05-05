@@ -25,7 +25,7 @@ const BlogIndex = ({ posts }) => {
           <p className="blog-date">Posted: {post.data.date}</p>
           <div dangerouslySetInnerHTML={{ __html: post.htmlPreview }} />
           <Link href={`/blog/${post.year}/${post.month}/${post.day}/${post.slug}`}>Read more</Link>
-          <hr/>
+          <hr />
         </div>
       ))}
     </div>

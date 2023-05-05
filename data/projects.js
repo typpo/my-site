@@ -1,5 +1,17 @@
 const projects = [
   {
+    title: 'SpaceKit',
+    desc: 'Easy visualization for 3D space visualizations',
+    imgurl: 'https://i.imgur.com/tKUogDEl.png',
+    url: 'https://typpo.github.io/spacekit/',
+    press: [
+      {
+        source: 'Maker Faire',
+        url: 'https://makerfaire.com/maker/entry/69991',
+      },
+    ],
+  },
+  {
     title: 'Asterank',
     desc: 'Crawl, visualize, and compute on all known asteroids',
     imgurl: 'https://i.imgur.com/5FI40mLl.jpg',
@@ -183,374 +195,6 @@ const projects = [
       url: 'https://2013.spaceappschallenge.org/',
       year: 2013,
       desc: 'worldwide finalist + prizes',
-    },
-  },
-  {
-    title: 'AdDetector',
-    desc: 'Flags articles with corporate sponsors',
-    imgurl: 'https://i.imgur.com/5XwQaQxl.png',
-    url: 'https://www.ianww.com/ad-detector',
-    press: [
-      {
-        source: 'Wall Street Journal',
-        url: 'https://blogs.wsj.com/cmo/2014/08/20/ad-detector-native-ads/',
-      },
-      {
-        source: 'Engadget',
-        url: 'https://www.engadget.com/2014/08/21/browser-plug-in-sponsored-content/',
-      },
-      {
-        source: 'The Verge',
-        url: 'https://www.theverge.com/2014/8/21/6052875/addetector-chrome-firefox-extension-labels-native-ads',
-      },
-      {
-        source: 'Lifehacker',
-        url: 'https://lifehacker.com/addetector-notifies-you-if-a-story-you-re-reading-is-sp-1640980949',
-      },
-      {
-        source: 'PC World',
-        url: 'https://www.pcworld.com/article/2597421/new-browser-extension-warns-you-when-articles-are-paid-for-by-advertisers.html',
-      },
-      {
-        source: 'German Public Radio',
-      },
-      {
-        source: 'The Consumerist',
-      },
-      'Computer World',
-      'Huffington Post',
-      'InformationWeek',
-      'BestTechie',
-      'Adland',
-      'TechReport',
-      'Contently',
-      'Lots of ad and marketing industry papers, newsletters, and blogs',
-      'Vesti (and other Russian media)',
-      'NextInpact (and other French media)',
-      {
-        source: 'Arrêt sur images',
-        url: 'https://www.arretsurimages.net/articles/2016-03-20/Ad-Detector-l-extension-qui-revele-les-pubs-cachees-dans-les-articles-id8569',
-      },
-      'Many German and Polish language publications',
-    ],
-  },
-  {
-    title: 'Textbelt',
-    desc: 'Free outgoing SMS API. Over 3M texts sent',
-    imgurl: 'https://i.imgur.com/e1TyUkSl.png',
-    url: 'https://github.com/typpo/textbelt',
-    press: [
-      {
-        source: 'Linux Journal, Aug 2016',
-        url: 'https://www.linuxjournal.com/content/august-2016-issue-linux-journal',
-      },
-      {
-        source: 'Linux Journal, Nov 2016',
-        url: 'https://www.linuxjournal.com/content/message-you-sir',
-      },
-      {
-        source: 'CNET',
-        url: 'https://www.cnet.com/news/how-to-send-a-text-message-via-command-line-in-os-x/',
-      },
-      {
-        source: 'OSX Daily',
-        url: 'https://osxdaily.com/2014/03/12/send-sms-text-message-from-command-line/',
-      },
-      {
-        source: 'DZone',
-        url: 'https://dzone.com/articles/building-test-texting-system',
-      },
-      'Lots of blogs',
-    ],
-  },
-  {
-    title: 'Space Balloons',
-    desc: 'Sending cameras and other things to near-space',
-    imgurl: 'https://i.imgur.com/9ngl1H5l.jpg',
-    url: 'https://www.ianww.com/blog/2015/07/17/sending-a-potato-to-near-space/',
-  },
-  {
-    title: 'Ancient Earth',
-    desc: 'What did Earth look like 600 million years ago?',
-    imgurl: 'https://i.imgur.com/Ya57O3tl.png',
-    url: 'https://dinosaurpictures.org/ancient-earth/',
-    press: [
-      {
-        source: 'Washington Post',
-        url: 'https://www.washingtonpost.com/national/health-science/ancient-earth-globe-lets-you-travel-back-in-time-for-a-look-at-the-planet/2018/03/23/b35c0ba0-2c6a-11e8-8ad6-fbc50284fce8_story.html?utm_term=.9dc230593d2c',
-      },
-      {
-        source: 'Daily Mail',
-        url: 'https://www.dailymail.co.uk/sciencetech/article-5692167/Interactive-map-lets-travel-time-planet-600-million-years-history.html',
-      },
-      {
-        source: 'IFLScience',
-        url: 'https://www.iflscience.com/environment/interactive-globe-lets-you-see-what-the-earth-looked-like-600-million-years-ago/',
-      },
-      {
-        source: 'BT',
-        url: 'https://home.bt.com/news/science-news/interactive-map-shows-what-earth-looked-like-600-million-years-ago-11364269336759',
-      },
-      {
-        source: 'Smithsonian Magazine',
-        url: 'https://www.smithsonianmag.com/smart-news/map-lets-you-plug-your-address-see-how-neighborhood-has-changed-over-past-750-million-years-180971507/',
-      },
-      'RT',
-      'Informador',
-      'FrentFastasma',
-      'Korben, a famous French blogger',
-      'Pulzo',
-      'WebDesignerTrends',
-      'Many Spanish and French language media',
-      'Chrome Experiments',
-      'Learning Three.js',
-      'TYS Magazine',
-      {
-        source: 'Science Node',
-        url: 'https://sciencenode.org/feature/from-3d-rendering-to-beyond.php',
-      },
-    ],
-  },
-  {
-    title: 'QuickChart',
-    desc: 'Generate chart images from a URL',
-    imgurl: 'https://i.imgur.com/CTIYhwz.png',
-    url: 'https://quickchart.io/',
-  },
-  {
-    title: 'Harvest',
-    desc: 'Aerial infrared crop monitoring. Disrupt hackathon winner ($5k in prizes)',
-    imgurl: 'https://i.imgur.com/SJVfCEg.jpg',
-    // url: 'https://harvesters.club',
-    url: 'https://devpost.com/software/harvest',
-    press: [
-      {
-        source: 'TechCrunch',
-        url: 'https://techcrunch.com/2015/09/20/disrupt-sf-2015-hackathon-winners/?ncid=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29',
-      },
-      {
-        source: 'CircleCI',
-        url: 'https://circleci.com/blog/introducing-our-techcrunch-disrupt-hackathon-winners/',
-      },
-    ],
-    hackathon: {
-      name: 'Disrupt SF',
-      url: 'https://techcrunch.com/events/disrupt-sf-2015/event-home/',
-      year: 2015,
-      desc: '$5000',
-    },
-  },
-  {
-    title: 'Asteroid Viewer',
-    desc: 'Accurate 3D models of asteroids from radar and inverted light curves',
-    imgurl: 'https://i.imgur.com/yQaQHiUl.png',
-    url: 'https://www.ianww.com/asteroid-viewer',
-    press: [
-      'Learning Three.js',
-      {
-        source: 'Google Chrome Experiments',
-        url: 'https://experiments.withgoogle.com/chrome/asteroid-viewer',
-      },
-    ],
-  },
-  {
-    title: 'Dinosaur Pictures',
-    desc: 'The official dinosaur picture database',
-    imgurl: 'https://i.imgur.com/p5cHTml.png',
-    url: 'https://dinosaurpictures.org/',
-  },
-  {
-    title: 'RapChat',
-    desc: 'The future of communication',
-    imgurl: 'https://i.imgur.com/MdbV70Tl.png',
-    url: 'https://www.rapchat.us',
-  },
-  {
-    title: 'The Space Potato',
-    desc: 'Successful kickstarter for a potato-powered mission to near-space',
-    imgurl: 'https://i.imgur.com/aOy79oEl.jpg',
-    url: 'https://spacepotato.org',
-    press: ['Electronic Products Magazine', 'Gentleman Genius'],
-  },
-  {
-    title: 'Galaxies',
-    desc: '2 billion cubic light-years, based on one of the largest n-body simulations ever',
-    imgurl: 'https://i.imgur.com/mzwBJ8Sl.jpg',
-    url: 'https://www.asterank.com/galaxies',
-  },
-  {
-    title: 'Watchtower',
-    desc: 'Competitive monitoring platform, LAUNCH hackathon winner',
-    imgurl: 'https://www.ianww.com/images/watchtower.png',
-    hackathon: {
-      name: 'LAUNCH',
-      url: 'https://www.launchfestival.com/',
-      year: 2013,
-      desc: 'finalist + prizes',
-    },
-  },
-  {
-    title: 'Interview Club',
-    desc: 'Taking the pain out of hiring. LAUNCH hackathon winner ($13k in prizes)',
-    imgurl: 'https://i.imgur.com/MjKtbLEl.png',
-    // url: 'https://www.gointerview.club',
-    hackathon: {
-      name: 'LAUNCH',
-      url: 'https://www.launchfestival.com/',
-      year: 2015,
-      desc: '$13,500',
-    },
-  },
-  {
-    title: 'Asterank Discover',
-    desc: 'Crowdsourced asteroid discovery. Over a quarter million images reviewed',
-    imgurl: 'https://www.ianww.com/images/asterank_discover.png',
-    url: 'https://www.asterank.com/discover',
-  },
-  {
-    title: 'Space Reference',
-    desc: 'Data and simulations for nearly a million celestial objects',
-    imgurl: 'https://i.imgur.com/BnpJux2l.png',
-    url: 'https://www.spacereference.org/',
-  },
-  {
-    title: 'SpaceKit',
-    desc: 'Easy visualization for 3D space visualizations',
-    imgurl: 'https://i.imgur.com/tKUogDEl.png',
-    url: 'https://typpo.github.io/spacekit/',
-    press: [
-      {
-        source: 'Maker Faire',
-        url: 'https://makerfaire.com/maker/entry/69991',
-      },
-    ],
-  },
-  {
-    title: 'Verified Facts',
-    desc: 'A viral conspiracy theory generator',
-    imgurl: 'https://www.ianww.com/images/verifiedfacts.png',
-    url: 'https://www.verifiedfacts.org',
-    press: ['MetaFilter', 'Boingboing'],
-  },
-  {
-    title: 'HonestMemo',
-    desc: 'Internal company discussion forum and feedback tool',
-    imgurl: 'https://i.imgur.com/Jud7U7zl.png?1',
-  },
-  {
-    title: 'Luna',
-    desc: '3D interactive moon',
-    imgurl: 'https://i.imgur.com/xtmqQQAl.png',
-    url: 'https://www.ianww.com/moonviz',
-  },
-  {
-    title: 'Candid Candidates',
-    desc: 'Where do politicians get their money? Seattle hackathon winner',
-    imgurl: 'https://i.imgur.com/C2QG9ZOl.png',
-    url: 'https://github.com/typpo/political-annotations',
-    hackathon: {
-      name: 'Seattle Open Govt',
-      url: 'https://www.meetup.com/Seattle-Hackathons/events/152533962/',
-      year: 2013,
-      desc: '$2,500',
-    },
-  },
-  {
-    title: 'Six Degrees of Bowie',
-    desc: 'A graph of musical influencers',
-    imgurl: 'https://www.ianww.com/images/bowie.png',
-  },
-  {
-    title: 'Pluto',
-    desc: 'Pluto in 3D',
-    imgurl: 'https://i.imgur.com/M9lM5gQl.png',
-    url: 'https://www.ianww.com/pluto',
-  },
-  {
-    title: 'KeepDream',
-    desc: 'Dream recording and text analysis',
-    imgurl: 'https://www.ianww.com/images/keepdream.png',
-    url: 'https://www.keepdream.me',
-  },
-  {
-    title: 'World of Loot',
-    desc: 'Pinterest-style MMO wishlists',
-    imgurl: 'https://www.ianww.com/images/worldofloot.png',
-    url: 'https://www.worldofloot.com',
-  },
-  {
-    title: 'Chatalyst',
-    desc: 'Taking the pain out of video chat',
-    imgurl: 'https://i.imgur.com/yyayOHTl.jpg',
-    url: 'https://chatalyst.io',
-  },
-  {
-    title: 'Exoplanets',
-    desc: 'Exoplanets in 3D',
-    imgurl: 'https://i.imgur.com/wVFVmKdl.jpg',
-    url: 'https://www.asterank.com/exoplanets',
-    press: [
-      {
-        source: 'HTML5 Weekly',
-        url: 'https://html5weekly.com/issues/230',
-      },
-    ],
-  },
-  {
-    title: 'Call Congress',
-    desc: 'Single phone line that calls your representatives',
-    imgurl: 'https://i.imgur.com/csCI0ogl.jpg',
-    url: 'https://www.ianww.com/blog/2016/06/15/call-your-congressperson-with-one-phone-number-1-844-usa-4522/',
-    press: [
-      {
-        source: 'Deray',
-        url: 'https://twitter.com/deray/status/744889843985973248',
-      },
-      {
-        source: 'Reddit Front page',
-      },
-      {
-        source: 'Twilio Blog',
-        url: 'https://www.twilio.com/blog/2016/06/call-congress-using-one-phone-number.html',
-      },
-      {
-        source: 'Twilio Blog 2',
-        url: 'https://www.twilio.com/blog/2017/05/calls-congress-node-js-twilio.html',
-      },
-    ],
-  },
-  {
-    title: 'Inflation Calculator',
-    desc: 'Historical inflation data and predictions',
-    imgurl: 'https://www.ianww.com/images/in2013dollars.png',
-    url: 'https://www.officialdata.org',
-  },
-  {
-    title: 'Gilded Age',
-    desc: 'Visualizations and NLP for Gilded-age newspapers',
-    imgurl: 'https://i.imgur.com/qZ1wxmJl.png',
-    url: 'https://github.com/typpo/gilded-age',
-  },
-  {
-    title: 'TalkThen',
-    desc: 'Convenient conference and telephony app',
-    imgurl: 'https://i.imgur.com/aKCnbFRl.png',
-  },
-  {
-    title: 'CodeNav',
-    desc: 'Easily navigate code on Github. Keyword highlight, code search, etc',
-    imgurl: 'https://i.imgur.com/QJwU3Hzl.png',
-    url: 'https://www.ianww.com/codenav',
-  },
-  {
-    title: 'ListeningPost',
-    desc: 'Contextual annotations for spoken conversation, YC Hacks winner',
-    imgurl: 'https://i.imgur.com/nwXZtDel.png',
-    hackathon: {
-      name: 'YC Hacks',
-      url: 'https://blog.ycombinator.com/yc-hacks-august-2-3-2014',
-      year: 2014,
-      desc: 'finalist + prizes',
     },
   },
   {
@@ -754,6 +398,412 @@ const projects = [
     ],
   },
   {
+    title: 'Ancient Earth',
+    desc: 'What did Earth look like 600 million years ago?',
+    imgurl: 'https://i.imgur.com/Ya57O3tl.png',
+    url: 'https://dinosaurpictures.org/ancient-earth/',
+    press: [
+      {
+        source: 'Washington Post',
+        url: 'https://www.washingtonpost.com/national/health-science/ancient-earth-globe-lets-you-travel-back-in-time-for-a-look-at-the-planet/2018/03/23/b35c0ba0-2c6a-11e8-8ad6-fbc50284fce8_story.html?utm_term=.9dc230593d2c',
+      },
+      {
+        source: 'Daily Mail',
+        url: 'https://www.dailymail.co.uk/sciencetech/article-5692167/Interactive-map-lets-travel-time-planet-600-million-years-history.html',
+      },
+      {
+        source: 'IFLScience',
+        url: 'https://www.iflscience.com/environment/interactive-globe-lets-you-see-what-the-earth-looked-like-600-million-years-ago/',
+      },
+      {
+        source: 'BT',
+        url: 'https://home.bt.com/news/science-news/interactive-map-shows-what-earth-looked-like-600-million-years-ago-11364269336759',
+      },
+      {
+        source: 'Smithsonian Magazine',
+        url: 'https://www.smithsonianmag.com/smart-news/map-lets-you-plug-your-address-see-how-neighborhood-has-changed-over-past-750-million-years-180971507/',
+      },
+      'RT',
+      'Informador',
+      'FrentFastasma',
+      'Korben, a famous French blogger',
+      'Pulzo',
+      'WebDesignerTrends',
+      'Many Spanish and French language media',
+      'Chrome Experiments',
+      'Learning Three.js',
+      'TYS Magazine',
+      {
+        source: 'Science Node',
+        url: 'https://sciencenode.org/feature/from-3d-rendering-to-beyond.php',
+      },
+    ],
+  },
+  {
+    title: 'Dinosaur Pictures',
+    desc: 'The official dinosaur picture database',
+    imgurl: 'https://i.imgur.com/p5cHTml.png',
+    url: 'https://dinosaurpictures.org/',
+  },
+  {
+    title: 'promptfoo',
+    desc: 'CLI and library for iterating on LLM prompts',
+    imgurl:
+      'https://user-images.githubusercontent.com/310310/235329207-e8c22459-5f51-4fee-9714-1b602ac3d7ca.png',
+    url: 'https://github.com/typpo/promptfoo',
+  },
+  {
+    title: 'QueryMuse',
+    desc: 'AI assistant for writing SQL',
+    imgurl: 'https://www.querymuse.com/homepage.png',
+    url: 'https://www.querymuse.com/',
+  },
+  {
+    title: 'Chart Builder',
+    desc: 'WYSIWYG chart builder',
+    imgurl:
+      'https://quickchart.io/documentation/assets/images/labels_and_data-f1f511d1de7faf00f7bec1fa0fb85c11.jpeg',
+    url: 'https://quickchart.io/chart-maker/',
+  },
+  {
+    title: 'CA Property Tax Map',
+    desc: 'Open-source property taxes for 34 million California residents',
+    imgurl: 'https://pbs.twimg.com/media/EkOysmZVgAEyVFg?format=jpg&name=large',
+    url: 'https://www.officialdata.org/ca-property-tax',
+  },
+  {
+    title: 'Airtable GPT Assistant',
+    desc: 'Use GPT inside your Airtable base',
+    imgurl: 'https://dl.airtable.com/.blockGalleryImages/5f75154a8e2b26c7f01884a2150a5f7f/6746913c',
+    url: 'https://www.airtable.com/marketplace/blk3S1PVIEZey4c5Y/gpt-assistant-oxygen-extensions',
+  },
+  {
+    title: 'Astrokit',
+    desc: 'Web-based tools for asteroid lightcurve photometry',
+    imgurl: 'https://i.imgur.com/5JyIKgFl.png',
+    url: 'https://github.com/typpo/astrokit',
+  },
+  {
+    title: 'VoiceWorks',
+    desc: 'Implement best practices for handling misconduct',
+    imgurl: 'https://image.thum.io/get/maxAge/12/width/700/https://voiceworks.app/',
+    url: 'https://voiceworks.app/',
+  },
+  {
+    title: 'AdDetector',
+    desc: 'Flags articles with corporate sponsors',
+    imgurl: 'https://i.imgur.com/5XwQaQxl.png',
+    url: 'https://www.ianww.com/ad-detector',
+    press: [
+      {
+        source: 'Wall Street Journal',
+        url: 'https://blogs.wsj.com/cmo/2014/08/20/ad-detector-native-ads/',
+      },
+      {
+        source: 'Engadget',
+        url: 'https://www.engadget.com/2014/08/21/browser-plug-in-sponsored-content/',
+      },
+      {
+        source: 'The Verge',
+        url: 'https://www.theverge.com/2014/8/21/6052875/addetector-chrome-firefox-extension-labels-native-ads',
+      },
+      {
+        source: 'Lifehacker',
+        url: 'https://lifehacker.com/addetector-notifies-you-if-a-story-you-re-reading-is-sp-1640980949',
+      },
+      {
+        source: 'PC World',
+        url: 'https://www.pcworld.com/article/2597421/new-browser-extension-warns-you-when-articles-are-paid-for-by-advertisers.html',
+      },
+      {
+        source: 'German Public Radio',
+      },
+      {
+        source: 'The Consumerist',
+      },
+      'Computer World',
+      'Huffington Post',
+      'InformationWeek',
+      'BestTechie',
+      'Adland',
+      'TechReport',
+      'Contently',
+      'Lots of ad and marketing industry papers, newsletters, and blogs',
+      'Vesti (and other Russian media)',
+      'NextInpact (and other French media)',
+      {
+        source: 'Arrêt sur images',
+        url: 'https://www.arretsurimages.net/articles/2016-03-20/Ad-Detector-l-extension-qui-revele-les-pubs-cachees-dans-les-articles-id8569',
+      },
+      'Many German and Polish language publications',
+    ],
+  },
+  {
+    title: 'Space Balloons',
+    desc: 'Sending cameras and other things to near-space',
+    imgurl: 'https://i.imgur.com/9ngl1H5l.jpg',
+    url: 'https://www.ianww.com/blog/2015/07/17/sending-a-potato-to-near-space/',
+  },
+  {
+    title: 'QuickChart',
+    desc: 'Generate chart images from a URL',
+    imgurl: 'https://i.imgur.com/CTIYhwz.png',
+    url: 'https://quickchart.io/',
+  },
+  {
+    title: 'Harvest',
+    desc: 'Aerial infrared crop monitoring. Disrupt hackathon winner ($5k in prizes)',
+    imgurl: 'https://i.imgur.com/SJVfCEg.jpg',
+    // url: 'https://harvesters.club',
+    url: 'https://devpost.com/software/harvest',
+    press: [
+      {
+        source: 'TechCrunch',
+        url: 'https://techcrunch.com/2015/09/20/disrupt-sf-2015-hackathon-winners/?ncid=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29',
+      },
+      {
+        source: 'CircleCI',
+        url: 'https://circleci.com/blog/introducing-our-techcrunch-disrupt-hackathon-winners/',
+      },
+    ],
+    hackathon: {
+      name: 'Disrupt SF',
+      url: 'https://techcrunch.com/events/disrupt-sf-2015/event-home/',
+      year: 2015,
+      desc: '$5000',
+    },
+  },
+  {
+    title: 'Asteroid Viewer',
+    desc: 'Accurate 3D models of asteroids from radar and inverted light curves',
+    imgurl: 'https://i.imgur.com/yQaQHiUl.png',
+    url: 'https://www.ianww.com/asteroid-viewer',
+    press: [
+      'Learning Three.js',
+      {
+        source: 'Google Chrome Experiments',
+        url: 'https://experiments.withgoogle.com/chrome/asteroid-viewer',
+      },
+    ],
+  },
+  {
+    title: 'Avatar Remix',
+    desc: 'A Discord bot that edits profile pictures in unusual ways',
+    imgurl: 'https://www.ianww.com/avatar-remix/catluvr2.png',
+    url: 'https://www.ianww.com/avatar-remix/',
+  },
+  {
+    title: 'RapChat',
+    desc: 'The future of communication',
+    imgurl: 'https://i.imgur.com/MdbV70Tl.png',
+    url: 'https://www.rapchat.us',
+  },
+  {
+    title: 'The Space Potato',
+    desc: 'Successful kickstarter for a potato-powered mission to near-space',
+    imgurl: 'https://i.imgur.com/aOy79oEl.jpg',
+    url: 'https://spacepotato.org',
+    press: ['Electronic Products Magazine', 'Gentleman Genius'],
+  },
+  {
+    title: 'Galaxies',
+    desc: '2 billion cubic light-years, based on one of the largest n-body simulations ever',
+    imgurl: 'https://i.imgur.com/mzwBJ8Sl.jpg',
+    url: 'https://www.asterank.com/galaxies',
+  },
+  {
+    title: 'Watchtower',
+    desc: 'Competitive monitoring platform, LAUNCH hackathon winner',
+    imgurl: 'https://www.ianww.com/images/watchtower.png',
+    hackathon: {
+      name: 'LAUNCH',
+      url: 'https://www.launchfestival.com/',
+      year: 2013,
+      desc: 'finalist + prizes',
+    },
+  },
+  {
+    title: 'Interview Club',
+    desc: 'Taking the pain out of hiring. LAUNCH hackathon winner ($13k in prizes)',
+    imgurl: 'https://i.imgur.com/MjKtbLEl.png',
+    // url: 'https://www.gointerview.club',
+    hackathon: {
+      name: 'LAUNCH',
+      url: 'https://www.launchfestival.com/',
+      year: 2015,
+      desc: '$13,500',
+    },
+  },
+  {
+    title: 'Asterank Discover',
+    desc: 'Crowdsourced asteroid discovery. Over a quarter million images reviewed',
+    imgurl: 'https://www.ianww.com/images/asterank_discover.png',
+    url: 'https://www.asterank.com/discover',
+  },
+  {
+    title: 'Space Reference',
+    desc: 'Data and simulations for nearly a million celestial objects',
+    imgurl: 'https://i.imgur.com/BnpJux2l.png',
+    url: 'https://www.spacereference.org/',
+  },
+  {
+    title: 'Textbelt Open Source',
+    desc: 'Free outgoing SMS API. Over 3M texts sent',
+    imgurl: 'https://i.imgur.com/e1TyUkSl.png',
+    url: 'https://github.com/typpo/textbelt',
+    press: [
+      {
+        source: 'Linux Journal, Aug 2016',
+        url: 'https://www.linuxjournal.com/content/august-2016-issue-linux-journal',
+      },
+      {
+        source: 'Linux Journal, Nov 2016',
+        url: 'https://www.linuxjournal.com/content/message-you-sir',
+      },
+      {
+        source: 'CNET',
+        url: 'https://www.cnet.com/news/how-to-send-a-text-message-via-command-line-in-os-x/',
+      },
+      {
+        source: 'OSX Daily',
+        url: 'https://osxdaily.com/2014/03/12/send-sms-text-message-from-command-line/',
+      },
+      {
+        source: 'DZone',
+        url: 'https://dzone.com/articles/building-test-texting-system',
+      },
+      'Lots of blogs',
+    ],
+  },
+  {
+    title: 'Verified Facts',
+    desc: 'A viral conspiracy theory generator',
+    imgurl: 'https://www.ianww.com/images/verifiedfacts.png',
+    url: 'https://www.verifiedfacts.org',
+    press: ['MetaFilter', 'Boingboing'],
+  },
+  {
+    title: 'HonestMemo',
+    desc: 'Internal company discussion forum and feedback tool',
+    imgurl: 'https://i.imgur.com/Jud7U7zl.png?1',
+  },
+  {
+    title: 'Luna',
+    desc: '3D interactive moon',
+    imgurl: 'https://i.imgur.com/xtmqQQAl.png',
+    url: 'https://www.ianww.com/moonviz',
+  },
+  {
+    title: 'Candid Candidates',
+    desc: 'Where do politicians get their money? Seattle hackathon winner',
+    imgurl: 'https://i.imgur.com/C2QG9ZOl.png',
+    url: 'https://github.com/typpo/political-annotations',
+    hackathon: {
+      name: 'Seattle Open Govt',
+      url: 'https://www.meetup.com/Seattle-Hackathons/events/152533962/',
+      year: 2013,
+      desc: '$2,500',
+    },
+  },
+  {
+    title: 'Six Degrees of Bowie',
+    desc: 'A graph of musical influencers',
+    imgurl: 'https://www.ianww.com/images/bowie.png',
+  },
+  {
+    title: 'Pluto',
+    desc: 'Pluto in 3D',
+    imgurl: 'https://i.imgur.com/M9lM5gQl.png',
+    url: 'https://www.ianww.com/pluto',
+  },
+  {
+    title: 'KeepDream',
+    desc: 'Dream recording and text analysis',
+    imgurl: 'https://www.ianww.com/images/keepdream.png',
+    url: 'https://www.keepdream.me',
+  },
+  {
+    title: 'World of Loot',
+    desc: 'Pinterest-style MMO wishlists',
+    imgurl: 'https://www.ianww.com/images/worldofloot.png',
+    url: 'https://www.worldofloot.com',
+  },
+  {
+    title: 'Chatalyst',
+    desc: 'Taking the pain out of video chat',
+    imgurl: 'https://i.imgur.com/yyayOHTl.jpg',
+    url: 'https://chatalyst.io',
+  },
+  {
+    title: 'Exoplanets',
+    desc: 'Exoplanets in 3D',
+    imgurl: 'https://i.imgur.com/wVFVmKdl.jpg',
+    url: 'https://www.asterank.com/exoplanets',
+    press: [
+      {
+        source: 'HTML5 Weekly',
+        url: 'https://html5weekly.com/issues/230',
+      },
+    ],
+  },
+  {
+    title: 'Call Congress',
+    desc: 'Single phone line that calls your representatives',
+    imgurl: 'https://i.imgur.com/csCI0ogl.jpg',
+    url: 'https://www.ianww.com/blog/2016/06/15/call-your-congressperson-with-one-phone-number-1-844-usa-4522/',
+    press: [
+      {
+        source: 'Deray',
+        url: 'https://twitter.com/deray/status/744889843985973248',
+      },
+      {
+        source: 'Reddit Front page',
+      },
+      {
+        source: 'Twilio Blog',
+        url: 'https://www.twilio.com/blog/2016/06/call-congress-using-one-phone-number.html',
+      },
+      {
+        source: 'Twilio Blog 2',
+        url: 'https://www.twilio.com/blog/2017/05/calls-congress-node-js-twilio.html',
+      },
+    ],
+  },
+  {
+    title: 'Inflation Calculator',
+    desc: 'Historical inflation data and predictions',
+    imgurl: 'https://www.ianww.com/images/in2013dollars.png',
+    url: 'https://www.officialdata.org',
+  },
+  {
+    title: 'Gilded Age',
+    desc: 'Visualizations and NLP for Gilded-age newspapers',
+    imgurl: 'https://i.imgur.com/qZ1wxmJl.png',
+    url: 'https://github.com/typpo/gilded-age',
+  },
+  {
+    title: 'TalkThen',
+    desc: 'Convenient conference and telephony app',
+    imgurl: 'https://i.imgur.com/aKCnbFRl.png',
+  },
+  {
+    title: 'CodeNav',
+    desc: 'Easily navigate code on Github. Keyword highlight, code search, etc',
+    imgurl: 'https://i.imgur.com/QJwU3Hzl.png',
+    url: 'https://www.ianww.com/codenav',
+  },
+  {
+    title: 'ListeningPost',
+    desc: 'Contextual annotations for spoken conversation, YC Hacks winner',
+    imgurl: 'https://i.imgur.com/nwXZtDel.png',
+    hackathon: {
+      name: 'YC Hacks',
+      url: 'https://blog.ycombinator.com/yc-hacks-august-2-3-2014',
+      year: 2014,
+      desc: 'finalist + prizes',
+    },
+  },
+  {
     title: "Typpo's Software",
     desc: 'MMORPG automation used millions of times by 30k people (2006-2011)',
     imgurl: 'https://www.ianww.com/dct/screenshot.jpg',
@@ -778,10 +828,36 @@ const projects = [
     url: 'https://www.ianww.com/mars',
   },
   {
+    title: 'Whispers',
+    desc: 'A chrome extension that whispers your name late at night',
+    imgurl:
+      'https://lh3.googleusercontent.com/1wIiEAeqxxnmMO1HcykPGQ6tmi5K59n95QKEH8f1g9PkFA7yi_LKKU0w4I_OrIo7tGJQ81gyMAw8kFH8OSP00eFi=w640-h400-e365-rj-sc0x00ffffff',
+    url: 'https://chrome.google.com/webstore/detail/whispers/cnbiogmmebcodnfckkiipfjmdheklmkk',
+  },
+  {
     title: 'Speak Louder',
     desc: 'Tools for activists & organizers',
     imgurl: 'https://i.imgur.com/1w1DAnBl.png',
     url: 'https://www.speaklouder.org/',
+  },
+  {
+    title: 'Arkose',
+    desc: 'GPT-enhanced document editor',
+    imgurl:
+      'https://user-images.githubusercontent.com/310310/202637524-792ed7b9-ff0b-43fc-a4bc-5a0a699f92b6.gif',
+    url: 'https://arkose.pages.dev/',
+  },
+  {
+    title: 'Send SMS Easily',
+    desc: 'An extension for sending SMS on Airtable',
+    imgurl: 'https://dl.airtable.com/.blockGalleryImages/284b403e15564cb805095ba34c2a29c3/94e00efc',
+    url: 'https://airtable.com/marketplace/blkVfO977F8FndeYa/send-sms-easily',
+  },
+  {
+    title: 'Airtable QR Code Generator',
+    desc: 'Make QR codes on Airtable',
+    imgurl: 'https://dl.airtable.com/.blockGalleryImages/69a91e62001eb3a319ce3bb06ae5e55f/ff16377f',
+    url: 'https://airtable.com/marketplace/blkZ5M0k1EDRSE8D7/qr-code-maker',
   },
   {
     title: 'Vote Banner',
@@ -825,19 +901,12 @@ const projects = [
     title: 'Gifthorse',
     desc: 'A gift suggestion engine',
     imgurl: 'https://www.ianww.com/images/gifthorse.png',
-    url: 'https://gifthorse.herokuapp.com',
   },
   {
     title: 'Gaia',
     desc: 'Visualize 2.5M stars from ESA GAIA observations',
     imgurl: 'https://i.imgur.com/ufrjxbHl.png',
     url: 'https://github.com/typpo/gaia',
-  },
-  {
-    title: 'Astrokit',
-    desc: 'Web-based tools for performing asteroid lightcurve photometry',
-    imgurl: 'https://i.imgur.com/5JyIKgFl.png',
-    url: 'https://github.com/typpo/astrokit',
   },
   {
     title: 'Alioth',
@@ -894,12 +963,14 @@ const projects = [
     desc: 'Command line tool for mixpanel data export',
     url: 'https://github.com/typpo/mixpanel-export-cli',
   },
+  /*
   {
     title: 'Pagerank Checker',
     desc: 'npm module for pagerank',
     //imgurl: 'https://i.imgur.com/in0MXj6l.png',
     url: 'https://github.com/typpo/google-pagerank',
   },
+  */
   {
     title: 'autoreload.js',
     desc: 'Faster frontend development',
@@ -918,11 +989,13 @@ const projects = [
     //imgurl: 'https://i.imgur.com/AMdYKBj.png',
     url: 'https://github.com/typpo/web-workers-fallback',
   },
+  /*
   {
     title: 'Dartmouth Last Chances',
     desc: 'Over 400 "connections" during senior week, used by a majority of the class',
     url: 'https://dartmouthlastchances.com',
   },
+  */
   {
     title: 'Facebook Defriend Notifications',
     desc: 'What it sounds like',
@@ -942,6 +1015,26 @@ const projects = [
     title: 'lok',
     desc: 'Curses-based encrypted journal/notes in C',
     url: 'https://github.com/typpo/lok',
+  },
+  {
+    title: 'google-charts-node',
+    desc: 'Utility for rendering Google Charts to image',
+    url: 'https://github.com/typpo/google-charts-node',
+  },
+  {
+    title: 'QuickChart for Zapier',
+    desc: 'Zapier plugin for creating charts',
+    url: 'https://zapier.com/apps/quickchart/integrations',
+  },
+  {
+    title: 'mjml-qr-code',
+    desc: 'Add QR codes in MJML',
+    url: 'https://github.com/typpo/mjml-qr-code',
+  },
+  {
+    title: 'mjml-chartjs',
+    desc: 'Embed Chart.js charts in MJML',
+    url: 'https://github.com/typpo/mjml-chartjs',
   },
   {
     title: 'General',
