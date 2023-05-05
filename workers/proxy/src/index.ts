@@ -16,7 +16,10 @@ async function fetchWithHost(request: Request, host: string, useHttps: boolean =
 
   // Follow the redirect if the status code indicates a redirect
   if ([301, 302, 307, 308].includes(response.status) && response.headers.has('Location')) {
-    const redirectUrl = response.headers.get('Location')!;
+    let redirectUrl = response.headers.get('Location')!;
+    if (!redirectUrl.startsWith('http://') && !redirectUrl.startsWith('https://')) {
+      redirectUrl = new URL(redirectUrl, url).toString();
+    }
     console.log('Following redirect to', redirectUrl);
     response = await fetch(new Request(redirectUrl, request));
   }
