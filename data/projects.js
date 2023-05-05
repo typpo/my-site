@@ -461,8 +461,7 @@ const projects = [
   {
     title: 'Chart Builder',
     desc: 'WYSIWYG chart builder',
-    imgurl:
-      'https://quickchart.io/documentation/assets/images/labels_and_data-f1f511d1de7faf00f7bec1fa0fb85c11.jpeg',
+    imgurl: '/images/chart-builder.jpg',
     url: 'https://quickchart.io/chart-maker/',
   },
   {
