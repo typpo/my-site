@@ -8,6 +8,8 @@ import rehypeRaw from 'rehype-raw';
 import rehypeFormat from 'rehype-format';
 import rehypeStringify from 'rehype-stringify';
 import rehypeHighlight from 'rehype-highlight';
+import rehypeSlug from 'rehype-slug';
+// import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 
 import 'highlight.js/styles/atom-one-light.css';
 
@@ -66,6 +68,8 @@ export async function getStaticProps({ params }) {
     .use(rehypeRaw)
     .use(rehypeFormat)
     .use(rehypeHighlight)
+    .use(rehypeSlug)
+    //.use(rehypeAutolinkHeadings)
     .use(rehypeStringify)
     .process(content);
 

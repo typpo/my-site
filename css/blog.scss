@@ -56,6 +56,14 @@
     background-color: #fafafa;
     padding: 1rem;
   }
+
+  details:hover {
+    background-color: aliceblue;
+  }
+
+  details[open]:hover {
+    background-color: #fafafa;
+  }
 }
 
 .blog-date {

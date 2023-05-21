@@ -5,7 +5,7 @@ date: 2023-05-21
 
 While some [debate](https://matt-rickard.com/prompt-engineering-shouldnt-exist) [the](https://twitter.com/keerthanpg/status/1596661992429072384?lang=en) [longevity](https://twitter.com/nathanbenaich/status/1599974172721311744?lang=en) [of](https://twitter.com/benparr/status/1646973505907593216) [prompt](https://twitter.com/OfficialLoganK/status/1654878300538380288) [engineering](https://news.ycombinator.com/item?id=35668387), anyone actually integrating an LLM into their app knows that tuning prompts is a frustrating and time-consuming problem.
 
-In this post, I outline a general process for systematic prompt engineering and introduce an [open-source tool](https://github.com/typpo/promptfoo) that helps implement it.
+In this post, I outline a general process for systematic prompt engineering and introduce an [open-source tool](https://github.com/typpo/promptfoo) that helps implement three types of grading systems: programmatic, LLM-based, and human-based.
 
 ## Why do we need a system?
 
@@ -54,7 +54,7 @@ This approach can be used to test expectations like:
 - Ensure the output is valid JSON
 - Ensure that the output contains fewer than 5 sentences.
 
-<details open>
+<details>
 <summary>How to evaluate multiple prompts programmatically with the <code>promptfoo</code> CLI</summary>
 
 First, we'll [set up promptfoo](https://promptfoo.dev/docs/getting-started) and create a template directory by running `promptfoo init`.
@@ -67,7 +67,12 @@ Write a short story about {{topic}} from the point of view of a pirate.
 You are a pirate. Tell me a story about {{topic}}.
 ```
 
-Next, create a vars.csv file with your test values for `var1`, and define your expected outputs.
+Next, create a vars.csv file with your test values for `topic`, and define expected outputs in the special `__expected` field.
+
+The test runner uses the expected value to determine whether the test passes.  The condition is evaluated as Javascript and it expects a boolean value.
+
+For example, the first row uses the built-in String function `includes` to check whether the output contains "banana", and returns `true` if so and `false` otherwise.
+
 ```
 topic,__expected
 tropical fruits,eval:output.includes('banana')
@@ -103,7 +108,7 @@ Examples of LLM-graded expectations include:
 
 Depending on how strict your requirements are, you cancan  also ask the LLM to evaluate very subjective criteria such as tone.
 
-<details open>
+<details>
 <summary>How to configure LLM grading with <code>promptfoo</code></summary>
 
 Let's assume you've already set up `promptfoo` and configured your prompts.  If not, view the [getting started guide](https://promptfoo.dev/docs/getting-started).
@@ -146,7 +151,7 @@ After running all the test cases, you can take the test outputs and present them
 
 ![human rating](/images/promptfoo/human-rater.png)
 
-<details open>
+<details>
 <summary>How to export prompt candidates and outputs with <code>promptfoo</code></summary>
 
 Assuming you've [set up](https://promptfoo.dev/docs/getting-started) promptfoo and are running `promptfoo eval`, you can ask human raters to evaluate outputs in two ways:
@@ -169,13 +174,19 @@ Assuming you've [set up](https://promptfoo.dev/docs/getting-started) promptfoo a
 </details>
 
 
-### Create a feedback loop
+## Closing the feedback loop
 
-As you scale, instead of manually assembling your golden dataset, you can achieve quality a broad range of inputs by collecting test cases from your users.
+As a company scales, instead of manually assembling a golden dataset, it can achieve quality a broad range of inputs by collecting test cases from users.
 
-In practice, this means asking users to mark particularly good or bad LLM outputs.  For example, collecting 👍/👎 ratings will give you some signal on cases that are particularly interesting or valuable.
+In practice, this means asking users to mark particularly good or bad LLM outputs.  For example, collecting 👍/👎 ratings will give you some signal on cases that are particularly interesting or valuable. This has the added bonus of helping you fine-tune a model if that's something you want to do eventually.
 
-Collecting this data has the added bonus of helping you fine-tune a model if that's something you want to do eventually.
+What's outlined in this post is one part of a larger system:
+- Prompt tuning & evaluation
+- Prompt version control
+- Continuous integration and deployment
+
+Once a prompt is validated through evaluation, the continuous integration system will release it to a staging or production environment, or a live experiment.  Ideally, prompt evaluations become part of our development infrastructure in the same way that unit tests are.
+
 
 ## Other prompt engineering principles
 

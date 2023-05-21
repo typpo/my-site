@@ -20,10 +20,11 @@ export default function Author() {
           <div className="authorBio">
             <h2>About the author</h2>
             <p>
-              Ian Webster is a software engineer and former Googler based in San Mateo, California.
-              He has helped Google, NASA, and governments around the world improve their data
-              pipelines and visualizations. In 2018, Ian created QuickChart, a collection of
-              open-source APIs that support data visualization efforts.
+              Ian is a software engineer based in the Bay Area. He has helped Google, NASA, and a
+              dozen governments around the world improve their data pipelines and visualizations. He
+              maintains a handful of cool websites like{' '}
+              <a href="https://dinosaurpictures.org/ancient-earth">DinosaurPictures.org</a>,{' '}
+              <a href="https://www.meteorshowers.org/">MeteorShowers.org</a>, and this one.
             </p>
             <p>
               <a href="mailto:ian@quickchart.io">Email</a> &middot;{' '}
