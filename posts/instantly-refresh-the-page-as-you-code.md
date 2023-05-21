@@ -27,7 +27,7 @@ For example, running the following command will watch 3 directories and a file c
 
 It gives you a snippet to include in your base HTML template:
 
-```
+```html
 <script src="http://localhost:60000/autoreload.js"></script>
 
 <!-- Sometime later ... -->

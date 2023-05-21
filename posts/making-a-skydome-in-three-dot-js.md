@@ -10,7 +10,7 @@ This tutorial explains how to create a "skydome" or "skysphere."  Similar to a s
 
 Using three.js's SphereGeometry, it is quite simple:
 
-```
+```js
 var geometry = new THREE.SphereGeometry(3000, 60, 40);
 var uniforms = {
   texture: { type: 't', value: THREE.ImageUtils.loadTexture('/path/to/my_image.jpg') }
@@ -31,7 +31,7 @@ scene.add(skyBox);
 
 Notice that we reference some shaders #sky-vertex and #sky-fragment.  For a simple sky, these shaders just map to your texture and not much else:
 
-```
+```js
 <script type="application/x-glsl" id="sky-vertex">
 varying vec2 vUV;
 
