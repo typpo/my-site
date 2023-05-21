@@ -26,6 +26,16 @@
     border: 1px solid #eee;
   }
 
+  code {
+    background-color: #f6f6f6;
+    padding: 0.25rem;
+  }
+
+  pre code {
+    background-color: transparent;
+    padding: 0;
+  }
+
   .caption {
     font-size: 0.9rem;
     color: #999;
