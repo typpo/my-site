@@ -201,7 +201,7 @@ const projects = [
     title: 'Meteor Showers',
     desc: 'Accurate models of major meteor showers',
     imgurl: 'https://i.imgur.com/n5U34ahl.png',
-    url: 'https://www.ianww.com/meteor-showers/#Perseid',
+    url: 'https://www.meteorshowers.org/',
     press: [
       {
         source: 'New York Times',

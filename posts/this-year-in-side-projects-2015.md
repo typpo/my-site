@@ -54,7 +54,7 @@ Lastly, I gave a talk at University of South Carolina's Darla Moore School of Bu
 
 This visualization uses my Asterank engine to show what meteor showers look like in the context of our solar system.  I find that 3D visualizations often improve understanding of space because it's very abstract otherwise.
 
-I created this [meteor showers visualization](http://www.ianww.com/meteor-showers) for the Perseids meteor shower in August and coded most of it on [livecoding.tv](https://www.livecoding.tv/video/3d-space-visualization-meteor-showers-10/).
+I created this [meteor showers visualization](https://www.meteorshowers.org/) for the Perseids meteor shower in August and coded most of it on [livecoding.tv](https://www.livecoding.tv/video/3d-space-visualization-meteor-showers-10/).
 
 ![all meteor showers](http://i.imgur.com/RSXnyy5l.jpg)
 <div class="caption">This is my favorite project this year.</div>
