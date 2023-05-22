@@ -6,7 +6,7 @@ meta_image: 'https://www.ianww.com/images/promptfoo/prompt-quality-effort.png'
 
 While some [debate](https://matt-rickard.com/prompt-engineering-shouldnt-exist) [the](https://twitter.com/keerthanpg/status/1596661992429072384?lang=en) [longevity](https://twitter.com/nathanbenaich/status/1599974172721311744?lang=en) [of](https://twitter.com/benparr/status/1646973505907593216) [prompt](https://twitter.com/OfficialLoganK/status/1654878300538380288) [engineering](https://news.ycombinator.com/item?id=35668387), anyone actually integrating an LLM into their app knows that tuning prompts is a frustrating and time-consuming problem.
 
-In this post, I outline a general process for systematic prompt engineering and introduce an [open-source tool](https://github.com/typpo/promptfoo) that helps implement three types of grading systems: programmatic, semantic, and LLM-based.
+In this post, I outline a general process for systematic prompt engineering and introduce an [open-source tool](https://github.com/typpo/promptfoo) that helps implement four types of grading systems: programmatic, semantic, LLM-based, and human-based.
 
 ## Why do we need a system?
 
@@ -243,7 +243,7 @@ With this approach, you can work toward full automation and deploy new prompt ch
 
 A simple rubric helps streamline the evaluation process and minimize subjectivity. Focus on the most important criteria for your application and establish clear guidelines for each metric.
 
-Prefer to use programmatic tests, then LLM tests, then human raters.
+Prefer to use programmatic tests, then semantic tests, LLM tests, and lastly human raters.
 
 ### Fine-tune
 
