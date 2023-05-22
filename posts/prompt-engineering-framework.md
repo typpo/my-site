@@ -6,7 +6,7 @@ meta_image: 'https://www.ianww.com/images/promptfoo/prompt-quality-effort.png'
 
 While some [debate](https://matt-rickard.com/prompt-engineering-shouldnt-exist) [the](https://twitter.com/keerthanpg/status/1596661992429072384?lang=en) [longevity](https://twitter.com/nathanbenaich/status/1599974172721311744?lang=en) [of](https://twitter.com/benparr/status/1646973505907593216) [prompt](https://twitter.com/OfficialLoganK/status/1654878300538380288) [engineering](https://news.ycombinator.com/item?id=35668387), anyone actually integrating an LLM into their app knows that tuning prompts is a frustrating and time-consuming problem.
 
-In this post, I outline a general process for systematic prompt engineering and introduce an [open-source tool](https://github.com/typpo/promptfoo) that helps implement three types of grading systems: programmatic, LLM-based, and human-based.
+In this post, I outline a general process for systematic prompt engineering and introduce an [open-source tool](https://github.com/typpo/promptfoo) that helps implement three types of grading systems: programmatic, semantic, and LLM-based.
 
 ## Why do we need a system?
 
@@ -93,6 +93,43 @@ Which produces a matrixed output view like this:
 Run `promptfoo view` to open it in the web viewer:
 
 [![matrix prompt view - web](/images/promptfoo/simple-test.png)](/images/promptfoo/simple-test.png)
+
+</details>
+
+### Semantic evaluation
+
+Semantic evaluation compares the meaning of the expected and output values, even if they don't match exactly.
+
+This is useful for cases where multiple correct answers exist, or where the specific wording isn't as important as the overall meaning.
+
+Example use cases:
+- Summarization
+- Text translation
+
+
+<details>
+<summary>Testing semantic similarity with <code>promptfoo</code></summary>
+
+Let's assume you've already set up promptfoo and configured your prompts. If not, view the [getting started guide](https://promptfoo.dev/docs/getting-started).
+
+To use semantic evaluation with promptfoo, add the similar: directive or the similar(<threshold>): directive to the `__expected` field in your vars.csv file and set the `OPENAI_API_KEY` environment variable.
+
+First, add your prompts to `prompts.txt`.
+
+Then, edit `vars.csv` to include semantic evaluations.  Here are a few examples:
+
+```
+input,__expected
+Paraphrase the following sentence: 'The quick brown fox jumps over the lazy dog.',similar: A fast brown fox leaps over the sluggish canine
+Translate the following English sentence to French: 'I love learning new languages.',similar(0.8): J'adore apprendre de nouvelles langues
+Summarize the following article: 'A new study shows that regular exercise can improve mental health and cognitive function...',similar: Regular physical activity benefits mental health and cognitive abilities
+```
+
+Now you can run the evaluation:
+
+```
+promptfoo eval
+```
 
 </details>
 
