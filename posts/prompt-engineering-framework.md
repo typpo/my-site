@@ -1,6 +1,7 @@
 ---
 title: An open-source framework for prompt engineering
 date: 2023-05-21
+meta_image: '/images/promptfoo/prompt-quality-effort.png'
 ---
 
 While some [debate](https://matt-rickard.com/prompt-engineering-shouldnt-exist) [the](https://twitter.com/keerthanpg/status/1596661992429072384?lang=en) [longevity](https://twitter.com/nathanbenaich/status/1599974172721311744?lang=en) [of](https://twitter.com/benparr/status/1646973505907593216) [prompt](https://twitter.com/OfficialLoganK/status/1654878300538380288) [engineering](https://news.ycombinator.com/item?id=35668387), anyone actually integrating an LLM into their app knows that tuning prompts is a frustrating and time-consuming problem.

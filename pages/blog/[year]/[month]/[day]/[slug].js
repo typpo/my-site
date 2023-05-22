@@ -1,4 +1,5 @@
 import fs from 'fs';
+
 import matter from 'gray-matter';
 import frontmatter from 'remark-frontmatter';
 import { unified } from 'unified';
@@ -10,6 +11,7 @@ import rehypeStringify from 'rehype-stringify';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeSlug from 'rehype-slug';
 // import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import Head from 'next/head';
 
 import 'highlight.js/styles/atom-one-light.css';
 
@@ -19,6 +21,17 @@ import Header from '../../../../../components/Header';
 const BlogPost = ({ htmlContent, data }) => {
   return (
     <div className="blog-container">
+      <Head>
+        <title>{data.title}</title>
+        {data.meta_description && <meta name="description" content={data.meta_description} />}
+        <meta property="og:title" content={data.title} />
+        {data.meta_description && <meta property="og:description" content={data.meta_description} />}
+        {data.meta_image && <meta property="og:image" content={data.meta_image} />}
+        <meta property="twitter:title" content={data.title} />
+        {data.meta_description && <meta property="twitter:description" content={data.meta_description} />}
+        {data.meta_image && <meta property="twitter:image" content={data.meta_image} />}
+        <meta property="twitter:card" content="summary_large_image" />
+      </Head>
       <nav>
         <Header />
       </nav>
