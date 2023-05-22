@@ -98,9 +98,9 @@ Run `promptfoo view` to open it in the web viewer:
 
 ### Semantic evaluation
 
-Semantic evaluation compares the meaning of the expected and output values, even if they don't match exactly.
-
-This is useful for cases where multiple correct answers exist, or where the specific wording isn't as important as the overall meaning.
+Semantic evaluation assesses the relatedness between the expected and output text by focusing on their underlying meanings, rather than relying solely on exact word matches.  This is done with text embedding models such as [OpenAI's Ada model](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings).
+   
+Semantic grading is useful for cases where multiple correct answers exist, or where the specific wording isn't as important as the overall meaning.
 
 Example use cases:
 - Summarization
