@@ -56,7 +56,7 @@ This approach can be used to test expectations like:
 - Ensure the output is valid JSON
 - Ensure that the output contains fewer than 5 sentences.
 
-<details>
+<details open>
 <summary>How to evaluate multiple prompts programmatically with the <code>promptfoo</code> CLI</summary>
 
 First, we'll [set up promptfoo](https://promptfoo.dev/docs/getting-started) and create a template directory by running `promptfoo init`.
@@ -109,7 +109,7 @@ Example use cases:
 - Summarization
 - Text translation
 
-<details>
+<details open>
 <summary>Testing semantic similarity with <code>promptfoo</code></summary>
 
 Let's assume you've already set up promptfoo and configured your prompts. If not, view the [getting started guide](https://promptfoo.dev/docs/getting-started).
@@ -149,7 +149,7 @@ Examples of LLM-graded expectations include:
 
 Depending on how strict your requirements are, you cancan also ask the LLM to evaluate very subjective criteria such as tone.
 
-<details>
+<details open>
 <summary>How to configure LLM grading with <code>promptfoo</code></summary>
 
 Let's assume you've already set up `promptfoo` and configured your prompts. If not, view the [getting started guide](https://promptfoo.dev/docs/getting-started).
@@ -194,7 +194,7 @@ After running all the test cases, you can take the test outputs and present them
 
 ![human rating](/images/promptfoo/human-rater.png)
 
-<details>
+<details open>
 <summary>How to export prompt candidates and outputs with <code>promptfoo</code></summary>
 
 Assuming you've [set up](https://promptfoo.dev/docs/getting-started) promptfoo and are running `promptfoo eval`, you can ask human raters to evaluate outputs in two ways:
@@ -256,7 +256,7 @@ Prefer to use programmatic tests, then semantic tests, LLM tests, and lastly hum
 
 When it comes down to it, prompt engineering is not 100% reliable for certain use cases. Fine-tuning allows you to focus more on the overall system and less on tweaking prompts, but it's expensive and requires dedicated resources.
 
-## I'm building promptfoo
+## I'm building this
 
 This blog post is just a really long way to say, I haven't found solutions to any of the above in the wild, so I'm building my own.
 
