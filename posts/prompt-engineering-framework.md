@@ -14,17 +14,19 @@ Mitchell Hashimoto [coined](https://mitchellh.com/writing/prompt-engineering-vs-
 
 Tuning a complex prompt is like playing whack-a-mole. Once you solve a problem for one use case, something else breaks in a completely unrelated edge case. This unpredictability means you reach the point of diminishing return before reaching reliable, quality output.
 
+<!--
 Trial-and-error is also impossible to scale across large organizations, because you'll inevitably be peppered with anecdotal feedback on model outputs. This makes it likely that the final prompt is chosen by the loudest voice, instead of by its quality.
 
 For these reasons, trial-and-error prompting is a terribly inefficient way to spend development resources, and quickly reaches diminishing returns.
+-->
 
 ![human rating](/images/promptfoo/prompt-quality-effort.png)
 
 ## A process for prompt engineering
 
-A good prompt engineering process will ground improvements in quantitative terms. You should be able to say things like, "this new prompt performs better with a precision rate of 93% compared to 85%, and a recall rate of 87% compared to 76%."
+A good prompt engineering process grounds improvements in quantitative terms. You should be able to say things like, "this new prompt performs better with a precision rate of 93% compared to 85%, and a recall rate of 87% compared to 76%."
 
-With this goal in mind, here is the process that I follow for "engineering" a prompt:
+With this goal in mind, here's the process that I follow for "engineering" a prompt:
 
 1. **Define test cases**: Identify relevant scenarios and inputs for your application. Create a set of prompts and test cases that closely represent these scenarios.
 
@@ -36,13 +38,13 @@ With this goal in mind, here is the process that I follow for "engineering" a pr
 
 1. **Analyze the results**: Compare results side-by-side and review metrics. Select the prompt with the highest total score.
 
-None of this is very innovative or surprising - it's pretty normal stuff for iterating on a complex system and making informed decisions. What _hasn't_ become commonplace yet is applying this level of rigor to prompts.
+None of this is very innovative or surprising - it's normal stuff for iterating on a complex system and making informed decisions. What _hasn't_ become commonplace yet is applying this level of rigor to prompts.
 
 ## Scaling this approach
 
-"Analyze the results" leaves a lot of room for interpretation. In the most basic case, the engineer would simply eyeball the output and mark each test output pass/fail. The winner is simply the prompt that passed the most test cases.
+In the most simplest case, the engineer would simply eyeball the output and mark each test output pass/fail. The winner is the prompt that meets the most requirements.
 
-But if you're iterating frequently, and you have a lot of test cases, the manual approach won't be feasible.
+But if you're iterating frequently and you have a lot of test cases, the manual approach won't be feasible.
 
 ### Programmatic test cases
 
