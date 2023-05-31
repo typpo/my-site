@@ -69,17 +69,26 @@ Write a short story about {{topic}} from the point of view of a pirate.
 You are a pirate. Tell me a story about {{topic}}.
 ```
 
-Next, create a vars.csv file with your test values for `topic`, and define expected outputs in the special `__expected` field.
+Next, create a promptfooconfig.yaml file with your test values for `topic`, and define assertions. The test runner uses the assert's expected value to determine whether the test passes.
 
-The test runner uses the expected value to determine whether the test passes. The condition is evaluated as Javascript and it expects a boolean value.
-
-For example, the first row uses the built-in String function `includes` to check whether the output contains "banana", and returns `true` if so and `false` otherwise.
-
-```
-topic,__expected
-tropical fruits,eval:output.includes('banana')
-your life in JSON format,eval:Boolean(JSON.stringify(output))
-your latest voyage,eval:(output.match(/[.!?](\s|$)/g) || []).length < 5
+```yaml
+prompts: [prompts.txt]
+providers: [openai:gpt-3.5-turbo]
+tests:
+  - vars:
+      topic: tropical fruits
+    assert:
+      - type: javascript
+        value: output.includes('banana')
+  - vars:
+      topic: your life in JSON format
+    assert:
+      - type: contains-json
+  - vars:
+      topic: your latest voyage
+    assert:
+      - type: javascript
+        value: (output.match(/[.!?](\s|$)/g) || []).length < 5
 ```
 
 Now, run the test.
@@ -114,17 +123,38 @@ Example use cases:
 
 Let's assume you've already set up promptfoo and configured your prompts. If not, view the [getting started guide](https://promptfoo.dev/docs/getting-started).
 
-To use semantic evaluation with promptfoo, add the similar: directive or the similar(<threshold>): directive to the `__expected` field in your vars.csv file and set the `OPENAI_API_KEY` environment variable.
+To use semantic evaluation with promptfoo, add an assertion of type "similar" and set the `OPENAI_API_KEY` environment variable.
 
 First, add your prompts to `prompts.txt`.
 
-Then, edit `vars.csv` to include semantic evaluations. Here are a few examples:
+Then, edit `promptfooconfig.yaml` to include semantic evaluations. Here's an example config:
 
-```
+```yaml
 input,__expected
 Paraphrase the following sentence: 'The quick brown fox jumps over the lazy dog.',similar: A fast brown fox leaps over the sluggish canine
 Translate the following English sentence to French: 'I love learning new languages.',similar(0.8): J'adore apprendre de nouvelles langues
 Summarize the following article: 'A new study shows that regular exercise can improve mental health and cognitive function...',similar: Regular physical activity benefits mental health and cognitive abilities
+
+prompts: [prompts.txt]
+providers: [openai:gpt-3.5-turbo]
+tests:
+  - vars:
+      input: The quick brown fox jumps over the lazy dog.
+    assert:
+      - type: similar
+        value: A fast brown fox leaps over the sluggish canine
+  - vars:
+      language: French
+      input: I love learning new languages.
+    assert:
+      - type: similar
+        threshold: 0.8
+        value: J'adore apprendre de nouvelles langues
+  - vars:
+      input: A new study shows that regular exercise can improve mental health and cognitive function...
+    assert:
+      - type: similar
+        value: Regular physical activity benefits mental health and cognitive abilities
 ```
 
 Now you can run the evaluation:
@@ -154,21 +184,36 @@ Depending on how strict your requirements are, you cancan also ask the LLM to ev
 
 Let's assume you've already set up `promptfoo` and configured your prompts. If not, view the [getting started guide](https://promptfoo.dev/docs/getting-started).
 
-Edit `vars.csv`. To use an LLM for evaluation, add a special field called `__expected` with a value that starts with "grade:"
+Edit `promptfooconfig.yaml`. To use an LLM for evaluation, and an "llm-rubric" type assertion. Here's an example of a config with LLM grading:
 
-Example of a vars.csv file with LLM grading:
-
-```
-user_chat,__expected
-"Hello, how are you?","grade: Doesn't mention being an AI"
-"Greet me in Chinese","grade: is a Chinese greeting"
-"I am a pineapple","grade: 1) Doesn't reference any fruits besides pineapple, 2) Says something friendly"
+```yaml
+prompts: [prompts.txt]
+providers: [openai:gpt-3.5-turbo]
+defaultTest:
+  options:
+    provider: openai:gpt-4 # grade responses with gpt-4
+tests:
+  - vars:
+      user_chat: Hello, how are you?
+    assert:
+      - type: llm-rubric
+        value: Doesn't mention being an AI
+  - vars:
+      user_chat: Greet me in Chinese
+    assert:
+      - type: llm-rubric
+        value: is a Chinese greeting
+  - vars:
+      user_chat: I am a pineapple
+    assert:
+      - type: llm-rubric
+        value: 1) doesn't reference any fruits besides pineapple, 2) is friendly
 ```
 
 Now run the eval with the `--grader` option set. This will run the eval and mark each test case pass/fail based on the grading rubric:
 
 ```
-promptfoo eval --grader openai:gpt-4
+promptfoo eval
 ```
 
 Here's an example self-graded test suite that fails if the AI mentions that it is an AI language model:
