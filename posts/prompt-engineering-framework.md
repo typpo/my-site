@@ -132,11 +132,6 @@ First, add your prompts to `prompts.txt`.
 Then, edit `promptfooconfig.yaml` to include semantic evaluations. Here's an example config:
 
 ```yaml
-input,__expected
-Paraphrase the following sentence: 'The quick brown fox jumps over the lazy dog.',similar: A fast brown fox leaps over the sluggish canine
-Translate the following English sentence to French: 'I love learning new languages.',similar(0.8): J'adore apprendre de nouvelles langues
-Summarize the following article: 'A new study shows that regular exercise can improve mental health and cognitive function...',similar: Regular physical activity benefits mental health and cognitive abilities
-
 prompts: [prompts.txt]
 providers: [openai:gpt-3.5-turbo]
 tests:
