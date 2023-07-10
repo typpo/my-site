@@ -24,6 +24,15 @@ async function fetchWithHost(request: Request, host: string, useHttps: boolean =
     response = await fetch(new Request(redirectUrl, request));
   }
 
+  // Create a new response with the same properties as the original response, but without the X-Robots-Tag header
+  const newHeaders = new Headers(response.headers);
+  newHeaders.delete('X-Robots-Tag');
+  response = new Response(response.body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers: newHeaders,
+  });
+
   return response;
 }
 
