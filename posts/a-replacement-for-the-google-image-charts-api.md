@@ -21,6 +21,6 @@ Will produce this image:
 
 QuickChart uses the popular [Chart.js API](https://www.chartjs.org/docs/latest/configuration/), so if you're using Chart.js in your Javascript, copy over your chart definition to a QuickChart URL and things will just work.  You can use the [Chart.js documentation](https://www.chartjs.org/docs/latest/) to customize your chart.
 
-I open sourced the project because I wanted to avoid a repeat of the Google Image Charts scenario, in which people are dependent on proprietary image chart solutions that can be shut down at any time.
+I open sourced the project because I wanted to avoid a repeat of the Google Image Charts scenario, in which people are dependent on proprietary image chart solutions that can be shut down at any time.  Also of note, you can use the QuickChart-Zapier integration to create [Zapier charts](https://zapier.com/apps/quickchart/integrations).
 
 Head to [QuickChart.io](https://quickchart.io) to try it out.  Enjoy!
