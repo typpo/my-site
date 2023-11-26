@@ -595,7 +595,7 @@ const projects = [
     title: 'RapChat',
     desc: 'The future of communication',
     imgurl: 'https://i.imgur.com/MdbV70Tl.png',
-    url: 'https://www.rapchat.us',
+    //url: 'https://www.rapchat.us',
   },
   {
     title: 'The Space Potato',
@@ -678,7 +678,7 @@ const projects = [
     title: 'Verified Facts',
     desc: 'A viral conspiracy theory generator',
     imgurl: 'https://www.ianww.com/images/verifiedfacts.png',
-    url: 'https://www.verifiedfacts.org',
+    //url: 'https://www.verifiedfacts.org',
     press: ['MetaFilter', 'Boingboing'],
   },
   {
