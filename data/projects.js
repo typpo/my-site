@@ -930,12 +930,14 @@ const projects = [
     imgurl: 'https://i.imgur.com/ua9nW9ol.png',
     url: 'https://room77.com',
   },
+  /*
   {
     title: 'Google',
     desc: 'Improving travel and local search ranking',
     imgurl: 'https://i.imgur.com/V2Js8Bwl.png',
     url: 'https://google.com',
   },
+  */
   {
     title: 'Zenysis',
     desc: 'Macro-level data analysis for governments',
