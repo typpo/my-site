@@ -48,15 +48,15 @@ const Index = () => {
   return (
     <>
       <Head>
-        <meta name="description" content="Spreadsheet of LLM evaluation tools designed to test and improve language model prompts." />
+        <meta name="description" content="Spreadsheet of 50+ LLM evaluation tools designed to test and improve language model prompts." />
         <meta property="og:title" content="LLM eval tools spreadsheet" />
         <meta property="og:image" content="/images/llm-tools.png" />
-        <meta property="og:description" content="A spreadsheet of LLM evaluation tools for testing models and improving prompts." />
+        <meta property="og:description" content="Spreadsheet of 50+ LLM evaluation tools for testing models and improving prompts." />
         <meta property="og:type" content="website" />
         <meta property="og:image:alt" content="LLM eval tools spreadsheet" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content="LLM eval tools spreadsheet" />
-        <meta property="twitter:description" content="Spreadsheet of LLM evaluation tools for testing models and improving prompts." />
+        <meta property="twitter:description" content="Spreadsheet of 50+ LLM evaluation tools for testing models and improving prompts." />
         <meta property="twitter:image" content="/images/llm-tools.png" />
         <meta property="twitter:image:alt" content="LLM eval tools spreadsheet" />
       </Head>
