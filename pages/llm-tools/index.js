@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import Head from 'next/head';
+
 import styles from './LlmTools.module.css';
 
 const Tooltip = ({ children, text }) => {
@@ -45,6 +47,19 @@ const Index = () => {
 
   return (
     <>
+      <Head>
+        <meta name="description" content="Spreadsheet of LLM evaluation tools designed to test and improve language model prompts." />
+        <meta property="og:title" content="LLM eval tools spreadsheet" />
+        <meta property="og:image" content="/images/llm-tools.png" />
+        <meta property="og:description" content="A spreadsheet of LLM evaluation tools for testing models and improving prompts." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image:alt" content="LLM eval tools spreadsheet" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="LLM eval tools spreadsheet" />
+        <meta property="twitter:description" content="Spreadsheet of LLM evaluation tools for testing models and improving prompts." />
+        <meta property="twitter:image" content="/images/llm-tools.png" />
+        <meta property="twitter:image:alt" content="LLM eval tools spreadsheet" />
+      </Head>
       <div className={styles.container}>
         <h1>LLM evaluation tools</h1>
         <p>A collection of LLM evaluation tools for testing models and improving prompts. Submit new tools <a rel="noreferer noopener" href="https://airtable.com/appVr5xALHf6UbPc6/pag8n9Sa2di3l6XDm/form">here</a>.</p>
