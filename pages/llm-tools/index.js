@@ -48,6 +48,7 @@ const Index = () => {
   return (
     <>
       <Head>
+        <title>List of LLM eval tools</title>
         <meta name="description" content="Spreadsheet of 50+ LLM evaluation tools designed to test and improve language model prompts." />
         <meta property="og:title" content="LLM eval tools spreadsheet" />
         <meta property="og:image" content="/images/llm-tools.png" />
