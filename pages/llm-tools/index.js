@@ -63,6 +63,20 @@ const Index = () => {
       <div className={styles.container}>
         <h1>LLM evaluation tools</h1>
         <p>A collection of LLM evaluation tools for testing models and improving prompts. Submit new tools <a rel="noreferer noopener" href="https://airtable.com/appVr5xALHf6UbPc6/pag8n9Sa2di3l6XDm/form">here</a>.</p>
+        <div>
+          <details>
+            <summary>Why do evals matter?</summary>
+            <p>
+              Defining and measuring model performance can help you understand how to improve your model, prompts, and RAG flow.
+            </p>
+            <p>
+              By continuously testing and setting guardrail metrics, you can avoid the feeling of "trial and error" when developing, improving, and debugging your LLM app.
+            </p>
+            <p>
+              The goal: deploy changes with confidence that you're improving the overall system!
+            </p>
+          </details>
+        </div>
         <div className={styles.tabs}>
           <button
             onClick={() => handleTabClick('all-data')}

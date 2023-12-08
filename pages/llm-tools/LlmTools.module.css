@@ -2,6 +2,7 @@
   padding: 0;
   max-width: 1200px;
   font-size: 22px;
+  line-height: 1.4;
 }
 
 .container iframe {
@@ -9,7 +10,7 @@
 }
 
 .container button {
-  background-color: #ffffff; 
+  background-color: #ffffff;
   border: 1px solid #dddddd;
   color: #333333;
   padding: 10px 20px;
@@ -31,7 +32,7 @@
 }
 
 .container button.active {
-  border: 1px solid #004d00; 
+  border: 1px solid #004d00;
 }
 
 .container a {
@@ -41,6 +42,14 @@
 
 .container a:hover {
   color: #004d00
+}
+
+.container details {
+  margin-bottom: 1.5rem;
+}
+
+.container summary {
+  cursor: pointer;
 }
 
 .tooltipContainer {
