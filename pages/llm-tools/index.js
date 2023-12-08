@@ -70,10 +70,10 @@ const Index = () => {
               Defining and measuring model performance can help you understand how to improve your model, prompts, and RAG flow.
             </p>
             <p>
-              By continuously testing and setting guardrail metrics, you can avoid the feeling of "trial and error" when developing, improving, and debugging your LLM app.
+              By continuously testing and setting guardrail metrics, you can avoid the feeling of &quot;trial and error&quot; when developing, improving, and debugging your LLM app.
             </p>
             <p>
-              The goal: deploy changes with confidence that you're improving the overall system!
+              The goal: deploy changes with confidence that you&apos;re improving the overall system!
             </p>
           </details>
         </div>
