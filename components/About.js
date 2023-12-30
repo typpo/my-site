@@ -1,6 +1,7 @@
 const About = () => {
   return (
     <>
+      {/*
       <div className="flex-container about-container">
         <div id="about">
           <p>
@@ -44,6 +45,7 @@ const About = () => {
           </p>
         </div>
       </div>
+      */}
       <hr />
     </>
   );
