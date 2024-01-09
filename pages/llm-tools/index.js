@@ -85,7 +85,7 @@ const Index = () => {
           >
             All
           </button>
-          <Tooltip text="Only open-source eval tools (including SDK, UI, and backend)">
+          <Tooltip text="Fully open-source eval tools (including SDK, UI, and backend)">
             <button
               onClick={() => handleTabClick('open-source')}
               className={activeTab === 'open-source' ? styles.active : ''}
@@ -93,7 +93,7 @@ const Index = () => {
               Open Source
             </button>
           </Tooltip>
-          <Tooltip text="Only commercial eval tools">
+          <Tooltip text="Commercial eval tools">
             <button
               onClick={() => handleTabClick('commercial')}
               className={activeTab === 'commercial' ? styles.active : ''}
@@ -115,6 +115,14 @@ const Index = () => {
               className={activeTab === 'has-sdk' ? styles.active : ''}
             >
               Has SDK
+            </button>
+          </Tooltip>
+          <Tooltip text="Tools from YC companies">
+            <button
+              onClick={() => handleTabClick('is-yc')}
+              className={activeTab === 'is-yc' ? styles.active : ''}
+            >
+              YC Companies
             </button>
           </Tooltip>
         </div>
@@ -150,6 +158,13 @@ const Index = () => {
           {activeTab === 'has-sdk' && (
             <iframe
               src="https://airtable.com/embed/appVr5xALHf6UbPc6/shrSCk744yrg9ez66?backgroundColor=gray&viewControls=on"
+              width="100%"
+              height="1000"
+            ></iframe>
+          )}
+          {activeTab === 'is-yc' && (
+            <iframe
+              src="https://airtable.com/embed/appVr5xALHf6UbPc6/shrcxCyg6HN0Etz0s?backgroundColor=gray&viewControls=on"
               width="100%"
               height="1000"
             ></iframe>
