@@ -1,4 +1,4 @@
-const MAIN_HOST = "https://personal-website-typpo.vercel.app/";
+const MAIN_HOST = "https://personal-website-alpha-flax.vercel.app/";
 const FALLBACK_HOST = "http://gate.ianww.com/";
 
 export interface Env {
