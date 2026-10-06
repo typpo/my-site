@@ -713,7 +713,7 @@ const projects = [
     title: 'Pluto',
     desc: 'Pluto in 3D',
     imgurl: 'https://i.imgur.com/M9lM5gQl.png',
-    url: 'https://www.ianww.com/pluto',
+    url: 'https://www.ianww.com/pluto/',
   },
   {
     title: 'KeepDream',
@@ -812,7 +812,7 @@ const projects = [
     title: 'Ceres',
     desc: 'Ceres in 3D',
     imgurl: 'https://i.imgur.com/Q3jcJiFl.png',
-    url: 'https://www.ianww.com/ceres',
+    url: 'https://www.ianww.com/ceres/',
     press: [
       {
         source: 'Slate',
@@ -824,7 +824,7 @@ const projects = [
     title: 'Mars',
     desc: 'Mars in 3D - work in progress',
     imgurl: 'https://i.imgur.com/idzj8BOm.png',
-    url: 'https://www.ianww.com/mars',
+    url: 'https://www.ianww.com/mars/',
   },
   {
     title: 'Whispers',

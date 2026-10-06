@@ -38,6 +38,12 @@ async function fetchWithHost(request: Request, host: string, useHttps: boolean =
 
 export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+    const url = new URL(request.url);
+    if ((request.method === 'GET' || request.method === 'HEAD') && ['/pluto', '/mars', '/ceres'].includes(url.pathname)) {
+      url.pathname += '/';
+      return Response.redirect(url.toString(), 301);
+    }
+
     const mainResponse = await fetchWithHost(request, MAIN_HOST);
 
     if (mainResponse.status === 404) {
