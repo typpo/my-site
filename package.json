@@ -4,9 +4,12 @@
   "description": "Personal portfolio site",
   "author": "Ian Webster",
   "license": "MIT",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "dev": "next-remote-watch ./posts",
-    "build": "next build",
+    "build": "node --no-experimental-fetch node_modules/next/dist/bin/next build",
     "export": "pnpm run build && next export",
     "start": "next start",
     "lint": "next lint",
